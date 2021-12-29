@@ -1,0 +1,2 @@
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QI will need: Zookeeper Kafka Kafka Entity Operator Kafka Connect There are a number of differing ways to deploy Kafka, but I've narrowed it down to two ways for now.\\E$"}
+{"rule":"PRP_VBG","sentence":"^\\QI then Running the build script to generate the new Debezium friendly PostGres docker image I had a number of issues that I had to debug to get it operational.\\E$"}

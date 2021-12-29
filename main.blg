@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[57] biber:322> INFO - === Wed Dec 29, 2021, 15:03:59
+[68] Biber.pm:415> INFO - Reading 'main.bcf'
+[119] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[129] Biber.pm:4256> INFO - Processing section 0
+[129] Utils.pm:75> INFO - Globbing data source 'termPaper.bib'
+[129] Utils.pm:91> INFO - Globbed data source 'termPaper.bib' to termPaper.bib
+[137] Biber.pm:4455> INFO - Looking for bibtex format file 'termPaper.bib' for section 0
+[138] bibtex.pm:1653> INFO - LaTeX decoding ...
+[161] bibtex.pm:1471> INFO - Found BibTeX data source 'termPaper.bib'
+[221] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[221] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[221] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[221] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[236] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[242] bbl.pm:755> INFO - Output to main.bbl

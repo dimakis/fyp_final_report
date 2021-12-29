@@ -1,0 +1,498 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{ApacheKafka}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Apache Kafka: A Distributed Streaming Platform.}
+      \field{howpublished}{https://kafka.apache.org/documentation/}
+      \field{journaltitle}{Apache Kafka}
+      \field{langid}{english}
+      \field{title}{Apache {{Kafka}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/RJWJFNSN/documentation.html
+      \endverb
+    \endentry
+    \entry{ApacheKafkaa}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Apache Kafka: A Distributed Streaming Platform.}
+      \field{howpublished}{https://kafka.apache.org/}
+      \field{journaltitle}{Apache Kafka}
+      \field{langid}{english}
+      \field{title}{Apache {{Kafka}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/GILUXG2E/kafka.apache.org.html
+      \endverb
+    \endentry
+    \entry{ConnectorsDebeziumDocumentation}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://debezium.io/documentation/reference/stable/connectors/index.html}
+      \field{title}{Connectors :: Debezium {{Documentation}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/8VC4E2Y4/index.html
+      \endverb
+    \endentry
+    \entry{DD5D5V08elb}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://link.medium.com/DD5D5V08elb}
+      \field{title}{{{DD5D5V08elb}}}
+      \true{nocite}
+    \endentry
+    \entry{DebeziumArchitectureDebezium}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://debezium.io/documentation/reference/architecture.html}
+      \field{title}{Debezium {{Architecture}} :: Debezium {{Documentation}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/VE2SE9E7/architecture.html
+      \endverb
+    \endentry
+    \entry{debeziumcommunityDebezium}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24685d139ef087fe4a5351a5745f729e}{%
+           family={{Debezium Community}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{fullhash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{bibnamehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{authorbibnamehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{authornamehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{authorfullhash}{24685d139ef087fe4a5351a5745f729e}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Debezium is an open source distributed platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong.}
+      \field{howpublished}{https://debezium.io/}
+      \field{journaltitle}{Debezium}
+      \field{title}{Debezium}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/GFF7BNDQ/debezium.io.html
+      \endverb
+    \endentry
+    \entry{DockercomposeCreateDb}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://stackoverflow.com/questions/59715622/docker-compose-and-create-db-in-postgres-on-init}
+      \field{journaltitle}{Stack Overflow}
+      \field{title}{Docker-Compose and Create Db in {{Postgres}} on Init}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/FYAYL49B/docker-compose-and-create-db-in-postgres-on-init.html
+      \endverb
+    \endentry
+    \entry{DockerimagesPostgres13}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Docker images for Debezium. Please log issues in our JIRA at https://issues.redhat.com/projects/DBZ/summary - docker-images/postgres/13 at main {$\cdot$} debezium/docker-images}
+      \field{howpublished}{https://github.com/debezium/docker-images}
+      \field{journaltitle}{GitHub}
+      \field{langid}{english}
+      \field{title}{Docker-Images/Postgres/13 at Main {$\cdot$} Debezium/Docker-Images}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/FCR52T2E/13.html
+      \endverb
+    \endentry
+    \entry{DockerimagesPostgresMain}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Docker images for Debezium. Please log issues in our JIRA at https://issues.redhat.com/projects/DBZ/summary - docker-images/postgres/9.6 at main {$\cdot$} debezium/docker-images}
+      \field{howpublished}{https://github.com/debezium/docker-images}
+      \field{journaltitle}{GitHub}
+      \field{langid}{english}
+      \field{title}{Docker-Images/Postgres/9.6 at Main {$\cdot$} Debezium/Docker-Images}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/VS2MZTN9/9.html
+      \endverb
+    \endentry
+    \entry{GOCDCPostgres}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://dev.to/thiagosilvaf/gocdc-and-postgres-1m4m}
+      \field{title}{{{GOCDC}} and {{Postgres}}}
+      \true{nocite}
+    \endentry
+    \entry{GorillaMux2021}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A powerful HTTP router and URL matcher for building Go web servers with 🦍}
+      \field{howpublished}{Gorilla Web Toolkit}
+      \field{month}{10}
+      \field{title}{Gorilla/Mux}
+      \field{year}{2021}
+      \true{nocite}
+      \keyw{go,gorilla,http,middleware,mux,router}
+    \endentry
+    \entry{Helm}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Helm - The Kubernetes Package Manager.}
+      \field{howpublished}{https://helm.sh/}
+      \field{langid}{american}
+      \field{title}{Helm}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/LQN9LERF/helm.sh.html
+      \endverb
+    \endentry
+    \entry{HowIntegrateKafka}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://labs.consol.de/development/2021/02/02/istio\_and\_kafka\_on\_openshift.html}
+      \field{title}{How to Integrate {{Kafka}} with {{Istio}} on {{OpenShift}}}
+      \true{nocite}
+    \endentry
+    \entry{HowUseChange}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://dev.to/thiagosilvaf/how-to-use-change-database-capture-cdc-in-postgres-37b8}
+      \field{title}{How to Use {{Change Data Capture}} ({{CDC}}) with {{Postgres}}}
+      \true{nocite}
+    \endentry
+    \entry{KafkaConnectConfluent}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://docs.confluent.io/platform/current/connect/index.html}
+      \field{title}{Kafka {{Connect}} | {{Confluent Documentation}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/S7T2ZSPI/index.html
+      \endverb
+    \endentry
+    \entry{kamaniImplementingKafkaProducer}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a035f2f59ecca0732c583b8f22709c17}{%
+           family={Kamani},
+           familyi={K\bibinitperiod},
+           given={Soham},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{fullhash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{bibnamehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{authorbibnamehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{authornamehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{authorfullhash}{a035f2f59ecca0732c583b8f22709c17}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.sohamkamani.com/golang/working-with-kafka/}
+      \field{title}{Implementing a {{Kafka Producer}} and {{Consumer In Golang}} ({{With Full Examples}}) {{For Production}}}
+      \true{nocite}
+    \endentry
+    \entry{KubernetesOperatorStateful2021}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kubernetes Operator are a replacement of the engineers who are responsible to operate the system. It has knowledge about the current and the desired state.}
+      \field{howpublished}{https://k21academy.com/docker-kubernetes/kubernetes-operator/}
+      \field{journaltitle}{Cloud Training Program}
+      \field{langid}{american}
+      \field{month}{5}
+      \field{title}{Kubernetes {{Operator}} | {{Stateful Kubernetes Application}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/ZRC7M3VZ/kubernetes-operator.html
+      \endverb
+    \endentry
+    \entry{LessonsLearnedRunning}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://debezium.io/blog/2020/02/25/lessons-learned-running-debezium-with-postgresql-on-rds/}
+      \field{title}{Lessons {{Learned}} from {{Running Debezium}} with {{PostgreSQL}} on {{Amazon RDS}}}
+      \true{nocite}
+    \endentry
+    \entry{LogicalDecodingOutput}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://debezium.io/documentation/reference/postgres-plugins.html}
+      \field{title}{Logical {{Decoding Output Plug}}-in {{Installation}} for {{PostgreSQL}} :: Debezium {{Documentation}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/AP3XHUXI/postgres-plugins.html
+      \endverb
+    \endentry
+    \entry{MinikubeStart}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{minikube is local Kubernetes}
+      \field{howpublished}{https://minikube.sigs.k8s.io/docs/start/}
+      \field{journaltitle}{minikube}
+      \field{langid}{english}
+      \field{title}{Minikube Start}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/G46IY2P3/start.html
+      \endverb
+    \endentry
+    \entry{OperatorPattern}{misc}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Operators are software extensions to Kubernetes that make use of custom resources to manage applications and their components. Operators follow Kubernetes principles, notably the control loop. Motivation The Operator pattern aims to capture the key aim of a human operator who is managing a service or set of services. Human operators who look after specific applications and services have deep knowledge of how the system ought to behave, how to deploy it, and how to react if there are problems.}
+      \field{chapter}{docs}
+      \field{howpublished}{https://kubernetes.io/docs/concepts/extend-kubernetes/operator/}
+      \field{journaltitle}{Kubernetes}
+      \field{langid}{english}
+      \field{title}{Operator Pattern}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/2B974M26/operator.html
+      \endverb
+    \endentry
+    \entry{PodKubernetesEngine}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://cloud.google.com/kubernetes-engine/docs/concepts/pod}
+      \field{title}{Pod ~|~ {{Kubernetes Engine Documentation}} ~|~ {{Google Cloud}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/MKUX9LLS/pod.html
+      \endverb
+    \endentry
+    \entry{PostgreSQLLinuxDownloads}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.postgresql.org/download/linux/ubuntu/}
+      \field{title}{{{PostgreSQL}}: Linux Downloads ({{Ubuntu}})}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/UZ6R4S43/ubuntu.html
+      \endverb
+    \endentry
+    \entry{ProductionGradeContainerOrchestration}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Production-Grade Container Orchestration}
+      \field{howpublished}{https://kubernetes.io/}
+      \field{journaltitle}{Kubernetes}
+      \field{langid}{english}
+      \field{title}{Production-{{Grade Container Orchestration}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/HVIGLI4Z/kubernetes.io.html
+      \endverb
+    \endentry
+    \entry{Secrets}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Secret is an object that contains a small amount of sensitive data such as a password, a token, or a key. Such information might otherwise be put in a Pod specification or in a container image. Using a Secret means that you don't need to include confidential data in your application code. Because Secrets can be created independently of the Pods that use them, there is less risk of the Secret (and its data) being exposed during the workflow of creating, viewing, and editing Pods.}
+      \field{chapter}{docs}
+      \field{howpublished}{https://kubernetes.io/docs/concepts/configuration/secret/}
+      \field{journaltitle}{Kubernetes}
+      \field{langid}{english}
+      \field{title}{Secrets}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/NGK4PZM8/secret.html
+      \endverb
+    \endentry
+    \entry{StrimziDocumentation16}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/docs/0.16.2/}
+      \field{title}{Strimzi {{Documentation}} (0.16.2)}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/2I5KXDBZ/0.16.2.html
+      \endverb
+    \endentry
+    \entry{StrimziQuickStart}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/docs/operators/latest/quickstart.html}
+      \field{title}{Strimzi {{Quick Start}} Guide (0.26.0)}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/TB2Y3BYQ/quickstart.html
+      \endverb
+    \endentry
+    \entry{BestCDCTools}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://hevodata.com/learn/7-best-cdc-tools/}
+      \field{title}{The 7 {{Best CDC Tools}} ({{Change Data Capture}}) - {{Learn}} | {{Hevo}}}
+      \true{nocite}
+    \endentry
+    \entry{TipsTricksRunning}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/blog/2020/07/22/tips-and-tricks-for-running-strimzi-with-kubectl/}
+      \field{title}{Tips \& {{Tricks}} for Running {{Strimzi}} with Kubectl}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/I9CTCBJW/tips-and-tricks-for-running-strimzi-with-kubectl.html
+      \endverb
+    \endentry
+    \entry{UsingHelm}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://helm.sh/docs/intro/using\_helm/}
+      \field{title}{Using {{Helm}}}
+      \true{nocite}
+    \endentry
+    \entry{UsingStrimzi}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/docs/operators/latest/full/using.html}
+      \field{title}{Using {{Strimzi}}}
+      \true{nocite}
+    \endentry
+    \entry{velichkoHowGraspContainers}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b51d221c0fce72808289cf6befd3ad15}{%
+           family={Velichko},
+           familyi={V\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{fullhash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{bibnamehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{authorbibnamehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{authornamehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{authorfullhash}{b51d221c0fce72808289cf6befd3ad15}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://iximiuz.com/en/posts/container-learning-path/}
+      \field{title}{How to {{Grasp Containers}} - {{Efficient Learning Path}} - {{Ivan Velichko}}}
+      \true{nocite}
+    \endentry
+    \entry{WhatKubernetesOperator}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Kubernetes operator is a method of packaging, deploying, and managing an application by extending the functionality of the Kubernetes API.}
+      \field{howpublished}{https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator}
+      \field{langid}{english}
+      \field{title}{What Is a {{Kubernetes}} Operator?}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/IY5I3P4X/what-is-a-kubernetes-operator.html
+      \endverb
+    \endentry
+    \entry{WhatMakefileHow}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://opensource.com/article/18/8/what-how-makefile}
+      \field{title}{What Is a {{Makefile}} and How Does It Work?}
+      \true{nocite}
+    \endentry
+    \entry{WhatZookeeperWhy}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Are you using Apache Kafka to build message streaming services? Then you might have run into the expression Zookeeper. To us at CloudKarafka, as a Apache Kafka hosting service, it's important that our users understand what Zookeeper is and how it integrates with Kafka.}
+      \field{howpublished}{https://www.cloudkarafka.com/blog/cloudkarafka-what-is-zookeeper.html}
+      \field{langid}{english}
+      \field{shorttitle}{What Is {{Zookeeper}} and Why Is It Needed for {{Apache Kafka}}?}
+      \field{title}{What Is {{Zookeeper}} and Why Is It Needed for {{Apache Kafka}}? - {{CloudKarafka}}, {{Apache Kafka Message}} Streaming as a {{Service}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/2BX7YJYB/cloudkarafka-what-is-zookeeper.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
