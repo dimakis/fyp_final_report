@@ -1,0 +1,59 @@
+
+
+\documentclass[color]{tumphthesis}
+
+\usepackage{epigraph}
+\usepackage[section]{placeins}
+
+\thesistitle
+{Automation of Bar/ Pub Back-end Business Processes including Inventory Management, Accounting and Tax Compliance}
+
+{}
+\thesisauthor{Dimitri Saridakis}{Author}
+\thesisdate{2021}{8}{30}
+% \supervisor{Prof. Dr. Supervisor}
+% \examiner{Prof. Dr. Examiner}
+\date{\today}
+
+\begin{document}
+
+\nocite{*}
+\maketitle
+\copyrightpage
+
+%\abstractpage
+% \input{abstract}
+
+\tableofcontents
+
+\addcontentsline{toc}{chapter}{\protect List of Figures}
+\listoffigures
+
+\mainmatter\setcounter{page}{1}
+\include{chap1}
+\include{chap2}
+\include{chap3}
+
+% \appendix
+
+\include{app1}
+
+\begin{flushleft}
+	
+\addcontentsline{toc}{chapter}{\protect Bibliography}
+% \bibliography{library}
+\printbibliography
+\end{flushleft}
+
+
+% \addcontentsline{toc}{chapter}{\protect List of Tables}
+% \listoftables
+
+% \acknowledgments
+% \input{acknowledgements}
+
+
+
+
+
+\end{document}

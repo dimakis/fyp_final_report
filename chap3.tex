@@ -1,0 +1,44 @@
+\chapter{Conclusion and Outlook}
+\label{chap:conclusion}
+
+\section{Technical Thoughts}
+\begin{flushleft}
+	The system can easily be set up to be much more fault-tolerant by increasing the amount of replicas of each Service in the system.
+	Most replica values used throughout this are only values of 1, but there are quite a few services that comprise the system. So for the
+	benefit of the machine on which the testing was carried out the values were set to 1.
+	\bigbreak
+	More system metrics would be the logical next step in the system. The use of Prometheus and Grafana would be a good way to monitor and
+	find ways to improve performance.
+	\bigbreak
+	The Makefile should be extended and added to. The aim should be to try and create the entire system in a single command (once Kubernetes
+	is running). This does seem feasible, however, plenty of time would be taken testing how long different components take to start up and if
+	retires/ back-offs are required as a result.
+	\bigbreak
+	A consumer with some basic functionality in processing the stream data would be a great addition here.
+	\bigbreak
+	As to would the addition of TLS between each component. Maybe this could be with the incorporation of a Service Mesh into the architecture.
+	This was actually looked into and one of the reasons for not using Strimzi from the start was its seemingly incompatibility with Istio,
+	the service mesh with which I have the most experience. If Istio was to be incorporated that would enable the easy automation of Prometheus,
+	Grafana and a whole host of other metric gathering tools which come natively with an Istio deployment.
+	\section{Personal Thoughts}
+	I could have written so much more. I knew that the system is a big one to implement and given less time and word constraints I would
+	have liked to explore this area much more.\newline
+	I am actually quite proud of the system that was created. These components(scaled up versions) are used in industry for the deployment
+	of some of the largest and highly trafficked systems in the world. It was a sensational learning experience putting it all together.
+	\bigbreak
+	The amount of knowledge I have gained about Kubernetes and microservice architectures is much, much more than I thought I would learn at the
+	outset of this report, and it will surely stand by me as I, hopefully, make my way into industry.\newline
+	My current understanding around the operator pattern is making me believe it is a game changer. The ability to automate/ abstract layers
+	of components in the system is a very powerful one. It is one I only began to realise when I noticed that the Strimzi operator deploys
+	and manages other operators (Kafka Entity Operator). The ease at which the system can be scaled up and down is frighteningly straightforward.
+	The learning curve is a little steep, but once one is familiar enough with the Kubernetes basics the architecture becomes a thing of beauty.
+	\bigbreak
+	I am also quite happy that every goal as set out in the introduction was achieved and that all components used are open source.
+	A fascinating insight in to the open source world came when I was rather disillusioned about the Kafka Connect configurations. I reached out to the
+	Debezium community and was answered to by none other than the lead-maintainer and co-founder of the Debezium project, Gunnar Morling. I asked
+	what I thought was maybe a stupid simple question, but it turns out it was an issue that had caught others before. Gunnar pointed me to
+	the Debezium community group chat where I found an article which helped me overcome the issue.\newline
+	The knowledge that one can build a system that is capable of slotting into the back end of Fortune 100 companies, from completely free
+	and open sourced software is truly amazing. The whole area of systems architecture was one I was intrigued about before this report. But now
+	I'm even more intrigued now.
+\end{flushleft}
