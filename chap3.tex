@@ -20,6 +20,7 @@
 	This was actually looked into and one of the reasons for not using Strimzi from the start was its seemingly incompatibility with Istio,
 	the service mesh with which I have the most experience. If Istio was to be incorporated that would enable the easy automation of Prometheus,
 	Grafana and a whole host of other metric gathering tools which come natively with an Istio deployment.
+
 	\section{Personal Thoughts}
 	I could have written so much more. I knew that the system is a big one to implement and given less time and word constraints I would
 	have liked to explore this area much more.\newline
@@ -32,6 +33,11 @@
 	of components in the system is a very powerful one. It is one I only began to realise when I noticed that the Strimzi operator deploys
 	and manages other operators (Kafka Entity Operator). The ease at which the system can be scaled up and down is frighteningly straightforward.
 	The learning curve is a little steep, but once one is familiar enough with the Kubernetes basics the architecture becomes a thing of beauty.
+
+	This viewpoint has been further corroborated from answers to questions which have been posed to other publicans/ business owners/ management about their largest pain points and access to statistical insights from their current back-end system. 
+	The goal of these questions was to ascertain if a solution for these pain points exists from technologies already in existence.\\ Whilst some PoS software has inventory management as an option, there is no software stack that allows the processing 
+	of invoices and There were none that could be found which so what e. Further questions were asked about the wants or needs for such a 
+	system or the viability of such a hypothetical system should one not exist, which it does not.
 	\bigbreak
 	I am also quite happy that every goal as set out in the introduction was achieved and that all components used are open source.
 	A fascinating insight in to the open source world came when I was rather disillusioned about the Kafka Connect configurations. I reached out to the

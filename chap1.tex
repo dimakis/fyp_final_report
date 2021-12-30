@@ -6,97 +6,151 @@
 \begin{flushleft}
 	This report's structure will follow this style:
 	\begin{itemize}
-		\item First: The report will outline the project's goals, the system architecture and the technologies used.
-		\item Second: The report will detail the implementation of the varies system components from the start to the working prototype.
-		\item Third: The report will outline the challenges faced in the implementation of the system.
-		\item Fourth: A conclusion will be given including both technical and personal reflection along with detailed analysis on proposed work to be completed in
+		\item \textbf{First}: The report will outline the project's goals, the system architecture, the technologies used and the plan which was followed.
+		\item \textbf{Second}: The report will detail the implementation of the varies system components from the start to the working prototype.
+		\item \textbf{Third}: The report will outline the challenges faced in the implementation of the system.
+		\item \textbf{Fourth}: A conclusion will be given including both technical and personal reflection along with detailed analysis on proposed work to be completed in
 		      semester two.
 	\end{itemize}
 	\subsection{Motivation}
 	I will use this project as a vehicle to explore and test both industry standard and brand-new technologies with an emphasis on open-source tech. This will stress test my knowledge of the
-	technologies and both allow me to see what I can implement along with being a showcase of my skills in the field to potential employers. \newline
-	The motivation for this project comes from the major pain points of mine, from my previous career as a bar owner and manager. \\ This project focuses on building a system for use by 
+	technologies and both allow me to see what I can implement along with being a showcase of my skills in the field to potential employers.
+	This system will be built with the primary target of having each component implemented in such a way as to ensure maximum efficiency is the front and center focus.
+	\bigbreak
+	The motivation for this project comes from the major pain points of mine, from my previous/ side career as a bar owner and manager. \\ This project focuses on building a system for use by
 	bar/ public houses(pubs) and as such a single bar entity will be referred to as a \emph{user} of the system.\\
 	There is also scope for this system to be altered slightly and to be used with any business which operates with a similar back-end structure.
 	\bigbreak
 	Some of the most time-consuming and least valuable, from a time - reward perspective, are the back-end processes of running the business. Reward is defined here as the actions which result
-	in potential business growth. Time spent scanning invoices from suppliers, filling out income and expenditure spreadsheets and calculating gross and net figures(which will be referred to 
-	as ‘\emph{group A}’ activities), whilst these processes are critical to a business’ operation and regulatory compliance - do not do much for business growth. 
-	On the other hand, time spent on sourcing new products/ inventory, finding new/ novel forms of entertainment, business promotion and customer engagement(which will be referred to as 
-	‘\emph{group B}’ activities) are the catalysts which drive sales and business growth.
+	in potential business growth. Time spent scanning invoices from suppliers, filling out income and expenditure spreadsheets and calculating gross and net figures(which will be referred to
+	as `\emph{group A}’ activities), whilst these processes are critical to a business’ operation and regulatory compliance - do not do much for business growth.
+	On the other hand, time spent on sourcing new products/ inventory, finding new/ novel forms of entertainment, business promotion and customer engagement(which will be referred to as
+	`\emph{group B}’ activities) are the catalysts which drive sales and business growth.
 	\bigbreak
 	I hypothesize that this should lead to a healthier and more innovative industry by virtue of the extra amount of time spent on group B activities. With implementation of this system,
-	barriers to entry should be broken down which should only help to increase innovation. This comes from the new entrants into the industry who may excel in group B processes but do not have 
-	the knowledge, cannot afford to pay accountants or have the confidence in their ability to perform the group A processes at a satisfactory standard. If these processes are automated then 
-	there should be fewer barriers of entry coupled with a reduction in accounting costs.
-	Furthermore, the implementation of this system should increase the quality of life of business owners who no longer have to carry out menial, manual data entry and monotonous, simple and 
-	repetitive data manipulation.\\
-	The ultimate aim of this project is to provide more time for group B growth activities and processes by automating the group A processes. For this to be accomplished there is a list of processes that 
-	need to be tackled. \\ These processes fall into two broad categories, namely:
-	\begin{itemize}
-		\item \textbf{Category One} comes from the data collected from a sale of a users' product(a pub selling a beverage).
-		\item \textbf{Category Two} stems from the data collected from a users' purchases in relation to inventory(a pub buying a crate of beer to be resold to the consumer).
-		\end{itemize}
-	Category One processes include:
+	barriers to entry should be broken down which should only help to increase innovation. This comes from the new entrants into the industry who may excel in group B processes but do not have
+	the knowledge, cannot afford to pay accountants or have the confidence in their ability to perform the group A processes at a satisfactory standard. If these processes are automated then
+	there should be fewer barriers of entry coupled with a reduction in accounting costs. \\
+	Furthermore, the implementation of this system should increase the quality of life of business owners who no longer have to carry out menial, manual data entry and monotonous, simple and
+	repetitive data manipulation.
+	\bigbreak
+	The ultimate aim of this project is to provide more time for group B growth activities and processes by automating the group A processes. For this to be accomplished there is a list of
+	core and essential processes that need to be tackled. \\
+	These core processes fall into two broad categories, defined as:
+	\begin{enumerate}
+		\item \textbf{Category One}: comes from the data collected from a sale of a users' product i.e. a pub selling a beverage(Income).
+		\item \textbf{Category Two}: stems from the data collected from a users' purchases in relation to inventory and other purchases needed for the running of the business
+		      i.e. a pub buying a crate of beer to be resold to the consumer or rent for premises(Expenditure).
+	\end{enumerate}
+	\textbf{Category One} core processes include:
 	\begin{itemize}
 		\item Keeping a record of all sale transactions that enter the system, sorted by user, which will allow for the processing of sales.
 		\item The subsequent saving and updating of the transactional sales figures i.e. gross, net and tax figures.
 		\item The updating of the inventory levels of products per sale.
 	\end{itemize}
-	Category Two processes include:
+	\textbf{Category Two} core processes include:
 	\begin{itemize}
 		\item The scanning of supplier invoices and key information extraction from the invoices. This key information will be used to:
-		\begin{itemize}
-			      \item Update users inventory levels as stock is delivered/ invoiced.
-			      \item Updating of cash flow levels.
-			      \item 
+		      \begin{itemize}
+			      \item Update users' inventory levels as stock is invoiced/ delivered.
+			      \item Updating of cash flow levels to reflect the current available funds.
+			      \item Updating of tax collected and tax due figures.
 		      \end{itemize}
 	\end{itemize}
-
-	This is quite a lengthy list of processes to implement. It can be broken into two main components. 
-
-	 For this FYP I will be simulating the Point of Sale(PoS) till software with fake data as I do not have time to build a user facing PoS system.
-	If time constraints allow, I would like to incorporate transactional data from a current free and popular PoS application. This will most likely be SquareUp PoS by Square as my business uses this PoS currently and there is a developer API which can potentially be leveraged to provide the transactional data into the system. This is more of a “want” currently.
-
-	There are many useful features which become available as a result of having all of this information available in one system. These insights come in the form of individual data per business but also trends and such from the data aggregated from users of the system. Some of these include:
-
-	The ability to do some exploratory data analysis and other ML activities which can provide the businesses that use the system with some new data driven insights about the business. These insights would usually only be available to larger businesses with IT teams or businesses with owners who are data science savvy. Businesses with these characteristics in the drinks industry make up only a tiny fraction of the population based on my decade plus of experience within the industry and questions I have posed to other business owners/ management.
-
-	An example of some more insights that can be derived from the information in the system, given decent levels of adoption in the industry, are live sales per product. Having a multitude of different businesses using the system, the sales of specific items can be accessed in real time. This provides some invaluable data to brewers of sales which can be utilised to precisely schedule production times and quantities.
-
-	Further motivation
-	The system I am building is an amalgamation of numerous different concepts and modules that I have studied over the past 4 years. I am using this project as a way to try and implement some of the architectures, processes and technologies that are industry standard and at the cutting edge of innovation in the tech industry. These include: (maybe go into detail on each one here)
-	Event-driven Micro-service architecture
-	Kubernetes
-	Apache Kafka
-	Debezium Change data capture
-	Deep learning Neural Networks
-	\bigbreak
-	The motivation for this research paper is to explore some technologies that would build a cloud native build a \emph{cloud native} system that
-	is highly scalable and as efficient as possible with as much of the processes automated as can be done.\newline
-	A system that is capable of reacting - in real time - to changes i.e. any of the CRUD operations in a database. \newline
-	Upon these change events occurring, the changes to the data in the system which triggered the events should be made
-	available to other services/ components of the system to allow for the business logic, processing of data and subsequently
-	business goals of the system to be met.
-	To aid with accomplishing these requirements the system design is of an event-driven, microservice architectured nature.
-	\newline
-	\subsection{High Level Architecture}
-	Debezium will be looking after the change events from a PostGres database, interacting with and utilizing Apache Kafka \autocite{ApacheKafka} for the event streams.
-	The deployment orchestration is managed by Kubernetes, in this case I'll be using a single Kubernetes node on my machine by utilizing Minikube\autocite{MinikubeStart}.
-	These are the primary technologies around which this term paper will focus.
-
-	\subsection{System Goals}
-	The goals for this system are to:
+	This is quite a lengthy and complex list of processes to automate.
+	\subsection{Scope}
+	This project will focus on tackling every one of both Categories', One and Two, processes. Given the time constraints and the complexity of the system in development
+	there are some non-core components that	will be omitted or generated/ faked. These are documented here to allow the reader to know that these processes have been thought about thoroughly,
+	before the decision was made to continue as detailed. Some of these are:
+	\begin{enumerate}
+		\item For the Category One processes, the users' sales transactions and details will be faked/ generated. This is done through the main entry API which has a \code{.../transactions/fake/create}
+		      endpoint. There will be no Point of Sale(PoS) till software created.
+		      \begin{itemize}
+			      \item If time constraints allow, there are plans to incorporate transactional data from a current free and popular PoS application. This will most likely be SquareUp
+			            PoS \autocite{SquareSolutionsTools} by Square/ Block as my business uses this PoS currently and there is a developer API which may potentially be leveraged to provide the transactional
+			            data into the system.
+		      \end{itemize}
+		\item There will be no GUI to interact with or view data from a user standpoint. This would involve creating a web app which would be used to view data from the system about a user. This
+		      would include sales figures, inventory levels, cash flow levels and tax figures.
+		      \begin{itemize}
+			      \item A sub goal is to implement a Grafana dashboard to at least view some monetary/ inventory figures from the system.
+		      \end{itemize}
+		\item All the Category Two processes will be automated. The only area to note here is a possible discrepancy between newly ordered inventory invoiced and the product actually delivered
+		      by a supplier to a business.\\
+		      Sometimes products which have been ordered are not delivered i.e. out of stock with supplier or damaged in transit.
+		      \begin{itemize}
+			      \item For a solid fix for this situation the system should utilize a way of comparing delivery dockets with invoices. This would ensure only as accurate data as
+			            possible enter the system. However, these situations happen infrequently and for this project the potential discrepancy will be ignored with the invoice taken at
+			            face value of goods delivered.
+		      \end{itemize}
+	\end{enumerate}
+	\pagebreak
+	\subsection{Side Benefits}
+	There are many useful features which become available as a result of having all of this information available in one system. These insights come in the form of individual data per
+	business but also trends and such from the data aggregated from all users of the system. A brief example of some of these include:
 	\begin{itemize}
-		\item Utilize an API which exposes an endpoint external to the Kubernetes cluster.
-		\item Once that endpoint is hit, the API creates some data which is saved to a database.
-		\item Configure the Debezium PostGres connector to listen for changes in the state of the database. Debezium will then utilize Kafka Connect to ingest the stream updates,
-		      those updates are then pushed to Kafka Topics.
-		\item Create a consumer which is subscribed to a Kafka Topic to consume the changes and prove the system is operating nominally.
-		\item Automate as much of the processes as possible.
-		\item Focus on the use of open source technologies.
+		\item The ability to query the financial and inventory figures. With a simple GUI the user can be served up current sales vs other time periods and many other powerful ways to gain insight into
+		      the business with information already in the system.
+		\item The ability to do some exploratory data analysis(EDA) and other data analytical activities which can provide the business owners with some new data driven insights about their business.
+		      These insights would usually only be available to larger businesses with IT teams or businesses with owners who are data science savvy. Businesses with these characteristics in the
+		      drinks' industry make up only a tiny fraction of the population based on my decade plus of experience within the industry in Ireland and around numerous European cities.
+		\item An example of some more insights that can be derived from the information in the system which is of value to external entities, given decent levels of adoption in the industry,
+		      are live sales per product.
+		      Having a multitude of different users in the system, the sale quantities of specific items can be accessed and/ or extrapolated in real-time. This can provide some invaluable
+		      data to brewers, of sales which could be utilised to precisely schedule production times and production quantities.
 	\end{itemize}
-	\subsection{System Architecture}
+
+	\subsection{Planning and Strategy}
+	The strategy for the first semester was to tackle the Category One processes. The aim was to have a prototype ready for the second semester. The second semester would see work continue
+	on the system to implement some testing and adding to the overall robustness of the system along with automation of the Category Two processes.
+	This plan has been nearly been achieved. The addition of custom consumers(will be explained in detail later) is the next step. For the remainder of this paper the focus will be on the
+	architecture and implementation of the system - Category One specific.
+	\pagebreak
+	\section{Architecture}
+	The architecture for this project has changed significantly from the initial design in the hunt for an ever better and efficient solution to the problem. Even though the following design is rough,
+	it has been included for contrast and to depict the evolution to the current implementation.
+	\subsection{Initial Architecture}
+	\begin{figure}[ht]
+		\begin{center}
+			\includegraphics[width=0.9\textwidth]{figures/initial_architecture.png}
+			\caption{Initial architecture of the system depicting the interaction between components and data flow.}
+			\label{fig: 1.2}
+		\end{center}
+	\end{figure}
+	\bigbreak
+	The initial design was to deploy a number of microservice APIs and databases. These microservices would be deployed as containers and orchestrated by Kubernetes \autocite{Concepts}. There
+	would be an initial entry-point API which would then call other API endpoints.
+	Each API would be the primary vehicle for the flow of data through the system into the required databases/ components. These APIs would both read and write to the databases.
+	\bigbreak
+	This design, although sound and would provide the intended utility was far from an optimal solution.
+	There would be a gargantuan number of expensive database calls with this design, violating the core goal for the system to 	be as efficient as possible. This design is not very scalable
+	either. With the addition of more users, the APIs and databases would need to be scaled up to accommodate the growth of the system. The components here are more tightly coupled.
+	\subsection{Current Architecture}
+	The search for efficiency led to the morphing of the microservice architecture to an event-driven \autocite{WhatEventdrivenArchitecture} microservice architecture. This means that components
+	in the system no longer wait for requests, as is the traditional model, but the components react instead, in real-time, to changes of state in the system.
+	This evolution was accomplished by the research and subsequent implementation of a new technology, \emph{Change Data Capture}(CDC).
+	\bigbreak
+	CDC is a software solution which identifies and tracks changes in data in a database \autocite{kutayChangeDataCapture2021}. The software then propagates these changes to the next steps in
+	the data flow. Other microservices can then consume these changes and action upon the changed data. This allows for the further decoupling of the system as consumers/ subscribers to the
+	change stream can be added/ upgraded or removed entirely without any alteration to, or downtime of, the system.
+	\bigbreak
+	The chosen CDC technology for implementation is Debezium \autocite{debeziumcommunityDebezium}. Debezium monitors a database and ingests all monitored changes to Apache Kafka \autocite{ApacheKafka}
+	topics via Kafka Connect(more details to follow). The Kafka topics act as the stream of data to which consumers can subscribe and consume the data from.
+	\bigbreak
+	An API is still needed as the data entry point into the system. This Transactions API is referred to as `\emph{tapi}' in the repo.
+	The steps needed for the implementation of the architecture are:
+	\begin{enumerate}
+		\item The configuration of an API(tapi) which exposes an endpoint external to the Kubernetes cluster.
+		\item Once that endpoint is hit, tapi creates a sales transaction which is saved to the transactions PostGres database.
+		\item The Debezium PostGres connector is configured to listen for changes in the state of that PostGres database.
+		\item Upon a monitored state change Debezium will then utilize Kafka Connect to ingest the updates, those updates are subsequently pushed to Kafka Topics.
+		\begin{itemize}
+			\item The Kafka components must be configured and are deployed via the Strimzi Operator.
+			\item The Strimzi Operator itself is deployed by Helm (Kubernetes package manager).
+		\end{itemize}
+		\item A consumer which is subscribed to a Kafka Topic to consume the changes and prove the system is operating nominally.
+	\end{enumerate}
+	The deployment orchestration is managed by Kubernetes, in this case a single Kubernetes node is used with the utilization of Minikube\autocite{MinikubeStart}.
 	The following is the system architecture diagram:
 	\begin{figure}[ht]
 		\begin{center}
@@ -113,6 +167,8 @@
 	All the black arrows in the diagram do not depict a flow of data through the system. They are a representation of the interactions between
 	components. As an example:\newline The arrow from \textbf{Helm}	to \textbf{Strimzi} represents the deployment of the Strimzi operator component by the
 	Helm package manager.
+
+
 	\section{Technologies Used}
 	\subsection{Kubernetes}
 	Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management. It was originally designed
@@ -128,8 +184,8 @@
 	Most other Kubernetes resources are created in the same manner and are \emph{applied} to the cluster using \code{kubectl}. Kubectl is a command line tool which is used to
 	interact with the Kubernetes cluster. Resources are applied using the \code{apply} command. \code{kubectl apply -f \emph{resource-manifest-file-name}} is used to apply a resource to the cluster. \newline
 	This paper will also use \textbf{Helm} which is Kubernetes' package manager\autocite{UsingHelm}.
-	\subsection{API for System Data}
-	Since this report will focus on capturing changes from a database, there will need to be a methodology for creation and saving the data.
+	\subsection{Transaction API for System Entry-Point}
+	A transaction API was developed for creation and saving of transactional data.
 	This is handled by an API in current development. It is essentially a Transaction API, it exposes an endpoint and which creates a fake transaction. This
 	transaction is a typical transaction that would be found in a pub/ bar. It has a transaction owner, this is the entity for which the transaction has been
 	possessed, in this case a pub/ bar. The transaction contains a random number of beers with some randomized information for things like name, ABV,
@@ -137,6 +193,8 @@
 	\subsection{Debezium}
 	Debezium is an open source Change Data Capture (CDC) technology which is configurable with a number of different connectors. There are specific connectors for each of the supported databases.
 	PostGres, MySQL and MongoDB are some of the supported databases \autocite{ConnectorsDebeziumDocumentation}.\newline
+	Debezium is implemented by the likes of Reddit, Shopify and Ubisoft. It is also integrated with and a driving force in a number of other technologies such as
+	Apache Camel, Google Cloud DataFlow and IBM Event Streams \autocite{WhoUsingDebezium}. \\
 	Debezium is most commonly deployed via Apache Kafka's Kafka Connect framework \autocite{KafkaConnectConfluent}. Once a Debezium connector is applied to continuously monitor a database, it ingests the changes and then
 	utilizes the Kafka Connect component to push the changes to Apache Kafka topics. It lets any of your applications/ services stream every-row level change whilst preserving the order by which
 	the changes were committed to the database \autocite{debeziumcommunityDebezium}. In the case of Postgres, it does this by monitoring Postgres' \emph{Write Ahead Logs}. These are binary logs

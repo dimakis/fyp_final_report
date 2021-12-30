@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}[2007/10/19]
 \ProvidesClass{tumphthesis}[2021/09/13 v0.1 The LaTeX template for master's thesis of Technical University of Munich]
-\typeout{Document Class `tumphthesis' v0.1 by Dimitri Saridakis based on the work by Sirui Lu (2021/09)}
+\typeout{Document Class `tumphthesis' v0.2 by Dimitri Saridakis based on the work by Sirui Lu (2021/09)}
 
 %%% class options %%%
 \newif\ifqst@color\qst@colorfalse
@@ -28,7 +28,7 @@
 	bookmarksopen,
 	pdfdisplaydoctitle,
 	pdfsubject=Lab 01,
-	pdfcreator=Sirui Lu,
+	pdfcreator=Dimitri Saridakis,
 }
 
 \RequirePackage{etoolbox}
@@ -105,7 +105,7 @@
 backend=biber,
 citestyle=authoryear
 ]{biblatex}
- \addbibresource{termPaper.bib}
+ \addbibresource{fyp.bib}
 % \bibliographystyle{unsrtnat}
 % \bibliographystyle{authoryear}
 

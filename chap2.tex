@@ -62,7 +62,7 @@
     Deployment of the system to Kubernetes must be done in a non-arbitrary order as some services depend on others. If the steps are done in the wrong order then the pods
     may get stuck in a \code{CrashLoopBackOff} state.
     \subsection{Automated Deployment}
-    In keeping with one of the reports goals, the initial section of deployment is farmed out to a Makefile. The Makefile is a simple shell script that runs the necessary commands to
+    To simplify the deployment process, the initial section of deployment is farmed out to a Makefile. The Makefile is a simple shell script that runs the necessary commands to
     deploy the PostGres database container and then the API along with the required Kubernetes resources. It is simply run using \code{\$ make deploy}: \newline
     \begin{figure} [ht]
         \begin{center}
@@ -262,6 +262,7 @@
     There were very many challenges in the configuration of the system. At essentially every point along the way configuration changes had to be 
     implemented.
     \begin{itemize}
+        \item The development of the Transaction API was a challenge.
         \item The creation of the PostGres container that is configured went through many iterations. Debezium requires certain configuration 
         to function. Replication permissions are required for a user, in this case a default user 1001, to be enabled. Replication logic itself
         must be set so that postgresql writes to the WAL in with a \code{logical\_decoding} setting \autocite{LogicalDecodingOutput}.
