@@ -1,2 +1,9 @@
 {"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QI will need: Zookeeper Kafka Kafka Entity Operator Kafka Connect There are a number of differing ways to deploy Kafka, but I've narrowed it down to two ways for now.\\E$"}
 {"rule":"PRP_VBG","sentence":"^\\QI then Running the build script to generate the new Debezium friendly PostGres docker image I had a number of issues that I had to debug to get it operational.\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\QWith the sharp rise in the popularity of the micro-services architecture, coupled with the rapid adoption of Kubernetes to deploy and orchestrate such The motivation for this research paper is to explore the most prominent methods of Insta\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QMetrics usually come in a time series format i.e. the change of values over time.\\E$"}
+{"rule":"COMPRISED_OF","sentence":"^\\QThe Entity Operator is deployed by the Strimzi Operator but it itself, is comprised of the Topics Operator and the User Operator.\\E$"}
+{"rule":"THE_PUNCT","sentence":"^\\QPrometheus knows which components to fetch metrics from by the jobs that are defined in the, conventionally named, prometheus.yaml file.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QGrafana is mainly used as a visualisation tool.\\E$"}
+{"rule":"A_NNS","sentence":"^\\QFor this paper the observability stack is the term that is used to denote the following components, all running in a Minikube (single node Kubernetes cluster for local development) cluster: Prometheus\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is an open-source systems monitoring tool.\\E$"}
+{"rule":"SOME_OF_THE","sentence":"^\\Q[Strimzi PodMonitor]PodMonitor applied to the Strimzi Operator (only some of the code is shown as it is repetitive).\\E$"}

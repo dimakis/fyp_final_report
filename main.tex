@@ -6,7 +6,7 @@
 \usepackage[section]{placeins}
 
 \thesistitle
-{Automation of Public House/ Bar Back-end Business Processes including Inventory Management, Accounting and Tax Compliance}
+{Kubernetes Observability}
 
 {}
 \thesisauthor{Dimitri Saridakis}{Author}
@@ -19,7 +19,7 @@
 
 \nocite{*}
 \maketitle
-\copyrightpage
+% \copyrightpage
 
 %\abstractpage
 % \input{abstract}
@@ -29,28 +29,41 @@
 \addcontentsline{toc}{chapter}{\protect List of Figures}
 \listoffigures
 
+\lstlistoflistings
+\addcontentsline{toc}{chapter}{\protect Listings}
+
+
 \mainmatter\setcounter{page}{1}
+% \acknowledgments
+% \input{acknowledgements}
+
+% \videolink 
+% \Large
+\raggedright%
+
 \include{chap1}
-\include{chap2}
-\include{chap3}
+% \include{chap2}
+% \include{chap3}
+% \include{chap4}
+% \include{chap5}
 
 % \appendix
+% \include{app1}
+% \clearpage
 
-\include{app1}
-
-\begin{flushleft}
-	
+% \begin{flushleft}	
+\raggedright
 \addcontentsline{toc}{chapter}{\protect Bibliography}
+\label{bibliography}
 % \bibliography{library}
+
 \printbibliography
-\end{flushleft}
+% \end{flushleft}
 
 
 % \addcontentsline{toc}{chapter}{\protect List of Tables}
 % \listoftables
 
-% \acknowledgments
-% \input{acknowledgements}
 
 
 

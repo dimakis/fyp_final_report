@@ -8,6 +8,15 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrbook}}
 \ProcessOptions\relax
 
+%%% custom for image stability
+\usepackage[section]{placeins}
+
+%% custom for image rotation
+\usepackage[figuresleft]{rotating}
+\usepackage{scrhack}
+% \usepackage{float}
+
+
 % set chapterprefix to true if you want "Chapter 1" displayed before the title of the chapter
 \LoadClass[fontsize=11pt
 	,a4paper,oneside
@@ -30,6 +39,7 @@
 	pdfsubject=Lab 01,
 	pdfcreator=Dimitri Saridakis,
 }
+
 
 \RequirePackage{etoolbox}
 \AtBeginDocument{
@@ -74,6 +84,7 @@
 \newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
 
 % large chunks of code using the \begin{lstlisting} tag
+% https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
 \usepackage{listings}
 \usepackage{color}
 
@@ -89,7 +100,7 @@
   showstringspaces=false,
   columns=flexible,
   basicstyle={\small\ttfamily},
-  numbers=none,
+  numbers=left,
   numberstyle=\tiny\color{gray},
   keywordstyle=\color{blue},
   commentstyle=\color{dkgreen},
@@ -103,9 +114,9 @@
 % \usepackage[numbers]{natbib}
 \RequirePackage[
 backend=biber,
-citestyle=authoryear
+style=numeric
 ]{biblatex}
- \addbibresource{fyp.bib}
+ \addbibresource{prometheus.bib}
 % \bibliographystyle{unsrtnat}
 % \bibliographystyle{authoryear}
 
@@ -140,9 +151,9 @@ citestyle=authoryear
 		\bigskip
 		\Large{Work submitted\\ within the \qst@program}\\
 		\bigskip
-		{\Large Supervisor:  \qst@supervisor}\\
-		{\Large Second Reader:  \qst@examiner}\\%		
-        % {\Large Lecturer:  \qst@lecturer}\\
+		% {\Large Supervisor:  \qst@supervisor}\\
+		% {\Large Second Reader:  \qst@examiner}\\%		
+        {\Large Lecturer:  \qst@lecturer}\\
 		\vfill{\Large \today}
 	\end{center}
 	\end{titlepage}
@@ -197,6 +208,22 @@ citestyle=authoryear
 	\noindent
 }
 
+\newcommand{\videolink}{
+	\cleardoublepage
+	\addcontentsline{toc}{chapter}{\protect Link to Demo Video}
+	\chapter*{Link to Demo Video}
+	\noindent
+}
+
+
+% \newcommand{\lstlistoflistings}{
+	% \cleardoublepage
+	% \addcontentsline{toc}{chapter}{\protect Code Listings}
+
+	% \addcontentsline{toc}{chapter}{\protect Code Listings}
+	% \chapter*{Code Listings}
+	% \noindent
+% }
 
 %%% custom information %%%
 \renewcommand{\maketitle}{%
@@ -252,7 +279,7 @@ citestyle=authoryear
 	\def\qst@thesistype{#1}
 }
 
-\def\qst@supervisor{Dr. Kieran Murphy}
+\def\qst@supervisor{Dr Kieran Murphy}
 \newcommand{\supervisor}[1]{%
 	\def\qst@supervisor{#1}
 }
@@ -276,4 +303,57 @@ citestyle=authoryear
 	\def\qst@thesismonth{#2}
 	\def\qst@thesisday{#3}
 }
+
+
+% for hyperlinks
+\usepackage{cleveref}
+
+% for smaller margins
+\usepackage[margin=0.7in, headheight=0pt,headsep=10pt]{geometry}
+	% \addtolength{\oddsidemargin}{- .7in}
+	% \addtolength{\evensidemargin}{- .7in}
+	% \addtolength{\textwidth}{1.75in}
+
+	% \addtolength{\topmargin}{-.5in}
+	% \addtolength{\textheight}{1.6in}
+
+
+% for yaml in lstlisting
+\usepackage{xcolor}
+\usepackage{listings}
+\newcommand\YAMLcolonstyle{\color{red}\mdseries}
+\newcommand\YAMLkeystyle{\color{black}\bfseries}
+\newcommand\YAMLvaluestyle{\color{blue}\mdseries}
+\makeatletter
+% here is a macro expanding to the name of the language
+% (handy if you decide to change it further down the road)
+\newcommand\language@yaml{yaml}
+\expandafter\expandafter\expandafter\lstdefinelanguage
+\expandafter{\language@yaml}
+{
+  keywords={true,false,null,y,n},
+  keywordstyle=\color{darkgray}\bfseries,
+  basicstyle=\YAMLkeystyle,                                 % assuming a key comes first
+  sensitive=false,
+  comment=[l]{\#},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\YAMLvaluestyle\ttfamily,
+  moredelim=[l][\color{orange}]{\&},
+  moredelim=[l][\color{magenta}]{*},
+  moredelim=**[il][\YAMLcolonstyle{:}\YAMLvaluestyle]{:},   % switch to value style at :
+  morestring=[b]',
+  morestring=[b]",
+  literate =    {---}{{\ProcessThreeDashes}}3
+                {>}{{\textcolor{red}\textgreater}}1     
+                {|}{{\textcolor{red}\textbar}}1 
+                {\ -\ }{{\mdseries\ -\ }}3,
+}
+% switch to key style at EOL
+\lst@AddToHook{EveryLine}{\ifx\lst@language\language@yaml\YAMLkeystyle\fi}
+\makeatother
+\newcommand\ProcessThreeDashes{\llap{\color{cyan}\mdseries-{-}-}}
+
+% edit page number position up or down
+\setlength{\footskip}{20pt}
 

@@ -1,29 +1,75 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.28)  29 DEC 2021 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.28)  5 APR 2022 02:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/dimdakis/fyp/FYP xmas - Term Paper/main"
-(/home/dimdakis/fyp/FYP xmas - Term Paper/main.tex
+**/home/dimdakis/year4/semesterTwo/cloud_computing_2/research_paper/report/main
+(/home/dimdakis/year4/semesterTwo/cloud_computing_2/research_paper/report/main.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (./tumphthesis.cls
 Document Class: tumphthesis 2021/09/13 v0.1 The LaTeX template for master's thesis of Technical University of Munich
-Document Class `tumphthesis' v0.1 by Dimitri Saridakis based on the work by Sirui Lu (2021/09)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2020/01/24 v3.29 KOMA-Script document class (book)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Document Class `tumphthesis' v0.2 by Dimitri Saridakis based on the work by Sirui Lu (2021/09)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count167
+\rotFPtop=\skip47
+\rotFPbot=\skip48
+\rot@float@box=\box45
+\rot@mess@toks=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2020/01/24 v3.29 KOMA-Script package (hacking other packages)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
-))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count168
+\l__pdf_internal_box=\box46
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count169
+\g__xparse_grabber_int=\count170
+\l__xparse_m_args_int=\count171
+\l__xparse_v_nesting_int=\count172
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count173
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2020/01/24 v3.29 KOMA-Script document class (book)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2020/01/24 v3.29 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip47
-\scr@dte@tocline@numbox=\box45
+\scr@dte@tocline@numberwidth=\skip49
+\scr@dte@tocline@numbox=\box47
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -39,12 +85,12 @@ Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input lin
 File: scrsize11pt.clo 2020/01/24 v3.29 KOMA-Script font size class option (11pt)
 ) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2020/01/24 v3.29 KOMA-Script package (type area)
-\ta@bcor=\skip48
-\ta@div=\count167
-\ta@hblk=\skip49
-\ta@vblk=\skip50
-\ta@temp=\skip51
-\footheight=\skip52
+\ta@bcor=\skip50
+\ta@div=\count174
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
@@ -63,60 +109,64 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1719.
 )
-\c@part=\count168
-\c@chapter=\count169
-\c@section=\count170
-\c@subsection=\count171
-\c@subsubsection=\count172
-\c@paragraph=\count173
-\c@subparagraph=\count174
-\scr@dte@chapter@maxnumwidth=\skip53
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\scr@dte@chapter@maxnumwidth=\skip55
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\chapter on input line 5545.
-\scr@dte@section@maxnumwidth=\skip54
+\scr@dte@section@maxnumwidth=\skip56
 Class scrbook Info: using compatibility default `runin=bysign'
 (scrbook)           for `\section on input line 5555.
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\section on input line 5555.
-\scr@dte@part@maxnumwidth=\skip55
+\scr@dte@part@maxnumwidth=\skip57
 Class scrbook Info: using compatibility default `afterindent=true'
 (scrbook)           for `\part on input line 5564.
-\scr@dte@subsection@maxnumwidth=\skip56
+\scr@dte@subsection@maxnumwidth=\skip58
 Class scrbook Info: using compatibility default `runin=bysign'
 (scrbook)           for `\subsection on input line 5574.
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\subsection on input line 5574.
-\scr@dte@subsubsection@maxnumwidth=\skip57
+\scr@dte@subsubsection@maxnumwidth=\skip59
 Class scrbook Info: using compatibility default `runin=bysign'
 (scrbook)           for `\subsubsection on input line 5584.
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\subsubsection on input line 5584.
-\scr@dte@paragraph@maxnumwidth=\skip58
+\scr@dte@paragraph@maxnumwidth=\skip60
 Class scrbook Info: using compatibility default `runin=bysign'
 (scrbook)           for `\paragraph on input line 5594.
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\paragraph on input line 5594.
-\scr@dte@subparagraph@maxnumwidth=\skip59
+\scr@dte@subparagraph@maxnumwidth=\skip61
 Class scrbook Info: using compatibility default `runin=bysign'
 (scrbook)           for `\subparagraph on input line 5604.
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\subparagraph on input line 5604.
-\abovecaptionskip=\skip60
-\belowcaptionskip=\skip61
-\c@pti@nb@sid@b@x=\box46
+\abovecaptionskip=\skip62
+\belowcaptionskip=\skip63
+\c@pti@nb@sid@b@x=\box48
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lof' on input line 6846.
-\scr@dte@figure@maxnumwidth=\skip62
-\c@figure=\count175
+\scr@dte@figure@maxnumwidth=\skip64
+\c@figure=\count182
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 6867.
-\scr@dte@table@maxnumwidth=\skip63
-\c@table=\count176
+\scr@dte@table@maxnumwidth=\skip65
+\c@table=\count183
 Class scrbook Info: Redefining `\numberline' on input line 7040.
-\bibindent=\dimen134
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+\bibindent=\dimen136
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of KOMA-Script class, that doesn't
+(scrhack)             need that hack, on input line 30.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
@@ -145,9 +195,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen135
-\Hy@linkcounter=\count177
-\Hy@pagecounter=\count178
+\@linkdim=\dimen137
+\Hy@linkcounter=\count184
+\Hy@pagecounter=\count185
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -157,8 +207,8 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count179
-\pdfmajorversion=\count180
+\Hy@SavedSpaceFactor=\count186
+\pdfmajorversion=\count187
 Package hyperref Info: Option `unicode' set `true' on input line 4421.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
@@ -172,21 +222,21 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count181
+\c@Hy@tempcnt=\count188
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen136
+\XeTeXLinkMargin=\dimen138
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count182
-\Field@Width=\dimen137
-\Fld@charsize=\dimen138
+\Fld@menulength=\count189
+\Field@Width=\dimen139
+\Fld@charsize=\dimen140
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -199,19 +249,18 @@ LaTeX Info: Redefining \pageref on input line 6504.
  (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count183
-\c@Item=\count184
-\c@Hfootnote=\count185
+\Hy@abspage=\count190
+\c@Item=\count191
+\c@Hfootnote=\count192
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
  (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count186
-\c@bookmark@seq@number=\count187
+\Fld@listcount=\count193
+\c@bookmark@seq@number=\count194
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -219,67 +268,64 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip66
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 22.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 32.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 32.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 32.
- (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count188
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 41.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 41.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 41.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip65
+\@mathmargin=\skip67
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
-\ex@=\dimen139
+\@emptytoks=\toks16
+\ex@=\dimen141
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen140
+\pmbraise@=\dimen142
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count189
+\inf@bad=\count195
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count190
-\leftroot@=\count191
+\uproot@=\count196
+\leftroot@=\count197
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count192
-\DOTSCASE@=\count193
+\classnum@=\count198
+\DOTSCASE@=\count199
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
-\big@size=\dimen141
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count194
-\c@MaxMatrixCols=\count195
+\macc@depth=\count266
+\c@MaxMatrixCols=\count267
 \dotsspace@=\muskip17
-\c@parentequation=\count196
-\dspbrk@lvl=\count197
-\tag@help=\toks16
-\row@=\count198
-\column@=\count199
-\maxfields@=\count266
-\andhelp@=\toks17
-\eqnshift@=\dimen142
-\alignsep@=\dimen143
-\tagshift@=\dimen144
-\tagwidth@=\dimen145
-\totwidth@=\dimen146
-\lineht@=\dimen147
-\@envbody=\toks18
-\multlinegap=\skip66
-\multlinetaggap=\skip67
-\mathdisplay@stack=\toks19
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
+\tag@help=\toks17
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
+\andhelp@=\toks18
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks19
+\multlinegap=\skip68
+\multlinetaggap=\skip69
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -338,73 +384,67 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (/usr/share/texlive/texmf-dist/tex/latex/ntheorem/ntheorem.sty
 Style `ntheorem', Version 1.33 <2011/08/15>
 Package: ntheorem 2011/08/15 1.33
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\theorem@style=\toks20
-\theorem@@style=\toks21
-\theorembodyfont=\toks22
-\theoremnumbering=\toks23
-\theorempreskipamount=\skip68
-\theorempostskipamount=\skip69
-\theoremframepreskipamount=\skip70
-\theoremframepostskipamount=\skip71
-\theoreminframepreskipamount=\skip72
-\theoreminframepostskipamount=\skip73
-\theorem@preskip=\toks24
-\theorem@postskip=\toks25
-\theorem@framepreskip=\toks26
-\theorem@framepostskip=\toks27
-\theorem@inframepreskip=\toks28
-\theorem@inframepostskip=\toks29
-\theoremindent=\dimen148
-\theorem@indent=\dimen149
-\theoremrightindent=\dimen150
-\theorem@rightindent=\dimen151
-\theoremheaderfont=\toks30
-\theoremseparator=\toks31
-\theoremprework=\toks32
-\theorempostwork=\toks33
-\theoremsymbol=\toks34
-\qedsymbol=\toks35
-\theoremkeyword=\toks36
-\qedsymbol=\toks37
-\thm@topsep=\skip74
-\thm@topsepadd=\skip75
+\theorem@style=\toks21
+\theorem@@style=\toks22
+\theorembodyfont=\toks23
+\theoremnumbering=\toks24
+\theorempreskipamount=\skip70
+\theorempostskipamount=\skip71
+\theoremframepreskipamount=\skip72
+\theoremframepostskipamount=\skip73
+\theoreminframepreskipamount=\skip74
+\theoreminframepostskipamount=\skip75
+\theorem@preskip=\toks25
+\theorem@postskip=\toks26
+\theorem@framepreskip=\toks27
+\theorem@framepostskip=\toks28
+\theorem@inframepreskip=\toks29
+\theorem@inframepostskip=\toks30
+\theoremindent=\dimen150
+\theorem@indent=\dimen151
+\theoremrightindent=\dimen152
+\theorem@rightindent=\dimen153
+\theoremheaderfont=\toks31
+\theoremseparator=\toks32
+\theoremprework=\toks33
+\theorempostwork=\toks34
+\theoremsymbol=\toks35
+\qedsymbol=\toks36
+\theoremkeyword=\toks37
+\qedsymbol=\toks38
+\thm@topsep=\skip76
+\thm@topsepadd=\skip77
 Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
-\c@endNonectr=\count267
-\c@currNonectr=\count268
-\mysavskip=\skip76
+\c@endNonectr=\count273
+\c@currNonectr=\count274
+\mysavskip=\skip78
 Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input line 1175.
-\thm@amstmpdepth=\dimen152
-\tagwidth=\dimen153
+\thm@amstmpdepth=\dimen154
+\tagwidth=\dimen155
 )
-\c@currdefinitionctr=\count269
-\c@enddefinitionctr=\count270
-\c@definition=\count271
-\c@currassumptionctr=\count272
-\c@endassumptionctr=\count273
-\c@currtheoremctr=\count274
-\c@endtheoremctr=\count275
-\c@currpropositionctr=\count276
-\c@endpropositionctr=\count277
-\c@currlemmactr=\count278
-\c@endlemmactr=\count279
-\c@currcorollaryctr=\count280
-\c@endcorollaryctr=\count281
-\c@currexamplectr=\count282
-\c@endexamplectr=\count283
-\c@currconjecturectr=\count284
-\c@endconjecturectr=\count285
+\c@currdefinitionctr=\count275
+\c@enddefinitionctr=\count276
+\c@definition=\count277
+\c@currassumptionctr=\count278
+\c@endassumptionctr=\count279
+\c@currtheoremctr=\count280
+\c@endtheoremctr=\count281
+\c@currpropositionctr=\count282
+\c@endpropositionctr=\count283
+\c@currlemmactr=\count284
+\c@endlemmactr=\count285
+\c@currcorollaryctr=\count286
+\c@endcorollaryctr=\count287
+\c@currexamplectr=\count288
+\c@endexamplectr=\count289
+\c@currconjecturectr=\count290
+\c@endconjecturectr=\count291
  (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -415,181 +455,187 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count286
-\lst@gtempboxa=\box49
-\lst@token=\toks38
-\lst@length=\count287
-\lst@currlwidth=\dimen154
-\lst@column=\count288
-\lst@pos=\count289
-\lst@lostspace=\dimen155
-\lst@width=\dimen156
-\lst@newlines=\count290
-\lst@lineno=\count291
-\lst@maxwidth=\dimen157
+\lst@mode=\count292
+\lst@gtempboxa=\box51
+\lst@token=\toks39
+\lst@length=\count293
+\lst@currlwidth=\dimen156
+\lst@column=\count294
+\lst@pos=\count295
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count296
+\lst@lineno=\count297
+\lst@maxwidth=\dimen159
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count292
-\lst@skipnumbers=\count293
-\lst@framebox=\box50
+\c@lstnumber=\count298
+\lst@skipnumbers=\count299
+\lst@framebox=\box52
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
+Package scrhack Info: loading listings hack on input line 89.
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/listings.hak
+File: listings.hak 2020/01/24 v3.29 KOMA-Script scrhack part (hacking package listings)
+Package tocbasic Info: setting babel extension for `lol' on input line 137.
+Package scrhack Info: redefining \lstlistoflistings on input line 137.
+)
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count294
+\lrq@indent=\count300
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count295
-\c@listtotal=\count296
-\c@listcount=\count297
-\c@liststart=\count298
-\c@liststop=\count299
-\c@citecount=\count300
-\c@citetotal=\count301
-\c@multicitecount=\count302
-\c@multicitetotal=\count303
-\c@instcount=\count304
-\c@maxnames=\count305
-\c@minnames=\count306
-\c@maxitems=\count307
-\c@minitems=\count308
-\c@citecounter=\count309
-\c@maxcitecounter=\count310
-\c@savedcitecounter=\count311
-\c@uniquelist=\count312
-\c@uniquename=\count313
-\c@refsection=\count314
-\c@refsegment=\count315
-\c@maxextratitle=\count316
-\c@maxextratitleyear=\count317
-\c@maxextraname=\count318
-\c@maxextradate=\count319
-\c@maxextraalpha=\count320
-\c@abbrvpenalty=\count321
-\c@highnamepenalty=\count322
-\c@lownamepenalty=\count323
-\c@maxparens=\count324
-\c@parenlevel=\count325
-\blx@tempcnta=\count326
-\blx@tempcntb=\count327
-\blx@tempcntc=\count328
-\blx@maxsection=\count329
-\blx@maxsegment@0=\count330
-\blx@notetype=\count331
-\blx@parenlevel@text=\count332
-\blx@parenlevel@foot=\count333
-\blx@sectionciteorder@0=\count334
-\blx@entrysetcounter=\count335
-\labelnumberwidth=\skip77
-\labelalphawidth=\skip78
-\biblabelsep=\skip79
-\bibitemsep=\skip80
-\bibnamesep=\skip81
-\bibinitsep=\skip82
-\bibparsep=\skip83
-\bibhang=\skip84
+\c@tabx@nest=\count301
+\c@listtotal=\count302
+\c@listcount=\count303
+\c@liststart=\count304
+\c@liststop=\count305
+\c@citecount=\count306
+\c@citetotal=\count307
+\c@multicitecount=\count308
+\c@multicitetotal=\count309
+\c@instcount=\count310
+\c@maxnames=\count311
+\c@minnames=\count312
+\c@maxitems=\count313
+\c@minitems=\count314
+\c@citecounter=\count315
+\c@maxcitecounter=\count316
+\c@savedcitecounter=\count317
+\c@uniquelist=\count318
+\c@uniquename=\count319
+\c@refsection=\count320
+\c@refsegment=\count321
+\c@maxextratitle=\count322
+\c@maxextratitleyear=\count323
+\c@maxextraname=\count324
+\c@maxextradate=\count325
+\c@maxextraalpha=\count326
+\c@abbrvpenalty=\count327
+\c@highnamepenalty=\count328
+\c@lownamepenalty=\count329
+\c@maxparens=\count330
+\c@parenlevel=\count331
+\blx@tempcnta=\count332
+\blx@tempcntb=\count333
+\blx@tempcntc=\count334
+\blx@maxsection=\count335
+\blx@maxsegment@0=\count336
+\blx@notetype=\count337
+\blx@parenlevel@text=\count338
+\blx@parenlevel@foot=\count339
+\blx@sectionciteorder@0=\count340
+\blx@entrysetcounter=\count341
+\labelnumberwidth=\skip79
+\labelalphawidth=\skip80
+\biblabelsep=\skip81
+\bibitemsep=\skip82
+\bibnamesep=\skip83
+\bibinitsep=\skip84
+\bibparsep=\skip85
+\bibhang=\skip86
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language85
-\c@mincomprange=\count336
-\c@maxcomprange=\count337
-\c@mincompwidth=\count338
+\c@mincomprange=\count342
+\c@maxcomprange=\count343
+\c@mincompwidth=\count344
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load biblatex citestyle data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count339
-\c@savedafterword=\count340
-\c@annotator=\count341
-\c@savedannotator=\count342
-\c@author=\count343
-\c@savedauthor=\count344
-\c@bookauthor=\count345
-\c@savedbookauthor=\count346
-\c@commentator=\count347
-\c@savedcommentator=\count348
-\c@editor=\count349
-\c@savededitor=\count350
-\c@editora=\count351
-\c@savededitora=\count352
-\c@editorb=\count353
-\c@savededitorb=\count354
-\c@editorc=\count355
-\c@savededitorc=\count356
-\c@foreword=\count357
-\c@savedforeword=\count358
-\c@holder=\count359
-\c@savedholder=\count360
-\c@introduction=\count361
-\c@savedintroduction=\count362
-\c@namea=\count363
-\c@savednamea=\count364
-\c@nameb=\count365
-\c@savednameb=\count366
-\c@namec=\count367
-\c@savednamec=\count368
-\c@translator=\count369
-\c@savedtranslator=\count370
-\c@shortauthor=\count371
-\c@savedshortauthor=\count372
-\c@shorteditor=\count373
-\c@savedshorteditor=\count374
-\c@labelname=\count375
-\c@savedlabelname=\count376
-\c@institution=\count377
-\c@savedinstitution=\count378
-\c@lista=\count379
-\c@savedlista=\count380
-\c@listb=\count381
-\c@savedlistb=\count382
-\c@listc=\count383
-\c@savedlistc=\count384
-\c@listd=\count385
-\c@savedlistd=\count386
-\c@liste=\count387
-\c@savedliste=\count388
-\c@listf=\count389
-\c@savedlistf=\count390
-\c@location=\count391
-\c@savedlocation=\count392
-\c@organization=\count393
-\c@savedorganization=\count394
-\c@origlocation=\count395
-\c@savedoriglocation=\count396
-\c@origpublisher=\count397
-\c@savedorigpublisher=\count398
-\c@publisher=\count399
-\c@savedpublisher=\count400
-\c@language=\count401
-\c@savedlanguage=\count402
-\c@origlanguage=\count403
-\c@savedoriglanguage=\count404
-\c@pageref=\count405
-\c@savedpageref=\count406
-\shorthandwidth=\skip85
-\shortjournalwidth=\skip86
-\shortserieswidth=\skip87
-\shorttitlewidth=\skip88
-\shortauthorwidth=\skip89
-\shorteditorwidth=\skip90
-\locallabelnumberwidth=\skip91
-\locallabelalphawidth=\skip92
-\localshorthandwidth=\skip93
-\localshortjournalwidth=\skip94
-\localshortserieswidth=\skip95
-\localshorttitlewidth=\skip96
-\localshortauthorwidth=\skip97
-\localshorteditorwidth=\skip98
+\c@afterword=\count345
+\c@savedafterword=\count346
+\c@annotator=\count347
+\c@savedannotator=\count348
+\c@author=\count349
+\c@savedauthor=\count350
+\c@bookauthor=\count351
+\c@savedbookauthor=\count352
+\c@commentator=\count353
+\c@savedcommentator=\count354
+\c@editor=\count355
+\c@savededitor=\count356
+\c@editora=\count357
+\c@savededitora=\count358
+\c@editorb=\count359
+\c@savededitorb=\count360
+\c@editorc=\count361
+\c@savededitorc=\count362
+\c@foreword=\count363
+\c@savedforeword=\count364
+\c@holder=\count365
+\c@savedholder=\count366
+\c@introduction=\count367
+\c@savedintroduction=\count368
+\c@namea=\count369
+\c@savednamea=\count370
+\c@nameb=\count371
+\c@savednameb=\count372
+\c@namec=\count373
+\c@savednamec=\count374
+\c@translator=\count375
+\c@savedtranslator=\count376
+\c@shortauthor=\count377
+\c@savedshortauthor=\count378
+\c@shorteditor=\count379
+\c@savedshorteditor=\count380
+\c@labelname=\count381
+\c@savedlabelname=\count382
+\c@institution=\count383
+\c@savedinstitution=\count384
+\c@lista=\count385
+\c@savedlista=\count386
+\c@listb=\count387
+\c@savedlistb=\count388
+\c@listc=\count389
+\c@savedlistc=\count390
+\c@listd=\count391
+\c@savedlistd=\count392
+\c@liste=\count393
+\c@savedliste=\count394
+\c@listf=\count395
+\c@savedlistf=\count396
+\c@location=\count397
+\c@savedlocation=\count398
+\c@organization=\count399
+\c@savedorganization=\count400
+\c@origlocation=\count401
+\c@savedoriglocation=\count402
+\c@origpublisher=\count403
+\c@savedorigpublisher=\count404
+\c@publisher=\count405
+\c@savedpublisher=\count406
+\c@language=\count407
+\c@savedlanguage=\count408
+\c@origlanguage=\count409
+\c@savedoriglanguage=\count410
+\c@pageref=\count411
+\c@savedpageref=\count412
+\shorthandwidth=\skip87
+\shortjournalwidth=\skip88
+\shortserieswidth=\skip89
+\shorttitlewidth=\skip90
+\shortauthorwidth=\skip91
+\shorteditorwidth=\skip92
+\locallabelnumberwidth=\skip93
+\locallabelalphawidth=\skip94
+\localshorthandwidth=\skip95
+\localshortjournalwidth=\skip96
+\localshortserieswidth=\skip97
+\localshorttitlewidth=\skip98
+\localshortauthorwidth=\skip99
+\localshorteditorwidth=\skip100
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -599,19 +645,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count407
-\c@textcitetotal=\count408
-\c@textcitemaxnames=\count409
-\c@biburlbigbreakpenalty=\count410
-\c@biburlbreakpenalty=\count411
-\c@biburlnumpenalty=\count412
-\c@biburlucpenalty=\count413
-\c@biburllcpenalty=\count414
+\c@textcitecount=\count413
+\c@textcitetotal=\count414
+\c@textcitemaxnames=\count415
+\c@biburlbigbreakpenalty=\count416
+\c@biburlbreakpenalty=\count417
+\c@biburlnumpenalty=\count418
+\c@biburlucpenalty=\count419
+\c@biburllcpenalty=\count420
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count415
+\c@smartand=\count421
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -621,20 +667,24 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count416
-\c@bbx:relatedtotal=\count417
+\c@bbx:relatedcount=\count422
+\c@bbx:relatedtotal=\count423
 ))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -657,48 +707,48 @@ Package scrlayer-scrpage Info: deactivating warning for font element
 Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
  (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen158
-\lightrulewidth=\dimen159
-\cmidrulewidth=\dimen160
-\belowrulesep=\dimen161
-\belowbottomsep=\dimen162
-\aboverulesep=\dimen163
-\abovetopsep=\dimen164
-\cmidrulesep=\dimen165
-\cmidrulekern=\dimen166
-\defaultaddspace=\dimen167
-\@cmidla=\count418
-\@cmidlb=\count419
-\@aboverulesep=\dimen168
-\@belowrulesep=\dimen169
-\@thisruleclass=\count420
-\@lastruleclass=\count421
-\@thisrulewidth=\dimen170
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count424
+\@cmidlb=\count425
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count426
+\@lastruleclass=\count427
+\@thisrulewidth=\dimen172
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip99
-\multirow@cntb=\count422
-\multirow@dima=\skip100
-\bigstrutjot=\dimen171
+\multirow@colwidth=\skip101
+\multirow@cntb=\count428
+\multirow@dima=\skip102
+\bigstrutjot=\dimen173
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip101
-\LTright=\skip102
-\LTpre=\skip103
-\LTpost=\skip104
-\LTchunksize=\count423
-\LTcapwidth=\dimen172
-\LT@head=\box51
-\LT@firsthead=\box52
-\LT@foot=\box53
-\LT@lastfoot=\box54
-\LT@cols=\count424
-\LT@rows=\count425
-\c@LT@tables=\count426
-\c@LT@chunks=\count427
-\LT@p@ftn=\toks39
+\LTleft=\skip103
+\LTright=\skip104
+\LTpre=\skip105
+\LTpost=\skip106
+\LTchunksize=\count429
+\LTcapwidth=\dimen174
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count430
+\LT@rows=\count431
+\c@LT@tables=\count432
+\c@LT@chunks=\count433
+\LT@p@ftn=\toks40
 )
-Class scrbook Info: longtable captions redefined on input line 117.
+Class scrbook Info: longtable captions redefined on input line 128.
  (/usr/share/texlive/texmf-dist/tex/latex/diagbox/diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
  (/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty
@@ -710,29 +760,27 @@ Package pict2e Info: Driver file: pdftex.def on input line 119.
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
  (/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-\pIIe@GRAPH=\toks40
-\@arclen=\dimen173
-\@arcrad=\dimen174
-\@tempdimd=\dimen175
+\pIIe@GRAPH=\toks41
+\@arclen=\dimen175
+\@arcrad=\dimen176
+\@tempdimd=\dimen177
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count428
+\actioncount=\count434
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count429
-\FP@xia=\count430
-\FP@xib=\count431
-\FP@xfa=\count432
-\FP@xfb=\count433
-\FP@rega=\count434
-\FP@regb=\count435
-\FP@regs=\count436
-\FP@times=\count437
+\FP@xs=\count435
+\FP@xia=\count436
+\FP@xib=\count437
+\FP@xfa=\count438
+\FP@xfb=\count439
+\FP@rega=\count440
+\FP@regb=\count441
+\FP@regs=\count442
+\FP@times=\count443
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
@@ -745,7 +793,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count438
+\FPseed=\count444
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
@@ -754,77 +802,99 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count439
-\calc@Bcount=\count440
-\calc@Adimen=\dimen176
-\calc@Bdimen=\dimen177
-\calc@Askip=\skip105
-\calc@Bskip=\skip106
+\calc@Acount=\count445
+\calc@Bcount=\count446
+\calc@Adimen=\dimen178
+\calc@Bdimen=\dimen179
+\calc@Askip=\skip107
+\calc@Bskip=\skip108
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count441
-\calc@Cskip=\skip107
+\calc@Ccount=\count447
+\calc@Cskip=\skip109
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen178
-\ar@mcellbox=\box55
-\extrarowheight=\dimen179
-\NC@list=\toks41
-\extratabsurround=\skip108
-\backup@length=\skip109
-\ar@cellbox=\box56
+\col@sep=\dimen180
+\ar@mcellbox=\box57
+\extrarowheight=\dimen181
+\NC@list=\toks42
+\extratabsurround=\skip110
+\backup@length=\skip111
+\ar@cellbox=\box58
 )
-\diagbox@boxa=\box57
-\diagbox@boxb=\box58
-\diagbox@boxm=\box59
-\diagbox@wd=\dimen180
-\diagbox@ht=\dimen181
-\diagbox@insepl=\dimen182
-\diagbox@insepr=\dimen183
-\diagbox@outsepl=\dimen184
-\diagbox@outsepr=\dimen185
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
-)
-\Gin@req@height=\dimen186
-\Gin@req@width=\dimen187
+\diagbox@boxa=\box59
+\diagbox@boxb=\box60
+\diagbox@boxm=\box61
+\diagbox@wd=\dimen182
+\diagbox@ht=\dimen183
+\diagbox@insepl=\dimen184
+\diagbox@insepr=\dimen185
+\diagbox@outsepl=\dimen186
+\diagbox@outsepr=\dimen187
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count442
-\float@exts=\toks42
-\float@box=\box60
-\@float@everytoks=\toks43
-\@floatcapt=\box61
+\c@float@type=\count448
+\float@exts=\toks43
+\float@box=\box62
+\@float@everytoks=\toks44
+\@floatcapt=\box63
+)
+Package scrhack Info: loading float hack on input line 132.
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2020/01/24 v3.29 KOMA-Script scrhack part (hacking package float)
+Package scrhack Info: redefining \newfloat on input line 163.
+Package scrhack Info: redefining \listof on input line 163.
+Package scrhack Info: undefining \float@addtolists on input line 163.
+) (/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `ntheorem' support loaded on input line 3055.
+Package cleveref Info: `listings' support loaded on input line 3131.
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count449
+\Gm@cntv=\count450
+\c@Gm@tempcnt=\count451
+\Gm@bindingoffset=\dimen188
+\Gm@wd@mp=\dimen189
+\Gm@odd@mp=\dimen190
+\Gm@even@mp=\dimen191
+\Gm@layoutwidth=\dimen192
+\Gm@layoutheight=\dimen193
+\Gm@layouthoffset=\dimen194
+\Gm@layoutvoffset=\dimen195
+\Gm@dimlist=\toks45
 )) (/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
  (/usr/share/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
 )
-\beforeepigraphskip=\skip110
-\afterepigraphskip=\skip111
-\epigraphwidth=\skip112
-\epigraphrule=\skip113
-) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
-Package: placeins 2005/04/18  v 2.2
+\beforeepigraphskip=\skip112
+\afterepigraphskip=\skip113
+\epigraphwidth=\skip114
+\epigraphrule=\skip115
 )
-\@quotelevel=\count443
-\@quotereset=\count444
- (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count445
-\l__pdf_internal_box=\box62
-)
+\@quotelevel=\count452
+\@quotereset=\count453
+
 
 LaTeX Warning: Unused global option(s):
     [footinclude=false].
 
-(./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./app1.aux))
+(./main.aux (./chap1.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -848,11 +918,29 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 18.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count454
+\scratchdimen=\dimen196
+\scratchbox=\box64
+\nofMPsegments=\count455
+\nofMParguments=\count456
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count457
+\MPscratchDim=\dimen197
+\MPnumerator=\count458
+\makeMPintoPDFobject=\count459
+\everyMPtoPDFconversion=\toks47
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 Package scrbase Info: activating english \contentsname on input line 18.
 Package scrbase Info: activating english \listfigurename on input line 18.
 Package scrbase Info: activating english \listtablename on input line 18.
-\AtBeginShipoutBox=\box63
+\AtBeginShipoutBox=\box65
 Package hyperref Info: Link coloring ON on input line 18.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -861,7 +949,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count446
+\c@section@level=\count460
 )
 LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
@@ -884,27 +972,10 @@ Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input line 168.
-\BKM@id=\count447
-)) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count448
-\scratchdimen=\dimen188
-\scratchbox=\box64
-\nofMPsegments=\count449
-\nofMParguments=\count450
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count451
-\MPscratchDim=\dimen189
-\MPnumerator=\count452
-\makeMPintoPDFobject=\count453
-\everyMPtoPDFconversion=\toks45
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+\BKM@id=\count461
 ))
-\c@lstlisting=\count454
+\c@lstlisting=\count462
+Package scrhack Info: undefining \float@addtolists on input line 18.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -920,439 +991,531 @@ Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 18.
 Package biblatex Info: Reference segment=0 on input line 18.
+
+
+Package scrlayer-scrpage Warning: Very small head height detected!
+(scrlayer-scrpage)                Using scrlayer-scrpage the head height
+(scrlayer-scrpage)                should be at least \baselineskip, which is
+(scrlayer-scrpage)                13.6pt currently.
+(scrlayer-scrpage)                But head height is currently 0.0pt only.
+(scrlayer-scrpage)                You may use
+(scrlayer-scrpage)                geometry option `head=13.6pt'
+(scrlayer-scrpage)                \relax to avoid this warning.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(50.58878pt, 496.33038pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 743.86938pt, 50.58878pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=496.33038pt
+* \textheight=743.86938pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-31.68121pt
+* \headheight=0.0pt
+* \headsep=10.0pt
+* \topskip=11.0pt
+* \footskip=20.0pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 <figures/wit-Logo_horizontal_English-700x194.jpg, id=4, 702.625pt x 194.7275pt>
 File: figures/wit-Logo_horizontal_English-700x194.jpg Graphic file (type jpg)
 <use figures/wit-Logo_horizontal_English-700x194.jpg>
 Package pdftex.def Info: figures/wit-Logo_horizontal_English-700x194.jpg  used on input line 21.
-(pdftex.def)             Requested size: 418.25555pt x 115.91925pt.
- [1
+(pdftex.def)             Requested size: 496.33038pt x 137.55922pt.
+[1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/wit-Logo_horizontal_English-700x194.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 22.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
-
-]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 27.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./main.toc
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 7.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 9.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 7.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 9.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 7.
+(Font)              <10.95> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 7.
+(Font)              <8> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 7.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+(Font)              <6> on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 7.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [2
-
-])
+))
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [3] (./main.lof
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 23.
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4
 
-])
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 13.59999pt needed,
+(scrlayer-scrpage)                but only 0.0pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=13.59999pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 30.
+
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+ [1
+
+
+] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [5]
+ [2
+
+] (./main.lol)
+\tf@lol=\write7
+\openout7 = `main.lol'.
+
+ [3
+
+]
 \openout2 = `chap1.aux'.
 
  (./chap1.tex
 chapter 1.
-
-Class scrbook Warning: \float@addtolists detected!
-(scrbook)              Implementation of \float@addtolist became
-(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
-(scrbook)              has been replaced by several more flexible
-(scrbook)              features of package `tocbasic`.
-(scrbook)              Since Version 3.12 support for deprecated
-(scrbook)              \float@addtolist interface has been
-(scrbook)              restricted to only some of the KOMA-Script
-(scrbook)              features and been removed from others.
-(scrbook)              Loading of package `scrhack' may help to
-(scrbook)              avoid this warning, if you are using a
-(scrbook)              a package that still implements the
-(scrbook)              deprecated \float@addtolist interface .
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 	need to be tackled. \\
-                             These processes fall into two broad categories,... [1
+l.51 	\item D
+             eployment of an application (server) from scratch with monitori... [1
 
 
-
-] [2] [3]
-<figures/architecture_v2.png, id=211, 1568.86125pt x 993.7125pt>
-File: figures/architecture_v2.png Graphic file (type png)
-<use figures/architecture_v2.png>
-Package pdftex.def Info: figures/architecture_v2.png  used on input line 97.
-(pdftex.def)             Requested size: 418.25555pt x 264.90948pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.106 	\bigbreak
-                 <./figures/architecture_v2.png>] [5] [6]
-<figures/topics.png, id=249, 773.89125pt x 374.39874pt>
-File: figures/topics.png Graphic file (type png)
-<use figures/topics.png>
-Package pdftex.def Info: figures/topics.png  used on input line 172.
-(pdftex.def)             Requested size: 292.7776pt x 141.64458pt.
- [7]
-<figures/operator_control_loop.png, id=265, 1927.2pt x 915.42pt>
-File: figures/operator_control_loop.png Graphic file (type png)
-<use figures/operator_control_loop.png>
-Package pdftex.def Info: figures/operator_control_loop.png  used on input line 188.
-(pdftex.def)             Requested size: 334.60571pt x 158.9298pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.194 \end{flushleft}
-                      <./figures/topics.png>]) [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.33 \include{chap1}
-                     <./figures/operator_control_loop.png>]
-\openout2 = `chap2.aux'.
-
- (./chap2.tex
-chapter 2.
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 6.
-(/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Citation 'stevenDeployingDockerizedGolang2019' on page 10 undefined on input line 9.
-
-<figures/apidockerfile.png, id=282, 1109.14375pt x 906.38625pt>
-File: figures/apidockerfile.png Graphic file (type png)
-<use figures/apidockerfile.png>
-Package pdftex.def Info: figures/apidockerfile.png  used on input line 13.
-(pdftex.def)             Requested size: 334.60571pt x 273.4393pt.
-[10
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.26     \subsection
-                    {PostGres Containerization} <./figures/apidockerfile.png>]
-<figures/building-of-debezigres-image.png, id=293, 901.3675pt x 536.0025pt>
-File: figures/building-of-debezigres-image.png Graphic file (type png)
-<use figures/building-of-debezigres-image.png>
-Package pdftex.def Info: figures/building-of-debezigres-image.png  used on input line 38.
-(pdftex.def)             Requested size: 418.25555pt x 248.72333pt.
-<figures/debezigres-tag.png, id=294, 932.48375pt x 108.405pt>
-File: figures/debezigres-tag.png Graphic file (type png)
-<use figures/debezigres-tag.png>
-Package pdftex.def Info: figures/debezigres-tag.png  used on input line 49.
-(pdftex.def)             Requested size: 418.25555pt x 48.62299pt.
- [11] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.55     \section
-                 {Deployment}pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.55     \section
-                 {Deployment} <./figures/building-of-debezigres-image.png> <./figures/debezigres-tag.png>]
-<figures/deployment-makefile.png, id=312, 548.0475pt x 253.94875pt>
-File: figures/deployment-makefile.png Graphic file (type png)
-<use figures/deployment-makefile.png>
-Package pdftex.def Info: figures/deployment-makefile.png  used on input line 69.
-(pdftex.def)             Requested size: 334.60571pt x 155.048pt.
- [13
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.75     \subsection
-                    {Kubernetes Secret Object For PostGres and API} <./figures/deployment-makefile.png>]
-<figures/deployment-secret.png, id=323, 547.04375pt x 423.5825pt>
-File: figures/deployment-secret.png Graphic file (type png)
-<use figures/deployment-secret.png>
-Package pdftex.def Info: figures/deployment-secret.png  used on input line 80.
-(pdftex.def)             Requested size: 250.95587pt x 194.32031pt.
-<figures/kube-get-secrets.png, id=324, 1177.39874pt x 411.5375pt>
-File: figures/kube-get-secrets.png Graphic file (type png)
-<use figures/kube-get-secrets.png>
-Package pdftex.def Info: figures/kube-get-secrets.png  used on input line 84.
-(pdftex.def)             Requested size: 418.25555pt x 146.19417pt.
-Class scrbook Info: Workaround for not recommended usage of \\ or
-(scrbook)           \newlinein caption text  on input line 86.
-<figures/postgres-pv.png, id=325, 453.695pt x 367.3725pt>
-File: figures/postgres-pv.png Graphic file (type png)
-<use figures/postgres-pv.png>
-Package pdftex.def Info: figures/postgres-pv.png  used on input line 97.
-(pdftex.def)             Requested size: 167.29967pt x 135.46602pt.
- [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.102     \subsection
-                     {PostGres Persistent Volume Claim(PVC)}pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.102     \subsection
-                     {PostGres Persistent Volume Claim(PVC)} <./figures/deployment-secret.png> <./figures/kube-get-secrets.png>]
-<figures/postgres-pvc.png, id=333, 375.4025pt x 304.13625pt>
-File: figures/postgres-pvc.png Graphic file (type png)
-<use figures/postgres-pvc.png>
-Package pdftex.def Info: figures/postgres-pvc.png  used on input line 107.
-(pdftex.def)             Requested size: 167.29967pt x 135.54207pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.113     \subsection
-                     {PostGres Deployment}pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.113     \subsection
-                     {PostGres Deployment} <./figures/postgres-pv.png> <./figures/postgres-pvc.png>]
-<figures/postgres-deployment.png, id=340, 534.99875pt x 827.09pt>
-File: figures/postgres-deployment.png Graphic file (type png)
-<use figures/postgres-deployment.png>
-Package pdftex.def Info: figures/postgres-deployment.png  used on input line 118.
-(pdftex.def)             Requested size: 230.04182pt x 355.64175pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.125     \subsection
-                     {PostGres Service} <./figures/postgres-deployment.png>]
-<figures/pastgres-service.png, id=346, 443.6575pt x 297.11pt>
-File: figures/pastgres-service.png Graphic file (type png)
-<use figures/pastgres-service.png>
-Package pdftex.def Info: figures/pastgres-service.png  used on input line 130.
-(pdftex.def)             Requested size: 250.95587pt x 168.05786pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.139     \subsection
-                     {Test Deployment Thus Far} <./figures/pastgres-service.png>]
-<figures/tapi-logs.png, id=352, 1178.4025pt x 495.8525pt>
-File: figures/tapi-logs.png Graphic file (type png)
-<use figures/tapi-logs.png>
-Package pdftex.def Info: figures/tapi-logs.png  used on input line 144.
-(pdftex.def)             Requested size: 418.25555pt x 175.99481pt.
-<figures/strimzi-deployed-kafka-componets.png, id=353, 916.42375pt x 127.47626pt>
-File: figures/strimzi-deployed-kafka-componets.png Graphic file (type png)
-<use figures/strimzi-deployed-kafka-componets.png>
-Package pdftex.def Info: figures/strimzi-deployed-kafka-componets.png  used on input line 154.
-(pdftex.def)             Requested size: 418.25555pt x 58.18073pt.
-<figures/kafka-connect-manifest.png, id=354, 948.54375pt x 608.2725pt>
-File: figures/kafka-connect-manifest.png Graphic file (type png)
-<use figures/kafka-connect-manifest.png>
-Package pdftex.def Info: figures/kafka-connect-manifest.png  used on input line 164.
-(pdftex.def)             Requested size: 418.25555pt x 268.21619pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.170     \begin{lstlisting}
-                            pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.170     \begin{lstlisting}
-                             <./figures/tapi-logs.png> <./figures/strimzi-deployed-kafka-componets.png>] [19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.179     \subsection
-                     {Debezium PostGres Connector Deployment} <./figures/kafka-connect-manifest.png>]
-<figures/debezium-connector-manifest.png, id=370, 847.165pt x 584.1825pt>
-File: figures/debezium-connector-manifest.png Graphic file (type png)
-<use figures/debezium-connector-manifest.png>
-Package pdftex.def Info: figures/debezium-connector-manifest.png  used on input line 183.
-(pdftex.def)             Requested size: 418.25555pt x 288.418pt.
-<figures/kube-get-strimzi.png, id=371, 1692.3225pt x 788.9475pt>
-File: figures/kube-get-strimzi.png Graphic file (type png)
-<use figures/kube-get-strimzi.png>
-Package pdftex.def Info: figures/kube-get-strimzi.png  used on input line 196.
-(pdftex.def)             Requested size: 418.25555pt x 194.98521pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.14}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.204     \bigbreak
-                    <./figures/debezium-connector-manifest.png>]
-<figures/minikube-service-url.png, id=377, 470.75874pt x 73.27374pt>
-File: figures/minikube-service-url.png Graphic file (type png)
-<use figures/minikube-service-url.png>
-Package pdftex.def Info: figures/minikube-service-url.png  used on input line 221.
-(pdftex.def)             Requested size: 250.95587pt x 39.06184pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.226     \bigbreak
-                    <./figures/kube-get-strimzi.png>]
-<figures/postman.png, id=388, 1168.365pt x 700.6175pt>
-File: figures/postman.png Graphic file (type png)
-<use figures/postman.png>
-Package pdftex.def Info: figures/postman.png  used on input line 232.
-(pdftex.def)             Requested size: 418.25555pt x 250.81094pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.16}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.240 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.2.17}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.240 
-       <./figures/minikube-service-url.png> <./figures/postman.png>]
-<figures/data-from-kafka-consumer.png, id=395, 1174.3875pt x 916.42375pt>
-File: figures/data-from-kafka-consumer.png Graphic file (type png)
-<use figures/data-from-kafka-consumer.png>
-Package pdftex.def Info: figures/data-from-kafka-consumer.png  used on input line 243.
-(pdftex.def)             Requested size: 418.25555pt x 326.37448pt.
-<figures/ruinationIPA.png, id=396, 282.5757pt x 46.7346pt>
-File: figures/ruinationIPA.png Graphic file (type png)
-<use figures/ruinationIPA.png>
-Package pdftex.def Info: figures/ruinationIPA.png  used on input line 253.
-(pdftex.def)             Requested size: 418.25555pt x 69.1768pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.18}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.259     S
-           uccess! The system is working nominally, and that the data produc... <./figures/data-from-kafka-consumer.png>] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.19}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.282     \end{itemize}
-                        <./figures/ruinationIPA.png>]) [25]
-\openout2 = `chap3.aux'.
-
- (./chap3.tex
-chapter 3.
-[26
-
-
-
-]) [27]
-\openout2 = `app1.aux'.
-
- (./app1.tex
-chapter 4.
-File: figures/kafka-connect-manifest.png Graphic file (type png)
-<use figures/kafka-connect-manifest.png>
-Package pdftex.def Info: figures/kafka-connect-manifest.png  used on input line 10.
-(pdftex.def)             Requested size: 418.25555pt x 268.21619pt.
-[28
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.16 	\subsection
-                 {Docker-compose}]
-<figures/docker-compose.png, id=428, 677.53125pt x 913.4125pt>
-File: figures/docker-compose.png Graphic file (type png)
-<use figures/docker-compose.png>
-Package pdftex.def Info: figures/docker-compose.png  used on input line 19.
-(pdftex.def)             Requested size: 292.7776pt x 394.71098pt.
-) [29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.39 \include{app1}
-                    <./figures/docker-compose.png>] [30
 
 ]
-Overfull \hbox (7.83249pt too wide) in paragraph at lines 46--46
-\OT1/lmr/m/n/10.95 https://labs.consol.de/development/2021/02/02/istio[]and[]kafka[]on[]openshift.html.  
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 58.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2]
+<figures/cloud_2_term_paper_initial_architecture.png, id=182, 374.3586pt x 238.0092pt>
+File: figures/cloud_2_term_paper_initial_architecture.png Graphic file (type png)
+<use figures/cloud_2_term_paper_initial_architecture.png>
+Package pdftex.def Info: figures/cloud_2_term_paper_initial_architecture.png  used on input line 100.
+(pdftex.def)             Requested size: 347.42975pt x 220.89592pt.
+<figures/strimzi_architecture.png, id=184, 1525.7pt x 1240.635pt>
+File: figures/strimzi_architecture.png Graphic file (type png)
+<use figures/strimzi_architecture.png>
+Package pdftex.def Info: figures/strimzi_architecture.png  used on input line 106.
+(pdftex.def)             Requested size: 347.42975pt x 282.50046pt.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.112 \section
+              {Technologies}pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.112 \section
+              {Technologies} <./figures/cloud_2_term_paper_initial_architecture.png> <./figures/strimzi_architecture.png (PNG copy)>]
+<figures/os_architecture.png, id=198, 978.65625pt x 584.1825pt>
+File: figures/os_architecture.png Graphic file (type png)
+<use figures/os_architecture.png>
+Package pdftex.def Info: figures/os_architecture.png  used on input line 117.
+(pdftex.def)             Requested size: 446.6943pt x 266.64136pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 126.
+ (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<figures/prom-job.png, id=203, 496.85625pt x 141.52875pt>
+File: figures/prom-job.png Graphic file (type png)
+<use figures/prom-job.png>
+Package pdftex.def Info: figures/prom-job.png  used on input line 132.
+(pdftex.def)             Requested size: 297.80125pt x 84.82935pt.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.142 	\item \textbf
+                    {Exporters}: To import metrics from a third-party compon...pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.142 	\item \textbf
+                    {Exporters}: To import metrics from a third-party compon... <./figures/os_architecture.png> <./figures/prom-job.png>]
+<figures/prom_query_graph.png, id=217, 1704.3675pt x 914.41624pt>
+File: figures/prom_query_graph.png Graphic file (type png)
+<use figures/prom_query_graph.png>
+Package pdftex.def Info: figures/prom_query_graph.png  used on input line 153.
+(pdftex.def)             Requested size: 496.33038pt x 266.29015pt.
+<figures/prom_query_tabular.png, id=218, 1717.41624pt x 395.4775pt>
+File: figures/prom_query_tabular.png Graphic file (type png)
+<use figures/prom_query_tabular.png>
+Package pdftex.def Info: figures/prom_query_tabular.png  used on input line 159.
+(pdftex.def)             Requested size: 496.33038pt x 114.28726pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.166 	\item \textbf
+                    {Instant Vector}: are a set of time series containing a ...pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.166 	\item \textbf
+                    {Instant Vector}: are a set of time series containing a ... <./figures/prom_query_graph.png> <./figures/prom_query_tabular.png>]
+<figures/prom_targets.png, id=230, 1348.03625pt x 1235.61626pt>
+File: figures/prom_targets.png Graphic file (type png)
+<use figures/prom_targets.png>
+Package pdftex.def Info: figures/prom_targets.png  used on input line 189.
+(pdftex.def)             Requested size: 496.33038pt x 454.92725pt.
+ [6]
+<figures/prom_rules_yaml.png, id=241, 1122.1925pt x 615.29875pt>
+File: figures/prom_rules_yaml.png Graphic file (type png)
+<use figures/prom_rules_yaml.png>
+Package pdftex.def Info: figures/prom_rules_yaml.png  used on input line 200.
+(pdftex.def)             Requested size: 496.33038pt x 272.1312pt.
+<figures/prom_rules_gui.png, id=242, 1684.2925pt x 778.91pt>
+File: figures/prom_rules_gui.png Graphic file (type png)
+<use figures/prom_rules_gui.png>
+Package pdftex.def Info: figures/prom_rules_gui.png  used on input line 203.
+(pdftex.def)             Requested size: 496.33038pt x 229.52687pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.207 
+       <./figures/prom_targets.png>]
+<figures/grafana_dashboard_kube_node.png, id=250, 3351.52126pt x 1134.2375pt>
+File: figures/grafana_dashboard_kube_node.png Graphic file (type png)
+<use figures/grafana_dashboard_kube_node.png>
+Package pdftex.def Info: figures/grafana_dashboard_kube_node.png  used on input line 222.
+(pdftex.def)             Requested size: 496.33038pt x 167.9649pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.225 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.1.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.225 \end{figure}
+                   <./figures/prom_rules_yaml.png> <./figures/prom_rules_gui.png>]
+<figures/alertmanager_gui.png, id=260, 1414.28375pt x 711.65875pt>
+File: figures/alertmanager_gui.png Graphic file (type png)
+<use figures/alertmanager_gui.png>
+Package pdftex.def Info: figures/alertmanager_gui.png  used on input line 244.
+(pdftex.def)             Requested size: 496.33038pt x 249.74669pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.248 
+       <./figures/grafana_dashboard_kube_node.png>]
+<figures/helm_get_all_prom.png, id=268, 811.03pt x 141.52875pt>
+File: figures/helm_get_all_prom.png Graphic file (type png)
+<use figures/helm_get_all_prom.png>
+Package pdftex.def Info: figures/helm_get_all_prom.png  used on input line 263.
+(pdftex.def)             Requested size: 496.33038pt x 86.61314pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.1.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.273 \bigbreak
+               pdfTeX warning (ext4): destination with the same identifier (name{figure.1.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.273 \bigbreak
+                <./figures/alertmanager_gui.png> <./figures/helm_get_all_prom.png>]
+<figures/node_exporter_service.png, id=282, 871.255pt x 506.89375pt>
+File: figures/node_exporter_service.png Graphic file (type png)
+<use figures/node_exporter_service.png>
+Package pdftex.def Info: figures/node_exporter_service.png  used on input line 280.
+(pdftex.def)             Requested size: 397.06581pt x 231.00827pt.
+<figures/prom_node_exporter_target.png, id=283, 1708.3825pt x 266.9975pt>
+File: figures/prom_node_exporter_target.png Graphic file (type png)
+<use figures/prom_node_exporter_target.png>
+Package pdftex.def Info: figures/prom_node_exporter_target.png  used on input line 288.
+(pdftex.def)             Requested size: 496.33038pt x 77.56987pt.
+<figures/node_exporter_dashboard.png, id=285, 1621.05624pt x 1246.6575pt>
+File: figures/node_exporter_dashboard.png Graphic file (type png)
+<use figures/node_exporter_dashboard.png>
+Package pdftex.def Info: figures/node_exporter_dashboard.png  used on input line 295.
+(pdftex.def)             Requested size: 496.33038pt x 381.6852pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.1.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.299 T
+       he dashboard is a fantastic way to monitor the Kubernetes node. There...pdfTeX warning (ext4): destination with the same identifier (name{figure.1.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.299 T
+       he dashboard is a fantastic way to monitor the Kubernetes node. There... <./figures/node_exporter_service.png> <./figures/prom_node_exporter_target.png>]
+<figures/additional_scrape_config.png, id=300, 721.69624pt x 480.79625pt>
+File: figures/additional_scrape_config.png Graphic file (type png)
+<use figures/additional_scrape_config.png>
+Package pdftex.def Info: figures/additional_scrape_config.png  used on input line 310.
+(pdftex.def)             Requested size: 347.42975pt x 231.45451pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.1.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 T
+       he Prometheus Operator allows for the monitoring of pods or services ... <./figures/node_exporter_dashboard.png>]
+<figures/pod_monitor_strimzi.png, id=311, 730.73pt x 856.19875pt>
+File: figures/pod_monitor_strimzi.png Graphic file (type png)
+<use figures/pod_monitor_strimzi.png>
+Package pdftex.def Info: figures/pod_monitor_strimzi.png  used on input line 338.
+(pdftex.def)             Requested size: 347.42975pt x 407.0775pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.1.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.342 T
+       he Kafka resource, of \code{kind: Kafka} (Strimzi native `kind'), mus... <./figures/additional_scrape_config.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 344.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.1.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 ...eeper_resource_with_metrics_config.yaml}]
+                                                   <./figures/pod_monitor_strimzi.png>]
+<figures/prom_kafka_broker_config_map.png, id=339, 894.34125pt x 577.15625pt>
+File: figures/prom_kafka_broker_config_map.png Graphic file (type png)
+<use figures/prom_kafka_broker_config_map.png>
+Package pdftex.def Info: figures/prom_kafka_broker_config_map.png  used on input line 399.
+(pdftex.def)             Requested size: 446.6943pt x 288.27798pt.
+ [15]
+<figures/prom_yaml_strimzi.png, id=372, 607.26875pt x 919.435pt>
+File: figures/prom_yaml_strimzi.png Graphic file (type png)
+<use figures/prom_yaml_strimzi.png>
+Package pdftex.def Info: figures/prom_yaml_strimzi.png  used on input line 415.
+(pdftex.def)             Requested size: 297.80125pt x 450.89186pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.1.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.419 W
+       ith these steps all taken care of the Prometheus Operator should list... <./figures/prom_kafka_broker_config_map.png>]
+<figures/prom_taget_strimzi_cluster_operator.png, id=379, 1290.8225pt x 274.02374pt>
+File: figures/prom_taget_strimzi_cluster_operator.png Graphic file (type png)
+<use figures/prom_taget_strimzi_cluster_operator.png>
+Package pdftex.def Info: figures/prom_taget_strimzi_cluster_operator.png  used on input line 422.
+(pdftex.def)             Requested size: 496.33038pt x 105.36357pt.
+<figures/prom_target_entity_op.png, id=381, 1311.90125pt x 379.4175pt>
+File: figures/prom_target_entity_op.png Graphic file (type png)
+<use figures/prom_target_entity_op.png>
+Package pdftex.def Info: figures/prom_target_entity_op.png  used on input line 430.
+(pdftex.def)             Requested size: 496.33038pt x 143.5433pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.1.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.434 F
+       inally, we can get down to the actual Kafka components, as per \Cref{...pdfTeX warning (ext4): destination with the same identifier (name{figure.1.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.434 F
+       inally, we can get down to the actual Kafka components, as per \Cref{... <./figures/prom_yaml_strimzi.png> <./figures/prom_taget_strimzi_cluster_operator.png>]
+<figures/prom_target_strimzi_kafka_components.png, id=389, 1312.905pt x 691.58376pt>
+File: figures/prom_target_strimzi_kafka_components.png Graphic file (type png)
+<use figures/prom_target_strimzi_kafka_components.png>
+Package pdftex.def Info: figures/prom_target_strimzi_kafka_components.png  used on input line 438.
+(pdftex.def)             Requested size: 496.33038pt x 261.44325pt.
+<figures/prom_kafka_query.png, id=391, 1676.2625pt x 926.46124pt>
+File: figures/prom_kafka_query.png Graphic file (type png)
+<use figures/prom_kafka_query.png>
+Package pdftex.def Info: figures/prom_kafka_query.png  used on input line 446.
+(pdftex.def)             Requested size: 446.6943pt x 246.88231pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.1.21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.450 B
+       ack to the open-source community to find some Grafana dashboards for ...pdfTeX warning (ext4): destination with the same identifier (name{figure.1.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.450 B
+       ack to the open-source community to find some Grafana dashboards for ... <./figures/prom_target_entity_op.png> <./figures/prom_target_strimzi_kafka_components.png>]
+<figures/strimzi_op_dashb.png, id=398, 1633.10126pt x 1194.4625pt>
+File: figures/strimzi_op_dashb.png Graphic file (type png)
+<use figures/strimzi_op_dashb.png>
+Package pdftex.def Info: figures/strimzi_op_dashb.png  used on input line 453.
+(pdftex.def)             Requested size: 496.33038pt x 363.00737pt.
+<figures/strimzi_kafak_dashb.png, id=399, 1612.0225pt x 1241.63875pt>
+File: figures/strimzi_kafak_dashb.png Graphic file (type png)
+<use figures/strimzi_kafak_dashb.png>
+Package pdftex.def Info: figures/strimzi_kafak_dashb.png  used on input line 459.
+(pdftex.def)             Requested size: 397.06581pt x 305.82402pt.
+<figures/strimzi_zookeeper_dashb.png, id=400, 1615.03375pt x 1252.68pt>
+File: figures/strimzi_zookeeper_dashb.png Graphic file (type png)
+<use figures/strimzi_zookeeper_dashb.png>
+Package pdftex.def Info: figures/strimzi_zookeeper_dashb.png  used on input line 465.
+(pdftex.def)             Requested size: 397.06581pt x 307.97012pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.1.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.468 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.1.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.468 \end{figure}
+                   <./figures/prom_kafka_query.png> <./figures/strimzi_op_dashb.png>]
+<figures/kafka_node_exporter_dash.png, id=407, 1634.105pt x 1259.70625pt>
+File: figures/kafka_node_exporter_dash.png Graphic file (type png)
+<use figures/kafka_node_exporter_dash.png>
+Package pdftex.def Info: figures/kafka_node_exporter_dash.png  used on input line 473.
+(pdftex.def)             Requested size: 496.33038pt x 382.60484pt.
+<figures/kafka_exporter_topics.png, id=408, 1615.03375pt x 496.85625pt>
+File: figures/kafka_exporter_topics.png Graphic file (type png)
+<use figures/kafka_exporter_topics.png>
+Package pdftex.def Info: figures/kafka_exporter_topics.png  used on input line 476.
+(pdftex.def)             Requested size: 496.33038pt x 152.68951pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.1.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.480 A
+       s can be observed all topics are listed along partitions and offsets.pdfTeX warning (ext4): destination with the same identifier (name{figure.1.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.480 A
+       s can be observed all topics are listed along partitions and offsets. <./figures/strimzi_kafak_dashb.png> <./figures/strimzi_zookeeper_dashb.png>] [21pdfTeX warning (ext4): destination with the same identifier (name{figure.1.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.495 \bigbreak
+               pdfTeX warning (ext4): destination with the same identifier (name{figure.1.28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.495 \bigbreak
+                <./figures/kafka_node_exporter_dash.png> <./figures/kafka_exporter_topics.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+) [22]
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 551.
+ [23]
+<figures/fin-db-server-prom-target.png, id=499, 1293.83376pt x 313.17pt>
+File: figures/fin-db-server-prom-target.png Graphic file (type png)
+<use figures/fin-db-server-prom-target.png>
+Package pdftex.def Info: figures/fin-db-server-prom-target.png  used on input line 586.
+(pdftex.def)             Requested size: 496.33038pt x 120.13358pt.
+<figures/findb_grafana_dash.png, id=500, 1591.9475pt x 667.49374pt>
+File: figures/findb_grafana_dash.png Graphic file (type png)
+<use figures/findb_grafana_dash.png>
+Package pdftex.def Info: figures/findb_grafana_dash.png  used on input line 594.
+(pdftex.def)             Requested size: 496.33038pt x 208.1024pt.
+<figures/prom_pg_exporter_target.png, id=501, 1298.8525pt x 179.67125pt>
+File: figures/prom_pg_exporter_target.png Graphic file (type png)
+<use figures/prom_pg_exporter_target.png>
+Package pdftex.def Info: figures/prom_pg_exporter_target.png  used on input line 605.
+(pdftex.def)             Requested size: 397.06581pt x 54.92438pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.1.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.609 Q
+       uite a bit of time was spent on this too.pdfTeX warning (ext4): destination with the same identifier (name{figure.1.30}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.609 Q
+       uite a bit of time was spent on this too. <./figures/fin-db-server-prom-target.png> <./figures/findb_grafana_dash.png>]
+<figures/prom_self_monitor.png, id=513, 1615.03375pt x 1235.61626pt>
+File: figures/prom_self_monitor.png Graphic file (type png)
+<use figures/prom_self_monitor.png>
+Package pdftex.def Info: figures/prom_self_monitor.png  used on input line 618.
+(pdftex.def)             Requested size: 397.06581pt x 303.77502pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.1.31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.633 \bigbreak
+               pdfTeX warning (ext4): destination with the same identifier (name{figure.1.32}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.633 \bigbreak
+                <./figures/prom_pg_exporter_target.png> <./figures/prom_self_monitor.png>]) [26]
+Overfull \hbox (11.25853pt too wide) in paragraph at lines 62--62
+\OT1/lmr/m/n/10.95 https://www.businesswire.com/news/home/20200716005101/en/O%E2%80%99Reilly%E2%80%99s- 
  []
 
-[31
+[27
+
 
 ]
-\tf@thm=\write7
-\openout7 = `main.thm'.
+\tf@thm=\write8
+\openout8 = `main.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
- (./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux) (./app1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
+ [28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
+ (./main.aux (./chap1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 25870 strings out of 481239
- 459035 string characters out of 5920377
- 1248638 words of memory out of 5000000
- 40571 multiletter control sequences out of 15000+600000
- 597061 words of font info for 75 fonts, out of 8000000 for 9000
+ 28965 strings out of 481239
+ 528276 string characters out of 5920377
+ 1356350 words of memory out of 5000000
+ 43551 multiletter control sequences out of 15000+600000
+ 590888 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,19n,82p,10139b,2296s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (38 pages, 2081659 bytes).
+ 54i,20n,81p,10169b,1943s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (32 pages, 3646197 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 145 named destinations out of 1000 (max. 500000)
- 433 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 578 compressed objects within 6 object streams
+ 242 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 

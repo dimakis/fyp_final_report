@@ -2,56 +2,66 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture of the system depicting the interaction between components.}}{4}{figure.1.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture of the proposed monitoring system.}}{3}{figure.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Simplified view of a partitioned topic being written to by multiple producers\autocite {ApacheKafka}. In this report there will be just one producer, the Debezium Kafka Connect instance.}}{8}{figure.1.2}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Architecture of Strimzi Operator from \autocite {StrimziDocumentation12}.}}{3}{figure.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Operator control loop based on the Kubernetes \emph {Observe, Act, Analyze} control loop. Sourced from \autocite {KubernetesOperatorStateful2021}.}}{9}{figure.1.3}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Architecture of the observability stack, image from\autocite {prometheusOverviewPrometheusa}}}{4}{figure.1.3}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Job definition for Prometheus to scrape metrics from custom application. Each component to be monitored gets its own job definition.}}{4}{figure.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Transactions API Dockerfile}}{10}{figure.2.1}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Prometheus graph data query. From local cluster}}{5}{figure.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Running the build script to generate the new Debezium friendly PostGres docker image}}{12}{figure.2.2}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Prometheus tabular data query. From local cluster}}{5}{figure.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The initial and re-tagged PostGres friendly image.}}{12}{figure.2.3}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Prometheus targets in the GUI.}}{7}{figure.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The deployment Makefile}}{13}{figure.2.4}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Prometheus recording rules yaml.}}{8}{figure.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces The Kubernetes Secret resource to be applied to the cluster with the real values altered.}}{14}{figure.2.5}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Prometheus recording rules in the Prom GUI}}{8}{figure.1.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Kubectl showing the secrets available in the cluster. \newline \textbf {Note:} The secrets of type `Opaque' are user defined secrets. Also note that on this system \color@box {}{light-gray}{\texttt {kubectl}} has long been aliased to \color@box {}{light-gray}{\texttt {kube}}.}}{14}{figure.2.6}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Grafana dashboard layout. From local cluster}}{9}{figure.1.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Manifest provisioning a persistent volume of size 5 GB which will be used for the PostGres database.}}{15}{figure.2.7}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Alertmanager GUI depicting some alerts}}{10}{figure.1.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Manifest binding the persistent volume to the PostGres database.}}{15}{figure.2.8}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Helm chart for Prometheus Operator.}}{10}{figure.1.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces PostGres deployment manifest. The yellow `warning' lines courtesy of VS Code, come from the Kubernetes extension. The warning is a result of not setting a resource limit on the deployment. As it is not yet known what kind of resources the deployment will require this warning will be ignored.}}{16}{figure.2.9}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Node Exporter Service.}}{11}{figure.1.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces PostGres service manifest.}}{17}{figure.2.10}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Node Exporter successfully registered as a healthy target in the Prometheus GUI.}}{11}{figure.1.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Logs for the API container displays migrations to the database. This shows the two containers are communicating and behaving nominally.}}{18}{figure.2.11}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Node Exporter dashboard.}}{12}{figure.1.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Helm successfully deploys the Strimzi Kafka Operator which in turn deploys the Kafka components.}}{18}{figure.2.12}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Scrape Config Secret.}}{13}{figure.1.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Kafka Connect Custom Resource Definition manifest.}}{19}{figure.2.13}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Strimzi PodMonitor}}{14}{figure.1.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Debezium PostGres Connector definition manifest.}}{20}{figure.2.14}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces ConfigMap for Kafka broker for Prometheus integration.}}{16}{figure.1.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Kafka cluster information managed by the Kafka Entity Operator. This is the operator that manages both topics and users and the operator itself is deployed and managed by the Strimzi operator.}}{21}{figure.2.15}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Prometheus YAML for Strimzi components.}}{17}{figure.1.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces The API's exposed URL via the service that was configured previously.}}{22}{figure.2.16}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Prometheus successfully defining Strimzi Operator as a target.}}{17}{figure.1.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Testing the endpoint with Postman. The response can be observed.}}{22}{figure.2.17}%
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Prometheus successfully defining both the Topic Operator and the User Operator as part of the Strimzi Entity Operator as a target.}}{18}{figure.1.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces The data is streamed to the consumer via Debezium and the Kafka components.}}{23}{figure.2.18}%
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Prometheus successfully defining the Kafka components as targets.}}{18}{figure.1.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Proof of the newly created beer in the Kafka \color@box {}{light-gray}{\texttt {beers}} topic}}{24}{figure.2.19}%
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Prometheus successfully querying the Kafka components via the UI.}}{19}{figure.1.23}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Grafana dashboard for the Strimzi Operator monitoring.}}{19}{figure.1.24}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.25}{\ignorespaces Grafana dashboard for the Kafka broker.}}{20}{figure.1.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Kafka Connect Custom Resource Definition manifest.}}{28}{figure.4.1}%
+\contentsline {figure}{\numberline {1.26}{\ignorespaces Grafana dashboard for the Zookeeper deployment.}}{20}{figure.1.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces docker-compose used in the initial testing of the API and PostGres deployment.}}{29}{figure.4.2}%
+\contentsline {figure}{\numberline {1.27}{\ignorespaces Grafana dashboard for the Kafka exporter dashboard I/II.}}{21}{figure.1.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.28}{\ignorespaces Grafana dashboard for the Kafka exporter dashboard II/II.}}{21}{figure.1.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.29}{\ignorespaces Prometheus successfully registering the Flask App as a target.}}{24}{figure.1.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.30}{\ignorespaces Grafana dashboard for the Flask application.}}{24}{figure.1.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.31}{\ignorespaces Target successful for Prometheus Postgres Exporter deployment.}}{25}{figure.1.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.32}{\ignorespaces Prometheus self monitoring.}}{25}{figure.1.32}%
