@@ -2179,37 +2179,60 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">prometheus.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">fyp.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
-    <bcf:citekey order="3">ReillyMicroservicesAdoption2020</bcf:citekey>
-    <bcf:citekey order="4">prometheusPrometheusMonitoringSystemb</bcf:citekey>
-    <bcf:citekey order="5">GrafanaOpenObservabilitya</bcf:citekey>
-    <bcf:citekey order="6">prometheusAlertmanagerPrometheus</bcf:citekey>
-    <bcf:citekey order="7">PrometheusflaskexporterPyPI</bcf:citekey>
-    <bcf:citekey order="8">StrimziDocumentation12</bcf:citekey>
-    <bcf:citekey order="9">StrimziDocumentation12</bcf:citekey>
-    <bcf:citekey order="10">prometheusOverviewPrometheusa</bcf:citekey>
-    <bcf:citekey order="11">prometheusOverviewPrometheusa</bcf:citekey>
-    <bcf:citekey order="12">CloudNativeComputinga</bcf:citekey>
-    <bcf:citekey order="13">prometheusClientLibrariesPrometheus</bcf:citekey>
-    <bcf:citekey order="14">prometheusExportersIntegrationsPrometheus</bcf:citekey>
-    <bcf:citekey order="15">prometheusQueryingBasicsPrometheus</bcf:citekey>
-    <bcf:citekey order="16">prometheusQueryFunctionsPrometheus</bcf:citekey>
-    <bcf:citekey order="17">gregoryTypesPrometheusMetrics2019</bcf:citekey>
-    <bcf:citekey order="18">DataSources</bcf:citekey>
-    <bcf:citekey order="19">prometheusAlertmanagerPrometheus</bcf:citekey>
-    <bcf:citekey order="20">Kubeprometheusstack34Prometheus</bcf:citekey>
-    <bcf:citekey order="21">NodeExporter2022</bcf:citekey>
-    <bcf:citekey order="22">HowSetupPrometheus2021</bcf:citekey>
-    <bcf:citekey order="23">NodeExporterFull</bcf:citekey>
-    <bcf:citekey order="24">DeployingUpgrading28</bcf:citekey>
-    <bcf:citekey order="25">GrafanaPrometheusSetup</bcf:citekey>
-    <bcf:citekey order="26">PodMonitorVsServiceMonitor</bcf:citekey>
-    <bcf:citekey order="27">UsingPodMonitorScraping</bcf:citekey>
-    <bcf:citekey order="28">JMXExporter2022</bcf:citekey>
-    <bcf:citekey order="29">GunicornPythonWSGI</bcf:citekey>
+    <bcf:citekey order="5">OpenAIAPI</bcf:citekey>
+    <bcf:citekey order="6">SquareSolutionsTools</bcf:citekey>
+    <bcf:citekey order="7">APIReferenceOverview</bcf:citekey>
+    <bcf:citekey order="8">ClickUpOneApp</bcf:citekey>
+    <bcf:citekey order="9">rusevImboxPythonIMAP</bcf:citekey>
+    <bcf:citekey order="10">SQLAlchemyDatabaseToolkit</bcf:citekey>
+    <bcf:citekey order="11">OverviewICDAR2019</bcf:citekey>
+    <bcf:citekey order="12">ComputerVisionCenter</bcf:citekey>
+    <bcf:citekey order="13">MethodStrucTexTTask</bcf:citekey>
+    <bcf:citekey order="14">ResultsICDAR2019a</bcf:citekey>
+    <bcf:citekey order="15">xuLayoutLMv2MultimodalPretraining2022</bcf:citekey>
+    <bcf:citekey order="16">ArtificialIntelligenceResearch</bcf:citekey>
+    <bcf:citekey order="17">BERT</bcf:citekey>
+    <bcf:citekey order="18">LAMBERT2022</bcf:citekey>
+    <bcf:citekey order="19">RoBERTa</bcf:citekey>
+    <bcf:citekey order="20">doshiTransformersExplainedVisually2021</bcf:citekey>
+    <bcf:citekey order="21">munozAttentionAllYou2021</bcf:citekey>
+    <bcf:citekey order="22">cristinaTransformerModel2021</bcf:citekey>
+    <bcf:citekey order="23">alammarIllustratedTransformer</bcf:citekey>
+    <bcf:citekey order="24">vaswaniAttentionAllYou</bcf:citekey>
+    <bcf:citekey order="25">BERT</bcf:citekey>
+    <bcf:citekey order="26">GPT3PowersNext2021</bcf:citekey>
+    <bcf:citekey order="27">GPT3PowersNext2021</bcf:citekey>
+    <bcf:citekey order="28">OpenAIAPI</bcf:citekey>
+    <bcf:citekey order="29">OpenAIAPI</bcf:citekey>
+    <bcf:citekey order="30">alammarIllustratedTransformer</bcf:citekey>
+    <bcf:citekey order="31">alammarIllustratedTransformer</bcf:citekey>
+    <bcf:citekey order="32">alammarIllustratedTransformer</bcf:citekey>
+    <bcf:citekey order="33">alammarIllustratedTransformer</bcf:citekey>
+    <bcf:citekey order="34">alammarIllustratedTransformer</bcf:citekey>
+    <bcf:citekey order="35">alammarIllustratedTransformer</bcf:citekey>
+    <bcf:citekey order="36">vaswaniAttentionAllYou</bcf:citekey>
+    <bcf:citekey order="37">vaswaniAttentionAllYou</bcf:citekey>
+    <bcf:citekey order="38">WhatTokenizationTokenization2020</bcf:citekey>
+    <bcf:citekey order="39">SummaryTokenizers</bcf:citekey>
+    <bcf:citekey order="40">HuggingFaceAI</bcf:citekey>
+    <bcf:citekey order="41">syalHuggingFaceStep2020</bcf:citekey>
+    <bcf:citekey order="42">HuggingFaceTransformers</bcf:citekey>
+    <bcf:citekey order="43">vaswaniAttentionAllYou</bcf:citekey>
+    <bcf:citekey order="44">brownleeEncoderDecoderRecurrentNeural2017</bcf:citekey>
+    <bcf:citekey order="45">BigScienceResearchWorkshop</bcf:citekey>
+    <bcf:citekey order="46">BigscienceTr11176BmllogsHugging</bcf:citekey>
+    <bcf:citekey order="47">wadaLabelmeImagePolygonal2022</bcf:citekey>
+    <bcf:citekey order="48">LabelStudioOpen</bcf:citekey>
+    <bcf:citekey order="49">LightTagTextAnnotation</bcf:citekey>
+    <bcf:citekey order="50">EasyUseText</bcf:citekey>
+    <bcf:citekey order="51">EasyUseTexta</bcf:citekey>
+    <bcf:citekey order="52">EasyUseTextb</bcf:citekey>
+    <bcf:citekey order="53">amamouFineTuningLayoutLMV22022</bcf:citekey>
+    <bcf:citekey order="54">TokenClassification</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

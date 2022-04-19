@@ -52,3 +52,20 @@ jmx
 CollectorRegistry
 prometheusflaskexporter
 containerise
+AWS Textract
+specialised
+Universitat
+Autonoma
+SROIE
+KIE
+Localisation
+organisers
+Textract
+PyTesseract
+dervied
+Tokenisation
+tokenisation
+subword
+OOV
+Subword
+subwords

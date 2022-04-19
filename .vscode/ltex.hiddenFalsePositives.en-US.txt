@@ -7,3 +7,11 @@
 {"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QGrafana is mainly used as a visualisation tool.\\E$"}
 {"rule":"A_NNS","sentence":"^\\QFor this paper the observability stack is the term that is used to denote the following components, all running in a Minikube (single node Kubernetes cluster for local development) cluster: Prometheus\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is an open-source systems monitoring tool.\\E$"}
 {"rule":"SOME_OF_THE","sentence":"^\\Q[Strimzi PodMonitor]PodMonitor applied to the Strimzi Operator (only some of the code is shown as it is repetitive).\\E$"}
+{"rule":"SUBJECT_VERB_AGREEMENT_PLURAL","sentence":"^\\QThe red numbers denotes the flow of data: System Architecture hi 1: Scrapes inbox for invoices 2: Saves invoices to secure S3 bucket 3: Sends file location and Bucket name 4: Pulls invoice locally 5: Requests and receives OCR data from invoice\\E$"}
+{"rule":"A_LOT_OF_NN","sentence":"^\\QA lack of any kind of implementation / deployment experience or initial working knowledge of Python and its dependancy structure increased the difficulty level.\\E$"}
+{"rule":"RETURN_IN_THE","sentence":"^\\QThe text is returned in the form of a key value pair, where the key is the text and the value is the bounding box or vice versa.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QThe training script is written in Python and it utilizes a number of libraries.\\E$"}
+{"rule":"EN_WORD_COHERENCY","sentence":"^\\QTokenization usually comes in three different forms: there are word, subword and character based tokenization.\\E$"}
+{"rule":"EN_WORD_COHERENCY","sentence":"^\\QWord Tokenization: A word is defined as a sequence of characters which are separated by a delimiter, usually, separated by a space.\\E$"}
+{"rule":"EN_WORD_COHERENCY","sentence":"^\\QTokenization usually comes in three different forms: there are word, subword and character-based tokenization.\\E$"}
+{"rule":"ALL_OF_THE","sentence":"^\\QNote: not all of the output is as coherent and accurate as the chosen example, although a sub-product of GPT-3 can be found powering tools such as GitHub Co-Pilot which is a tool to aid developers by making suggestions for code completion based on the context of the code already written or by the comments written in the code which Co-Pilot can then use to suggest code completion.\\E$"}

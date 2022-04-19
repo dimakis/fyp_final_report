@@ -1,171 +1,45 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {1}Kubernetes Observability}{1}{chapter.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction and Project Goals}{1}{chapter.1}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{chap:intro}{{1}{1}{Kubernetes Observability}{chapter.1}{}}
+\newlabel{chap:intro}{{1}{1}{Introduction and Project Goals}{chapter.1}{}}
 \newlabel{chap:intro@cref}{{[chapter][1][]1}{[1][1][]1}}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}Motivation}{1}{subsection.1.1.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}Implementation Overview}{2}{subsection.1.1.2}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture of the proposed monitoring system.}}{3}{figure.1.1}\protected@file@percent }
-\newlabel{fig:system_architecture}{{1.1}{3}{Architecture of the proposed monitoring system}{figure.1.1}{}}
-\newlabel{fig:system_architecture@cref}{{[figure][1][1]1.1}{[1][3][]3}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Architecture of Strimzi Operator from \autocite {StrimziDocumentation12}.}}{3}{figure.1.2}\protected@file@percent }
-\newlabel{fig:strimzi_archi}{{1.2}{3}{Architecture of Strimzi Operator from \autocite {StrimziDocumentation12}}{figure.1.2}{}}
-\newlabel{fig:strimzi_archi@cref}{{[figure][2][1]1.2}{[1][3][]3}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.2}Technologies}{4}{section.1.2}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Architecture of the observability stack, image from\autocite {prometheusOverviewPrometheusa}}}{4}{figure.1.3}\protected@file@percent }
-\newlabel{fig:os_architecture}{{1.3}{4}{Architecture of the observability stack, image from\autocite {prometheusOverviewPrometheusa}}{figure.1.3}{}}
-\newlabel{fig:os_architecture@cref}{{[figure][3][1]1.3}{[1][4][]4}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Prometheus}{4}{subsection.1.2.1}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Job definition for Prometheus to scrape metrics from custom application. Each component to be monitored gets its own job definition.}}{4}{figure.1.4}\protected@file@percent }
-\newlabel{fig:prom-job}{{1.4}{4}{Job definition for Prometheus to scrape metrics from custom application. Each component to be monitored gets its own job definition}{figure.1.4}{}}
-\newlabel{fig:prom-job@cref}{{[figure][4][1]1.4}{[1][4][]4}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Prometheus graph data query. From local cluster}}{5}{figure.1.5}\protected@file@percent }
-\newlabel{fig:prom_query_graph}{{1.5}{5}{Prometheus graph data query. From local cluster}{figure.1.5}{}}
-\newlabel{fig:prom_query_graph@cref}{{[figure][5][1]1.5}{[1][5][]5}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Prometheus tabular data query. From local cluster}}{5}{figure.1.6}\protected@file@percent }
-\newlabel{fig:prom_query_tabular}{{1.6}{5}{Prometheus tabular data query. From local cluster}{figure.1.6}{}}
-\newlabel{fig:prom_query_tabular@cref}{{[figure][6][1]1.6}{[1][5][]5}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces Prometheus targets in the GUI.}}{7}{figure.1.7}\protected@file@percent }
-\newlabel{fig:prom_targets}{{1.7}{7}{Prometheus targets in the GUI}{figure.1.7}{}}
-\newlabel{fig:prom_targets@cref}{{[figure][7][1]1.7}{[1][6][]7}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces Prometheus recording rules yaml.}}{8}{figure.1.8}\protected@file@percent }
-\newlabel{fig:prom_recording_rules}{{1.8}{8}{Prometheus recording rules yaml}{figure.1.8}{}}
-\newlabel{fig:prom_recording_rules@cref}{{[figure][8][1]1.8}{[1][7][]8}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces Prometheus recording rules in the Prom GUI}}{8}{figure.1.9}\protected@file@percent }
-\newlabel{fig:prom_rules_gui}{{1.9}{8}{Prometheus recording rules in the Prom GUI}{figure.1.9}{}}
-\newlabel{fig:prom_rules_gui@cref}{{[figure][9][1]1.9}{[1][7][]8}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Grafana}{8}{subsection.1.2.2}\protected@file@percent }
-\newlabel{sec:grafana}{{1.2.2}{8}{Grafana}{subsection.1.2.2}{}}
-\newlabel{sec:grafana@cref}{{[subsection][2][1,2]1.2.2}{[1][8][]8}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces Grafana dashboard layout. From local cluster}}{9}{figure.1.10}\protected@file@percent }
-\newlabel{fig:grafana_dashboard_kube_node}{{1.10}{9}{Grafana dashboard layout. From local cluster}{figure.1.10}{}}
-\newlabel{fig:grafana_dashboard_kube_node@cref}{{[figure][10][1]1.10}{[1][8][]9}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Alertmanager}{9}{subsection.1.2.3}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces Alertmanager GUI depicting some alerts}}{10}{figure.1.11}\protected@file@percent }
-\newlabel{fig:alertmanager_gui}{{1.11}{10}{Alertmanager GUI depicting some alerts}{figure.1.11}{}}
-\newlabel{fig:alertmanager_gui@cref}{{[figure][11][1]1.11}{[1][9][]10}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.3}Deployment}{10}{section.1.3}\protected@file@percent }
-\newlabel{sec:deployment}{{1.3}{10}{Deployment}{section.1.3}{}}
-\newlabel{sec:deployment@cref}{{[section][3][1]1.3}{[1][10][]10}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Prometheus Operator Choice}{10}{subsection.1.3.1}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces Helm chart for Prometheus Operator.}}{10}{figure.1.12}\protected@file@percent }
-\newlabel{fig:helm_get_prom}{{1.12}{10}{Helm chart for Prometheus Operator}{figure.1.12}{}}
-\newlabel{fig:helm_get_prom@cref}{{[figure][12][1]1.12}{[1][10][]10}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}Monitoring Kubernetes Node}{11}{subsection.1.3.2}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces Node Exporter Service.}}{11}{figure.1.13}\protected@file@percent }
-\newlabel{fig:node-exporter-service}{{1.13}{11}{Node Exporter Service}{figure.1.13}{}}
-\newlabel{fig:node-exporter-service@cref}{{[figure][13][1]1.13}{[1][11][]11}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces Node Exporter successfully registered as a healthy target in the Prometheus GUI.}}{11}{figure.1.14}\protected@file@percent }
-\newlabel{fig:prom_node_exporter_target}{{1.14}{11}{Node Exporter successfully registered as a healthy target in the Prometheus GUI}{figure.1.14}{}}
-\newlabel{fig:prom_node_exporter_target@cref}{{[figure][14][1]1.14}{[1][11][]11}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces Node Exporter dashboard.}}{12}{figure.1.15}\protected@file@percent }
-\newlabel{fig:node_exporter_dashboard}{{1.15}{12}{Node Exporter dashboard}{figure.1.15}{}}
-\newlabel{fig:node_exporter_dashboard@cref}{{[figure][15][1]1.15}{[1][11][]12}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.3}Monitoring Strimzi and Kafka}{12}{subsection.1.3.3}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces Scrape Config Secret.}}{13}{figure.1.16}\protected@file@percent }
-\newlabel{fig:prom_scrape_config}{{1.16}{13}{Scrape Config Secret}{figure.1.16}{}}
-\newlabel{fig:prom_scrape_config@cref}{{[figure][16][1]1.16}{[1][12][]13}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces Strimzi PodMonitor}}{14}{figure.1.17}\protected@file@percent }
-\newlabel{fig:pod_monitor_strimzi}{{1.17}{14}{Strimzi PodMonitor}{figure.1.17}{}}
-\newlabel{fig:pod_monitor_strimzi@cref}{{[figure][17][1]1.17}{[1][13][]14}}
-\newlabel{kafka_resource_with_metrics_config.yaml}{{1.1}{14}{Kafka resource with metrics configuration applied}{lstlisting.1.1}{}}
-\newlabel{kafka_resource_with_metrics_config.yaml@cref}{{[listing][1][1]1.1}{[1][14][]14}}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.1}Kafka resource with metrics configuration applied.}{14}{lstlisting.1.1}\protected@file@percent }
-\newlabel{zookeeper_resource_with_metrics_config.yaml}{{1.2}{15}{Zookeeper resource with metrics configuration applied}{lstlisting.1.2}{}}
-\newlabel{zookeeper_resource_with_metrics_config.yaml@cref}{{[listing][2][1]1.2}{[1][15][]15}}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.2}Zookeeper resource with metrics configuration applied.}{15}{lstlisting.1.2}\protected@file@percent }
-\newlabel{kafka_resource_with_kafka_exporter_config.yaml}{{1.3}{15}{Kafka resource with Kafka Exporter configuration applied}{lstlisting.1.3}{}}
-\newlabel{kafka_resource_with_kafka_exporter_config.yaml@cref}{{[listing][3][1]1.3}{[1][15][]15}}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.3}Kafka resource with Kafka Exporter configuration applied.}{15}{lstlisting.1.3}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.18}{\ignorespaces ConfigMap for Kafka broker for Prometheus integration.}}{16}{figure.1.18}\protected@file@percent }
-\newlabel{fig:prom_kafka_broker_config_map}{{1.18}{16}{ConfigMap for Kafka broker for Prometheus integration}{figure.1.18}{}}
-\newlabel{fig:prom_kafka_broker_config_map@cref}{{[figure][18][1]1.18}{[1][15][]16}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.19}{\ignorespaces Prometheus YAML for Strimzi components.}}{17}{figure.1.19}\protected@file@percent }
-\newlabel{fig:prom_yaml_strimzi}{{1.19}{17}{Prometheus YAML for Strimzi components}{figure.1.19}{}}
-\newlabel{fig:prom_yaml_strimzi@cref}{{[figure][19][1]1.19}{[1][16][]17}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.20}{\ignorespaces Prometheus successfully defining Strimzi Operator as a target.}}{17}{figure.1.20}\protected@file@percent }
-\newlabel{fig:prom_taget_strimzi_cluster_operator}{{1.20}{17}{Prometheus successfully defining Strimzi Operator as a target}{figure.1.20}{}}
-\newlabel{fig:prom_taget_strimzi_cluster_operator@cref}{{[figure][20][1]1.20}{[1][17][]17}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.21}{\ignorespaces Prometheus successfully defining both the Topic Operator and the User Operator as part of the Strimzi Entity Operator as a target.}}{18}{figure.1.21}\protected@file@percent }
-\newlabel{fig:prom_target_strimzi_entity_operator}{{1.21}{18}{Prometheus successfully defining both the Topic Operator and the User Operator as part of the Strimzi Entity Operator as a target}{figure.1.21}{}}
-\newlabel{fig:prom_target_strimzi_entity_operator@cref}{{[figure][21][1]1.21}{[1][17][]18}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.22}{\ignorespaces Prometheus successfully defining the Kafka components as targets.}}{18}{figure.1.22}\protected@file@percent }
-\newlabel{fig:prom_target_strimzi_kafka_components}{{1.22}{18}{Prometheus successfully defining the Kafka components as targets}{figure.1.22}{}}
-\newlabel{fig:prom_target_strimzi_kafka_components@cref}{{[figure][22][1]1.22}{[1][18][]18}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.23}{\ignorespaces Prometheus successfully querying the Kafka components via the UI.}}{19}{figure.1.23}\protected@file@percent }
-\newlabel{fig:prom_ui_strimzi_kafka_components}{{1.23}{19}{Prometheus successfully querying the Kafka components via the UI}{figure.1.23}{}}
-\newlabel{fig:prom_ui_strimzi_kafka_components@cref}{{[figure][23][1]1.23}{[1][18][]19}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.24}{\ignorespaces Grafana dashboard for the Strimzi Operator monitoring.}}{19}{figure.1.24}\protected@file@percent }
-\newlabel{fig:strimzi_op_dashb}{{1.24}{19}{Grafana dashboard for the Strimzi Operator monitoring}{figure.1.24}{}}
-\newlabel{fig:strimzi_op_dashb@cref}{{[figure][24][1]1.24}{[1][19][]19}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.25}{\ignorespaces Grafana dashboard for the Kafka broker.}}{20}{figure.1.25}\protected@file@percent }
-\newlabel{fig:strimzi_kafka_dashb}{{1.25}{20}{Grafana dashboard for the Kafka broker}{figure.1.25}{}}
-\newlabel{fig:strimzi_kafka_dashb@cref}{{[figure][25][1]1.25}{[1][19][]20}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.26}{\ignorespaces Grafana dashboard for the Zookeeper deployment.}}{20}{figure.1.26}\protected@file@percent }
-\newlabel{fig:strimzi_zookeeper_dashb}{{1.26}{20}{Grafana dashboard for the Zookeeper deployment}{figure.1.26}{}}
-\newlabel{fig:strimzi_zookeeper_dashb@cref}{{[figure][26][1]1.26}{[1][19][]20}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.27}{\ignorespaces Grafana dashboard for the Kafka exporter dashboard I/II.}}{21}{figure.1.27}\protected@file@percent }
-\newlabel{fig:strimzi_kafka_exporter_dashb}{{1.27}{21}{Grafana dashboard for the Kafka exporter dashboard I/II}{figure.1.27}{}}
-\newlabel{fig:strimzi_kafka_exporter_dashb@cref}{{[figure][27][1]1.27}{[1][20][]21}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.28}{\ignorespaces Grafana dashboard for the Kafka exporter dashboard II/II.}}{21}{figure.1.28}\protected@file@percent }
-\newlabel{fig:strimzi_kafka_exporter_dashb_II}{{1.28}{21}{Grafana dashboard for the Kafka exporter dashboard II/II}{figure.1.28}{}}
-\newlabel{fig:strimzi_kafka_exporter_dashb_II@cref}{{[figure][28][1]1.28}{[1][20][]21}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.4}Monitoring Flask Server}{22}{subsection.1.3.4}\protected@file@percent }
-\newlabel{flask_app}{{1.4}{22}{Flask App for Prometheus monitoring}{lstlisting.1.4}{}}
-\newlabel{flask_app@cref}{{[listing][4][1]1.4}{[1][22][]22}}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.4}Flask App for Prometheus monitoring.}{22}{lstlisting.1.4}\protected@file@percent }
-\newlabel{flask_deployment}{{1.5}{23}{Deployment Resources for the Flask App}{lstlisting.1.5}{}}
-\newlabel{flask_deployment@cref}{{[listing][5][1]1.5}{[1][23][]23}}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.5}Deployment Resources for the Flask App}{23}{lstlisting.1.5}\protected@file@percent }
-\newlabel{flask_service_code}{{1.6}{23}{Code for the Flask Service}{lstlisting.1.6}{}}
-\newlabel{flask_service_code@cref}{{[listing][6][1]1.6}{[1][23][]23}}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.6}Code for the Flask Service.}{23}{lstlisting.1.6}\protected@file@percent }
-\newlabel{flask_prometheus_job}{{1.7}{24}{Prometheus job for the Flask App}{lstlisting.1.7}{}}
-\newlabel{flask_prometheus_job@cref}{{[listing][7][1]1.7}{[1][23][]24}}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }\@writefile{lol}{\contentsline {lstlisting}{\numberline {1.7}Prometheus job for the Flask App.}{24}{lstlisting.1.7}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.29}{\ignorespaces Prometheus successfully registering the Flask App as a target.}}{24}{figure.1.29}\protected@file@percent }
-\newlabel{fig:fin-db-server-prom-target}{{1.29}{24}{Prometheus successfully registering the Flask App as a target}{figure.1.29}{}}
-\newlabel{fig:fin-db-server-prom-target@cref}{{[figure][29][1]1.29}{[1][24][]24}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.30}{\ignorespaces Grafana dashboard for the Flask application.}}{24}{figure.1.30}\protected@file@percent }
-\newlabel{fig:flask_app_dash}{{1.30}{24}{Grafana dashboard for the Flask application}{figure.1.30}{}}
-\newlabel{fig:flask_app_dash@cref}{{[figure][30][1]1.30}{[1][24][]24}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.5}Additional PostGres Database Exporter for Prometheus}{24}{subsection.1.3.5}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.31}{\ignorespaces Target successful for Prometheus Postgres Exporter deployment.}}{25}{figure.1.31}\protected@file@percent }
-\newlabel{fig:pg_exporter_target_success}{{1.31}{25}{Target successful for Prometheus Postgres Exporter deployment}{figure.1.31}{}}
-\newlabel{fig:pg_exporter_target_success@cref}{{[figure][31][1]1.31}{[1][24][]25}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.6}Prometheus Self Monitoring}{25}{subsection.1.3.6}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.32}{\ignorespaces Prometheus self monitoring.}}{25}{figure.1.32}\protected@file@percent }
-\newlabel{fig:prom_self_monitoring}{{1.32}{25}{Prometheus self monitoring}{figure.1.32}{}}
-\newlabel{fig:prom_self_monitoring@cref}{{[figure][32][1]1.32}{[1][25][]25}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.4}Conclusion}{25}{section.1.4}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.2}Motivation}{1}{section.1.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.3}Scope}{2}{section.1.3}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.4}Side Benefits}{4}{section.1.4}\protected@file@percent }
+\newlabel{subsec:side_benefits}{{1.4}{4}{Side Benefits}{section.1.4}{}}
+\newlabel{subsec:side_benefits@cref}{{[section][4][1]1.4}{[1][4][]4}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.5}Planning and Strategy}{4}{section.1.5}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces System Architecture}}{5}{figure.1.1}\protected@file@percent }
+\newlabel{fig:sys_archi}{{1.1}{5}{System Architecture}{figure.1.1}{}}
+\newlabel{fig:sys_archi@cref}{{[figure][1][1]1.1}{[1][4][]5}}
 \@setckpt{chap1}{
-\setcounter{page}{27}
+\setcounter{page}{6}
 \setcounter{equation}{0}
 \setcounter{enumi}{5}
-\setcounter{enumii}{2}
+\setcounter{enumii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
-\setcounter{footnote}{0}
+\setcounter{footnote}{1}
 \setcounter{mpfootnote}{0}
 \setcounter{r@tfl@t}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{1}
-\setcounter{section}{4}
+\setcounter{section}{5}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{32}
+\setcounter{figure}{1}
 \setcounter{table}{0}
-\setcounter{Item}{14}
-\setcounter{Hfootnote}{0}
+\setcounter{Item}{7}
+\setcounter{Hfootnote}{1}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{parentequation}{0}
-\setcounter{endNonectr}{9}
+\setcounter{endNonectr}{7}
 \setcounter{currNonectr}{0}
 \setcounter{currdefinitionctr}{0}
 \setcounter{enddefinitionctr}{0}
@@ -184,7 +58,7 @@
 \setcounter{endexamplectr}{0}
 \setcounter{currconjecturectr}{0}
 \setcounter{endconjecturectr}{0}
-\setcounter{lstnumber}{6}
+\setcounter{lstnumber}{1}
 \setcounter{tabx@nest}{0}
 \setcounter{listtotal}{0}
 \setcounter{listcount}{0}
@@ -194,7 +68,7 @@
 \setcounter{citetotal}{0}
 \setcounter{multicitecount}{0}
 \setcounter{multicitetotal}{0}
-\setcounter{instcount}{29}
+\setcounter{instcount}{8}
 \setcounter{maxnames}{3}
 \setcounter{minnames}{1}
 \setcounter{maxitems}{3}
@@ -208,7 +82,7 @@
 \setcounter{refsegment}{0}
 \setcounter{maxextratitle}{0}
 \setcounter{maxextratitleyear}{0}
-\setcounter{maxextraname}{7}
+\setcounter{maxextraname}{2}
 \setcounter{maxextradate}{0}
 \setcounter{maxextraalpha}{0}
 \setcounter{abbrvpenalty}{50}
@@ -302,5 +176,5 @@
 \setcounter{LT@chunks}{0}
 \setcounter{float@type}{8}
 \setcounter{section@level}{1}
-\setcounter{lstlisting}{7}
+\setcounter{lstlisting}{0}
 }
