@@ -14,7 +14,10 @@
 %% custom for image rotation
 \usepackage[figuresleft]{rotating}
 \usepackage{scrhack}
-% \usepackage{float}
+
+% custom setting for figure wrapping
+\usepackage{wrapfig}
+\usepackage{graphicx}
 
 
 % set chapterprefix to true if you want "Chapter 1" displayed before the title of the chapter
@@ -116,7 +119,7 @@
 backend=biber,
 style=numeric
 ]{biblatex}
- \addbibresource{prometheus.bib}
+ \addbibresource{fyp.bib}
 % \bibliographystyle{unsrtnat}
 % \bibliographystyle{authoryear}
 
@@ -151,9 +154,9 @@ style=numeric
 		\bigskip
 		\Large{Work submitted\\ within the \qst@program}\\
 		\bigskip
-		% {\Large Supervisor:  \qst@supervisor}\\
-		% {\Large Second Reader:  \qst@examiner}\\%		
-        {\Large Lecturer:  \qst@lecturer}\\
+		{\Large Supervisor:  \qst@supervisor}\\
+		{\Large Second Reader:  \qst@examiner}\\%		
+        % {\Large Lecturer:  \qst@lecturer}\\
 		\vfill{\Large \today}
 	\end{center}
 	\end{titlepage}
@@ -309,7 +312,7 @@ style=numeric
 \usepackage{cleveref}
 
 % for smaller margins
-\usepackage[margin=0.7in, headheight=0pt,headsep=10pt]{geometry}
+\usepackage[margin=2cm, headheight=0pt,headsep=10pt]{geometry}
 	% \addtolength{\oddsidemargin}{- .7in}
 	% \addtolength{\evensidemargin}{- .7in}
 	% \addtolength{\textwidth}{1.75in}
@@ -357,3 +360,7 @@ style=numeric
 % edit page number position up or down
 \setlength{\footskip}{20pt}
 
+
+% for subsubsection in toc
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}

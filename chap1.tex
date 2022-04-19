@@ -1,661 +1,216 @@
-\chapter{Kubernetes Observability}
-
+\chapter{Introduction and Project Goals}
 \label{chap:intro}
 
-
 \section{Introduction}
-The sharp rise in the popularity of the microservices architecture \autocite{ReillyMicroservicesAdoption2020}, coupled with
-the rapid adoption of Kubernetes (k8s) as the industry-leading technology to deploy and orchestrate
-the services, workloads in K8s clusters have grown in both size and complexity as more businesses adopt this architecture.
-\bigbreak
-With a larger number of services running in a cluster, the availability of the system in its entirety
-depends on the availability of the individual services which constitute the system. This is where the
-complexity explodes. As more and more microservices are brought online, there needs to be a way to
-for DevOps / Site Reliability Engineers (SREs) to monitor that each microservice is running and performing
-as intended. \\ Furthermore, monitoring resources and components of the system can be used to identify
-small issues before they grow into larger issues. The observability stack can be seen as a major component of
-both disaster recovery and disaster prevention.
-\bigbreak
-Monitoring is achieved by gathering metrics. Metrics can be defined as a numerical representation of some
-measurement of the system. Metrics can be collected from the system and then used to determine the health
-of the system. Metrics usually come in a \emph{time series} format i.e. the change of values over time.
-They can also be seen as the derivative, or the rate of change, of the measurement over time.
-\bigbreak
-Different applications can have different types and forms of metrics. For example, a web server may have
-metrics like the number of requests, the number of errors, the number of bytes sent, etc.
-Whilst a database may have metrics like the number of queries, the number of active connections, write performance - to name but a few.
-\bigbreak
-As an example, if a web server is slow at delivering a response, it may be useful to know what is going on with the
-server. The amount of memory, CPU and disk space that is being used by the server can be useful in identifying
-the cause of the slow response. This can be found out by measuring the system resources of the underlying server
-and coupled with other pieces of information about, say - the amount of HTTP requests that are being received, knowledge can be
-gleamed and action can be taken to improve load balancing or scale the amount of servers to handle the load.
-\bigbreak
-This paper assumes the reader has basic knowledge of both Apache Kafka and Kubernetes, although more complex components of both will
-be elaborated on.
-\subsection{Motivation}
-The motivation for this research paper is to:
-\begin{enumerate}
-	\item Explore and implement the most prominent methods of recording the behaviours of the system's components
-	      aka the \emph{observability stack}.
-	\item To concentrate on open-source technologies, this happens to be straightforward as the most popular
-	      monitoring tools in industry are all open-source, although many have \emph{enterprise} (paid) editions / options.
-	      There are other paid-for tools in this category, but they are nowhere near as popular.
-	\item To automate as much of the processes and setup as possible.
-\end{enumerate}
-This will be achieved by focusing on the following:
-\begin{enumerate}
-	\item Enabling monitoring of preexisting services in a cluster i.e. components that were configured without monitoring
-	      capabilities during initial configuration. This should prove the most challenging but also the most rewarding from a
-	      knowledge acquisition perspective.
-	\item Deployment of an application (server) from scratch with monitoring capabilities enabled. Serving up custom metrics.
-	\item Enabling the monitoring of the system, CPU, memory etc. of machine upon which Minikube is deployed.
-	\item Configuration of the monitoring / observability stack in the cluster.
-\end{enumerate}
-For this paper the observability stack is the term that is used to denote the following components, all running in a Minikube
-(single node Kubernetes cluster for local development) cluster:
+This report's structure will follow this style:
 \begin{itemize}
-	\item Prometheus\autocite{prometheusPrometheusMonitoringSystemb} is an open-source systems monitoring tool.
-	\item Grafana\autocite{GrafanaOpenObservabilitya} is an open-source tool for visualizing and analyzing
-	      the data collected by Prometheus.
-	\item Alertmanager\autocite{prometheusAlertmanagerPrometheus} is an open-source tool for sending alerts
-	      to relevant teams about the system performance.
-	\item Exporters to allow components to be monitored by exporting metrics in a format that Prometheus can understand and
-	      consume. They act as a bridge / conversion layer between the components and Prometheus.
+	\item The report will outline the motivation behind the project.
+	\item The project's initial goals and goals achieved.
+	\item The system's initial proposed architecture. Along with the necessary pivots
+	      that occurred during development and the justification for those pivots.
+	\item The technologies considered, the technologies chosen and the plan which was followed.
+	\item It will detail the implementation of the varies system components from the start to the working prototype.
+	      % \item may not need this next point. am I repeating myself?
+	\item The report will outline the challenges faced in the implementation of the system design.
+	\item A conclusion will be given including both technical and personal reflection.
+	\item Detailed analysis on the system in its current implementation along with
+	      documenting some proposed work to in order to bring the system to its full potential for
+	      real world, production-ready, use cases.
 \end{itemize}
-\subsection{Implementation Overview}
-The implementation of this paper will be carried out in the following steps:
+\section{Motivation}
+The motivation for this project comes from a number of major pain points of mine, from my previous / side career as a bar owner and manager. \\ This project focuses on building a system for use by
+bar / public houses (pubs) and as such a single bar entity will be referred to as a \emph{user} of the system.\\
+There is also scope for this system to be altered slightly and to be used with any business which operates with a similar back-end structure.
+In fact, as the system is currently implemented, it is possible to use components of the system, for any business
+which receives invoices (more on this later).
+% link to the being able to use the system for any business.
+\bigbreak
+Some of the most time-consuming and least valuable, from a time - reward perspective, are the back-end processes of running the business. Reward is defined here as the actions which result
+in potential business growth. Time spent scanning invoices from suppliers, filling out income and expenditure spreadsheets and calculating gross and net figures (which will be referred to
+as `\emph{group A}' activities). Whilst these processes are critical to a business' operation and regulatory compliance they do not do much for business growth.\\
+On the other hand, time spent on sourcing new products / inventory, finding new / novel forms of entertainment, business promotion and customer engagement (which will be referred to as
+`\emph{group B}' activities) are the catalysts which drive sales and business growth.\\
+The ultimate aim of this project is to provide more time for group B growth activities and processes by automating the group A processes.
+\bigbreak
+I hypothesize that this should lead to a healthier and more innovative industry by virtue of the extra amount of time spent on group B activities. With implementation of this system,
+barriers to entry should be broken down which should only help to increase innovation. This comes from the new entrants into the industry who may excel in group B processes but do not have
+the knowledge, cannot afford to pay accountants or have the confidence in their ability to perform the group A processes at a satisfactory standard. If these processes are automated then
+there should be fewer barriers of entry coupled with a reduction in accounting costs. \\
+Furthermore, the implementation of this system should increase the quality of life of business owners who no longer have to carry out menial, manual data entry and monotonous, simple and
+repetitive data manipulation.
+\bigbreak
+For this to be accomplished there is a list of
+core and essential processes that need to be tackled. \\
+These core processes fall into two broad categories, defined as:
 \begin{enumerate}
-	\item Install the observability stack on the cluster, keeping automation in focus, this will be accomplished through the
-	      use of operators and Helm.
-	\item Enable a preexisting service to be monitored, in this case it is a somewhat verbose example. The technology
-	      chosen is a functioning Apache Kafka cluster which is deployed via the Strimzi Operator, \Cref{fig:strimzi_archi}, consists of many components:
+	\item \textbf{Category One}: comes from the data collected from a sale of a user's product, i.e., a pub selling a beverage (Income).
+	\item \textbf{Category Two}: stems from the data collected from a user's purchases in relation to inventory and other purchases needed for the running of the
+	      business, i.e., a pub buying a crate of beer to be resold to a consumer or rent for premises etc. (Expenditure).
+\end{enumerate}
+\textbf{Category One} core processes include:
+\begin{itemize}
+	\item Keeping a record of all sale transactions that enter the system, sorted by user, which will allow for the processing of sales.
+	\item The subsequent saving and updating of the transactional sales figures, i.e., gross, net and tax figures.
+	\item The updating of the inventory levels of products per sale.
+\end{itemize}
+\textbf{Category Two} core processes include:
+\begin{itemize}
+	\item The scanning of supplier invoices and key information extraction from the invoices. This key information will be used to:
 	      \begin{itemize}
-		      \item \textbf{Kafka broker}: stores data in a distributed fashion in the form of topics and is the major component.
-		      \item \textbf{Zookeeper}: is a highly available service that provides a distributed lock mechanism for the Kafka brokers
-		            and undertakes leader elections, amongst other responsibilities.
-		      \item \textbf{Strimzi Operator}: is a Kubernetes Operator that manages the Kafka cluster, itself deployed by Helm.
-		      \item \textbf{Kafka Exporter}: exports information about the topics and partitions in on the Kafka brokers.
+		      \item Update user's inventory levels as stock is invoiced / delivered.
+		      \item Updating of cash flow levels to reflect the current available funds.
+		      \item Updating of tax collected and tax due figures.
 	      \end{itemize}
-	      The use of automation here may prove to make the process of retrospectively monitoring the cluster more difficult. Each service
-	      has numerous configuration files, (CRDs, ConfigMaps, Deployments, Services, ClusterRoles etc.) that need to be
-	      located and edited with the correct configurations manually. Since operators are used to automate the process, the
-	      initial configuration is not done by the user therefore the user has limited knowledge on the exact configuration
-	      files needed for the correct provisioning of the service.
-	\item Create a Flask application, enable monitoring with some custom metrics and deploy it to the cluster. The \emph{Python-
-		      Prometheus-Flask-Exporter} library\autocite{PrometheusflaskexporterPyPI} is used here to allow for coherent communication between Prometheus and the Flask server.
-	\item Gather metrics about the underlying machine's resources i.e. the Kube node(both control and data plane as they are
-	      on the same machine). This is done via the \emph{Node Exporter}, which allows for the communication between Kube API server
-	      and Prometheus.
-	\item For all of these applications the following will be implemented:
-	      \begin{enumerate}
-		      \item View metrics in Prometheus UI.
-		      \item Create / import dashboards in Grafana UI to visualize the metrics.
-	      \end{enumerate}
-	      Some alerts will be created to see Alertmanager in action.
+\end{itemize}
+This is quite a lengthy and complex list of processes to automate.
+\bigbreak
+There exists further motivation for this project. It is a purely personal reason, which is a massive interest in developing knowledge 
+about the entire process of developing a deep learning system. From the dataset creation phase to the training, evaluation and inference phases. 
+In essence the entire ML stack. Furthermore, this area of Data Science is the major point of focus for work completed in semester two, the second half of this project.\\
+I will use this project as a vehicle to explore and test both industry standard and brand-new technologies with an emphasis on open-source tech.
+This will stress test my knowledge of the
+technologies and both allow me to see what I can implement along with being a showcase of my skills in the field to potential employers.
+This system will be built with the primary target of having each component implemented in such a way as to ensure maximum efficiency is the 
+front and center focus.
+\section{Scope}
+The scope of this project was highly ambitious. The project focuses on tackling both the Category One and Two processes, with
+an eye on weeding out every potential pitfall as if this project is the prototype of a real world product.
+\bigbreak
+\textbf{Note:} The Category One processes have been implemented, are functional and are reported on in the first report.
+These processes are mentioned briefly here, for the reader to get an understanding of the
+system's goals end-to-end. This report will focus on the development carried out in the second phase of development (semester two)
+namely the Category Two processes, which have a heavy Data Science focus.\footnote{For a more in depth look at how the Category One 
+processes have been implemented please refer to section 2.1.2 \emph{Current Architecture} of the first report.}
+\bigbreak
+Given the time constraints and the complexity of the system in development
+there are some non-core components that	have been omitted or mocked. There are also some
+pivots that needed to be made in order to get a functional demo by the deadline. These are
+documented here to allow the reader to know that these processes have been thought about thoroughly,
+before the decision was made to continue as detailed. \\ These include:
+\begin{enumerate}
+	\item For the Category One processes, the users' sales transactions and details are faked / generated. This is done through the main entry API which has a \code{.../transactions/fake/create}
+	      endpoint. There is no Point of Sale (PoS) till software created.
 	      \bigbreak
-		  The following, \Cref{fig:system_architecture}, is an architectural diagram of the proposed system:
-	      \begin{figure}[H]
-		      \centering
-		      \includegraphics[width=0.7\linewidth]{figures/cloud_2_term_paper_initial_architecture.png}
-		      \caption{Architecture of the proposed monitoring system.}
-		      \label{fig:system_architecture}
-	      \end{figure}
-	      \begin{figure}[H]
-		      \centering
-		      \includegraphics[width=0.7\linewidth]{figures/strimzi_architecture.png}
-		      \caption{Architecture of Strimzi Operator from \autocite{StrimziDocumentation12}.}
-		      \label{fig:strimzi_archi}
-	      \end{figure}
+	      \emph{To obtain transactional data into the system from real data a new API server would need to be
+		      implemented to fetch data from popular PoS systems. This has not been implemented, although
+		      preliminary research reveals that two leading PoS systems APIs, namely SquareUp\autocite{SquareSolutionsTools}
+		      and Clover PoS \autocite{APIReferenceOverview} both have the necessary APIs available to
+		      allow for the capturing of such data and the integration of it into the system is not considered difficult.}
+	\item There is no GUI to interact with or view data from a user standpoint. This would involve creating a web app which would be used to view data from the system about a user. This
+	      would include sales figures, inventory levels, cash flow levels and tax figures.
+	      \bigbreak
+	      \emph{Upon stating that,
+		      it is possible to obtain data insights from the system via SQL calls to the database, including total expenditure,
+		      tax expenditure (to be offset against future tax payments) and net goods amounts.\\
+			  Furthermore, the implementation of a Grafana (an open-source visualisation tool) dashboard}
+	\item There is one area to note here is that there is a possible discrepancy between newly ordered inventory invoiced and the product actually delivered
+	      by a supplier to a business.\\
+	      Sometimes products which have been ordered are not delivered, i.e., out of stock with supplier or damaged in transit.
+	      \bigbreak
+	      \emph{For a solid fix for this situation the system should utilize a way of comparing delivery dockets with invoices. This would ensure only as accurate data as
+		      possible enter the system. However, these situations happen infrequently and for this project the potential discrepancy will be ignored with the invoice taken at
+		      face value of goods delivered.}
+
+	\item The initial design was to include and automate all the Category Two processes in the
+	      system. The final implementation of the system does include the inventory, but due to the time-consuming nature of the post-processing of the
+	      inventory data returned by the model, the decision was made to concentrate on saving the financial aspects
+	      of the invoices (totals, tax, metadata etc.). This decision was made to allow the system to be used for the processing of invoice totals for
+	      real world usage. The system has now been used to ready documents for a VAT return, with surprisingly accurate results.
+	      (this is reported on in greater detail later)
+	      % link to detail.
+	\item Whilst trying to balance the goal of using open-source components with creating a system that performs as effectively as possible, some
+	      design decisions were made to prioritize the accuracy of the system's performance at the expense of using only open source components.\\ 
+		  Upon that being said, the system can be operated using only open source components.\\
+	      The proprietary components and the open-source alternatives used in the deliverable are:
+	      \begin{itemize}
+		      \item \textbf{AWS Textract}: This is a combined Text Localisation and OCR engine that delivers very accurate results. This project
+		            utilizes the AWS Textract API to for both the Text Localisation and OCR
+					\bigbreak
+					\emph{The system is capable of using other OCR engines and is already configured to use PyTesseract. This is an open-source Text 
+					Localisation and OCR engine, but the output results are not as accurate as AWS Textract. To allow for the best overall results, 
+					the system leverages AWS Textract.\\ AWS provides a very reasonable free tier for use of Textract with 10,000 free requests per month.}
+		      \item \textbf{AWS S3 Bucket Storage}: S3 Bucket Storage is a service that allows for the storage of files in a bucket. This is used to store the
+		            invoices. 
+					\bigbreak
+					\emph{This can easily be replaced with local storage or any other storage service.}
+	      \end{itemize}
 \end{enumerate}
-\pagebreak
-\section{Technologies}
-This section gives a more in-depth look at the technologies used in this research paper. The following is the
-architecture diagram of the observability stack \Cref{fig:os_architecture}:
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=.9\linewidth]{figures/os_architecture.png}
-	\caption{Architecture of the observability stack, image from\autocite{prometheusOverviewPrometheusa}}
-	\label{fig:os_architecture}
-\end{figure}
-\subsection{Prometheus}
-Prometheus is managed by the Cloud Native Computing Foundation (CNCF)\autocite{CloudNativeComputinga} and is the second graduated project in the
-of the CNCF foundation (after Kubernetes). Prometheus is mostly written in GoLang. The following components are used in a Prometheus stack:
+\section{Side Benefits}
+\label{subsec:side_benefits}
+There are many useful features which become available as a result of having all of this information available in one system. These insights come in the form of individual data per
+business but also trends and such from the data aggregated from all users of the system. A brief example of some of these include:
 \begin{itemize}
-	\item \textbf{Prometheus Server}: The main component of the stack. It is responsible for collecting metrics, which it
-	      does by periodically scraping the components that are being monitored, by default on an \code{/metrics} endpoint. It
-	      then stores this data in its own time series database. Prometheus knows which components to fetch metrics from by
-	      the \emph{jobs} that are defined in the, conventionally named, \code{prometheus.yaml} file. A job definition looks like
-	      the following \Cref{fig:prom-job}:
-	      \begin{figure}[H]
-		      \centering
-		      \includegraphics[width=.6\linewidth]{figures/prom-job.png}
-		      \caption{Job definition for Prometheus to scrape metrics from custom application. Each component to be monitored
-			      gets its own job definition.}
-		      \label{fig:prom-job}
-	      \end{figure}
-	      The server discovers the components to monitor via interaction with the Kubernetes Service Discovery mechanism, as per \Cref{fig:os_architecture}.\\
-	      Prom Server is also responsible for pushing alerts to Alertmanager (This is covered in greater detail later).
-	\item \textbf{Client Libraries}: Before services can be monitored, instrumentation needs to be added to
-	      the components code, which implement the Prometheus \emph{metric types}. There are many official libraries available
-	      for GoLang, Python, Rust etc. along with numerous third-party libraries for other languages\autocite{prometheusClientLibrariesPrometheus}.
-	\item \textbf{Exporters}: To import metrics from a third-party component i.e. Apache Kafka via the \emph{JKX exporter} (which is utilized
-	      in this paper), database exporters, hardware, server and other exporters are also available. A comprehensive list is available here\autocite{prometheusExportersIntegrationsPrometheus}.
-	\item \textbf{Pushgateway}: The Pushgateway is a service that allows for the pushing of metrics to Prometheus from ephemeral or batch jobs. As
-	      these kinds of jobs may not live long enough to be monitored, the Pushgateway is used to push metrics to Prometheus. This is a feature that is
-	      not used in this paper.
+	\item The ability to query the financial and inventory figures. With a simple GUI the user can be served up current sales vs other time periods and many other powerful ways to gain insight into
+	      the business with information already in the system.
+	\item The ability to do some exploratory data analysis (EDA) and other data analytical activities which can provide the business owners with some new data driven insights about their business.
+	      These insights would usually only be available to larger businesses with IT teams or businesses with owners who are data science savvy. Businesses with these characteristics in the
+	      drinks' industry make up only a tiny fraction of the population based on my decade plus of experience within the industry in Ireland and around numerous European cities.
+	\item An example of another insight that can be derived from the information in the system which is of value to external entities, given decent levels of adoption in the industry,
+	      are live sales per product.
+	      Having a multitude of different users in the system, the sale quantities of specific items can be accessed and / or extrapolated in real-time. This can provide some invaluable
+	      data to brewers, of sales which could be utilized to precisely schedule production times and production quantities.
 \end{itemize}
-The metrics data stored in Prometheus is stored in a time series database, which is a key-value store. The metrics are queried using Prometheus Query
-language (PromQL). PromQL allows users to select and aggregate the data in real time. The query results can be viewed as a graph, \Cref{fig:prom_query_graph}, or as tabular
-data as per \Cref{fig:prom_query_tabular} in the Prometheus GUI. Queries can also be consumed by external tools or systems via the HTTP API, this is how Grafana gets data from Prometheus.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_query_graph.png}
-	\caption{Prometheus graph data query. From local cluster}
-	\label{fig:prom_query_graph}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_query_tabular.png}
-	\caption{Prometheus tabular data query. From local cluster}
-	\label{fig:prom_query_tabular}
-\end{figure}
-\bigbreak
-PromQL is a functional and quite a powerful language. There are some basic data types, as per \autocite{prometheusQueryingBasicsPrometheus}:
-\begin{itemize}
-	\item \textbf{Instant Vector}: are a set of time series containing a single sample for each time series, all sharing the same timestamp
-	\item \textbf{Range vector}: a set of time series containing a range of data points over time for each time series
-	\item \textbf{Scalar}: a simple numeric floating point value
-	\item \textbf{String}: a simple string value.
-\end{itemize}
-The language also has operators and functions, which are used to manipulate the data \autocite{prometheusQueryFunctionsPrometheus}. Queries can become quite complex
-and whilst some time was spent with the language, not enough time was available to become truly proficient with it. \\
-Metrics fall into one of four categories which each have their own use case.
-\begin{itemize}
-	\item \textbf{Gauge}: A gauge is a metric that represents a single numerical value that can increase or decrease, i.e. memory usage, number of running processes etc.
-	\item \textbf{Counter}: A counter is a metric that represents a single numerical value that can only increase, such as the number of requests served etc.
-	\item \textbf{Histogram}: A histogram is a metric that represents a distribution of numerical values. The histogram metric type measures the frequency
-	      of value observations that fall into specific predefined buckets\autocite{gregoryTypesPrometheusMetrics2019}. Can be used to measure response size or request
-	      duration.
-	\item \textbf{Summary}: A summary is a metric that represents a distribution of numerical values. This type preceded histograms and the main difference
-	      is that histogram quantiles are calculated on the Prometheus server whilst summary quantiles are calculated on the application side. This means that
-	      summaries cannot be calculated on multiple applications. There are some use cases for which summaries are useful, but by and large, histograms are
-	      now used much more.
-\end{itemize}
-Prometheus has its own GUI in which one can query and view metrics data in various ways. One can view targets and statuses The following figure shows the
-registered targets in the Prometheus UI and their status (Note: this is a highly experimental cluster, and as such there are a few targets down):
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_targets.png}
-	\caption{Prometheus targets in the GUI.}
-	\label{fig:prom_targets}
-\end{figure}
-There are any number of queries one can carry out but the graphing could be easier to follow. This leads us to Grafana, \Cref{sec:grafana}.
-\bigbreak
-Prometheus recording rules are used to define which metrics are recorded by which components. This is a mechanism that allows for the monitoring of
-components to be controlled by the Prometheus server. The rules are configured in a yaml, \Cref{fig:prom_recording_rules} and are represented
-in the Prometheus GUI as \Cref{fig:prom_rules_gui} The following figure shows the recording rules for the components in the Prometheus UI:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_rules_yaml.png}
-	\caption{Prometheus recording rules yaml.}
-	\label{fig:prom_recording_rules}
-	\includegraphics[width=1\linewidth]{figures/prom_rules_gui.png}
-	\caption{Prometheus recording rules in the Prom GUI}
-	\label{fig:prom_rules_gui}
-\end{figure}
 
-\subsection{Grafana}
-\label{sec:grafana}
-Whilst Grafana and Prometheus work hand in hand, and are usually deployed together, Grafana is a separate project, also written in Golang.
-Grafana may be deployed on its own or can be deployed as part of the Prometheus Operator. This is how this paper implements Grafana.
-Since Grafana is a separate project, it is not bound to only use Prometheus as its data source. Grafana can also use other data sources such as
-AWS CloudWatch, Elasticsearch or a collection of databases and other tools\autocite{DataSources}. Grafana also supports logging, such as
-\emph{Loki} another tool from the makers of Grafana, as a data source.
-\bigbreak
-Grafana is mainly used as a visualisation tool. There is an `Explore' section to the GUI in which PromQL queries can be run. The results of the
-query are returned. But where Grafana really stands out is the dashboard view. Here any number of graphs can be created and saved into a dashboard
-to allow for quick and easy visualisation of an application or any source of data that is needed. The graphs are displayed in a grid, and the
-user can drag and drop them around to create a layout, as per \Cref{fig:grafana_dashboard_kube_node}.
+\section{Planning and Strategy}
+% change to 
+ClickUp \autocite{ClickUpOneApp} is used as the project management solution (more details in \Cref{chap:conclusion}: Conclusion).\\
+As the project is split in two development cycles, the following is an architectural diagram
+of the system in its entirety, Category One and Category Two processes inclusive.\\
+The components implemented for each phase are clearly distinguished from each other by the vertical, double-red lines:
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{figures/grafana_dashboard_kube_node.png}
-	\caption{Grafana dashboard layout. From local cluster}
-	\label{fig:grafana_dashboard_kube_node}
+	\begin{tikzpicture}
+		\node(P) {\includegraphics[width=1\linewidth]{figures/archi_phase_1_&_2.png}};
+		\tikzstyle{title} = [red]
+		\node [title] at ($(P.north)+(-3,0.1)$) {(Semester One)};
+		\node [title] at ($(P.north)+(5,0.1)$) {(Semester Two)};
+	\end{tikzpicture}
+	\caption[System Architecture]{System Architecture}
+	\label{fig:sys_archi}
 \end{figure}
-Grafana dashboards are defined in JSON files and can be shared with other users. Some custom dashboards are available on the Grafana website,
-many have thousands and some even millions of downloads.
-\bigbreak
-Grafana also has alerting capabilities. Alerts can be defined to be triggered when a certain condition is met, although this is not something
-that this paper will cover.
-\subsection{Alertmanager}
-Alertmanager is the component of the Prometheus stack, \Cref{fig:os_architecture}, which is responsible for sending alerts to users. It acts as
-a translation layer between the Prometheus server and popular alerting tools such as Slack, Pagerduty, email etc.\\
-Alerts are defined in Prometheus in yaml format. They are very similar to the way that Prometheus recording rules are defined.
-\bigbreak
-The number of alerts can quickly get out of hand, for example, if a node goes down / offline which contains the system's database deployment
-then Prometheus will send an alert back on behalf of all configured applications. This may amount to numerous alerts, however, Alertmanager
-is designed to group alerts of a similar type together. These groups are then sent out in a single notification instead of dozens
-\autocite{prometheusAlertmanagerPrometheus}. \\
-Groups can be custom defined in the routing file. There are also ways of silencing alerts, such as silencing alerts for a certain time period and
-suppressing alerts that are already firing.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/alertmanager_gui.png}
-	\caption{Alertmanager GUI depicting some alerts}
-	\label{fig:alertmanager_gui}
-\end{figure}
+\textbf{Note:} The actual delivered architecture varies slightly from the one depicted in \Cref{fig:sys_archi}, only with regard to the Category Two section.
+Details to follow in the Architecture chapter (\Cref{chap:architecture}).
+The reason this diagram is included is that this is the architecture that would be used in the final product, and the optimal architecture. Owing to some
+difficulties with the development tools (\Cref{sec:pivots}) the delivered architecture had to be slightly altered, as will be explained.
 
-\section{Deployment}
-\label{sec:deployment}
-The first aim to be tackled was the deployment of the Prometheus Operator. The automation goal meant that choosing installation via Helm would be
-the optimal choice.
-\subsection{Prometheus Operator Choice}
-There are a number of Prometheus Operators out there and for this paper two differing operators were installed.
-At first a project with many differing components coming preinstalled / configured was chosen. Whilst this came with some Grafana dashboards
-along with some other perks, there was also a huge amount of resources that were applied to the cluster via the Helm chart. \\
-This meant that the next task of retrospectively activating monitoring on the Kafka cluster deployed by the Strimzi Operator was incredibly difficult.
-More freedom from preexisting CRDs, service roles and other resources was needed. To demonstrate the verbosity of the challenge at hand
-\Cref{fig:helm_get_prom} shows how many lines of code are deployed via Helm as part of the `slimmer' (and subsequently chosen) operator. The smaller
-operator chart has almost 45,000 lines of code.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/helm_get_all_prom.png}
-	\caption{Helm chart for Prometheus Operator.}
-	\label{fig:helm_get_prom}
-\end{figure}
-Trying to figure out exactly which resource from the Strimzi Operator needed to be updated and how they interacted with the Prometheus Operator
-was very challenging. In the end the operator used throughout the paper was a Prometheus Community Operator \autocite{Kubeprometheusstack34Prometheus}.
-\subsection{Monitoring Kubernetes Node}
-The monitoring of the Kubernetes node was somewhat straightforward. With the initial Prometheus Operator installed, the metrics and
-dashboards were automatically generated. The metrics were collected from the node and the metrics were then pushed to the Prometheus server which
-were then queried by Grafana. However, upon the change in Prom Operator, this did not come `for free'.
-\bigbreak
-To monitor the Kubernetes node the \emph{Node Exporter}\autocite{NodeExporter2022} needed to be installed on the node. This needed to be a
-\code{daemonset} as the container needed to be run as root to gain access to the underlying OS for the metrics. Using this resource\autocite{HowSetupPrometheus2021} for
-rough guidance the node was successfully spun up. A Prometheus job is then applied, akin to \Cref{fig:prom-job}, which monitors the Node Exporter
-Service \Cref{fig:node-exporter-service}. The final step is to allow communication via a Kube Service \Cref{fig:node-exporter-service}.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{figures/node_exporter_service.png}
-	\caption{Node Exporter Service.}
-	\label{fig:node-exporter-service}
-\end{figure}
-The labels play a particularly important role for this resource as the Prom job had to match the required labels to allow for the monitoring to
-take place. Once these resources are in place, the node exporter status can be seen in the Prometheus GUI:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_node_exporter_target.png}
-	\caption{Node Exporter successfully registered as a healthy target in the Prometheus GUI.}
-	\label{fig:prom_node_exporter_target}
-\end{figure}
-There are a number of great community dashboards available for the Node Exporter for Grafana, \emph{Node Exporter Full} \autocite{NodeExporterFull} was chosen:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/node_exporter_dashboard.png}
-	\caption{Node Exporter dashboard.}
-	\label{fig:node_exporter_dashboard}
-\end{figure}
-The dashboard is a fantastic way to monitor the Kubernetes node. There are a plethora of charts available with extremely useful information.
-\subsection{Monitoring Strimzi and Kafka}
-This section covers the monitoring of the Kafka cluster deployed by the Strimzi Operator. Following the Strimzi Operator documentation \autocite{DeployingUpgrading28}
-along with many other online resources such as\autocite{GrafanaPrometheusSetup}, and others in the bibliography (\Cref{bibliography}) the Kafka cluster is successfully
-being monitored by Prometheus. Custom rules for Prometheus to interact specifically with Kafka cluster are created, as per \Cref{fig:prom_recording_rules}.
-The rules template along with some default rules is provided by the team behind the Strimzi Operator.
-\bigbreak
-With the correct rules in place, the next step was to create additional scrape jobs for Prometheus to target the Strimzi cluster, this is done by
-creating a new secret with the details of the scrape configuration, as per \Cref{fig:prom_scrape_config}. The secret is then applied to Kube cluster:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{figures/additional_scrape_config.png}
-	\caption{Scrape Config Secret.}
-	\label{fig:prom_scrape_config}
-\end{figure}
-The Prometheus Operator allows for the monitoring of pods or services via the \code{ServiceMonitor} or \code{PodMonitor} resources.
-The documentation explaining the difference and which to choose / what they actually do is not the greatest as pointed out by a
-Prom Operator contributor in this GitHub issue, \autocite{PodMonitorVsServiceMonitor}. The ServiceMonitor is the preferred option as services
-by their very nature already have exposed endpoints. The PodMonitor option should be used if there is an application needed in the cluster which,
-for whatever reason, cannot have a service exposed.
-\bigbreak
-Heeding this advice, a ServiceMonitor was applied. It was non-functional. The reason being that many of the components in the Kafka cluster did not
-have / work very well with a service. In particular the Entity Operator. The Entity Operator is deployed by the Strimzi Operator but it itself, is
-comprised of the Topics Operator and the User Operator. As can be seen, the issue of nested Operators and resources can get quite deep and confusing. \\
-Another unfortunate part of the retrospective application is that debugging is extremely time-consuming and one doesn't know what resource
-is causing the issue as successful monitoring only comes with all successfully configured resources. This means that any resource applied in the
-cluster may be the culprit for the issue. \\ As an example, there may have been no issue with the Prom Rules (there was, but \code{kube logs <pod-name>} is an
-effective way to determine if the issue is yaml syntax related) but the issue may be with a nested operator or another applied resource.
-\bigbreak
-Upon further research, the decision was taken to use the more inclusive \code{PodMonitor} resource. This method is more flexible as it allows for
-the monitoring of any pod resource, but it is seen as the less favorable method in the grander Kubernetes community.
-During the research to implement the PodMonitor resource, it was noticed that this is the primary way which metrics are collected from Strimzi
-currently but is an active area of discussion on GitHub.
-In fact, the ability to use the PodMonitor was born from the exact issue that this paper faced and the PR to allow Strimzi to use the PodMonitor
-was only merged in summer '20\autocite{UsingPodMonitorScraping}. This now appears to be the de facto methodology for monitoring with Strimzi.\\
-With the decision made and research conducted, the PodMonitor resource was applied to the cluster, as per \Cref{fig:pod_monitor_strimzi},
-as can be observed a separate \code{PodMonitor} resource must be created for each of the Kafka components along with the operators.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{figures/pod_monitor_strimzi.png}
-	\caption[Strimzi PodMonitor]{PodMonitor applied to the Strimzi Operator (only some of the code is shown as it is repetitive).}
-	\label{fig:pod_monitor_strimzi}
-\end{figure}
-The Kafka resource, of \code{kind: Kafka} (Strimzi native `kind'), must be edited to include the metrics configuration (Note: The entire file is
-substantial, therefore, only the additions are shown):
-\begin{lstlisting}[language=yaml, caption={Kafka resource with metrics configuration applied.}, label={kafka_resource_with_metrics_config.yaml}]
-	...some code...
-
-    metricsConfig:
-      type: jmxPrometheusExporter
-      valueFrom:
-        configMapKeyRef:
-          key: kafka-metrics-config.yml
-          name: kafka-metrics
-
-	...more code...
-\end{lstlisting}
-This enables Strimzi to locate the metrics configuration file and have it used by the broker.
-Similarly, in the section of the Kafka resource, the Zookeeper metrics config file needs to be included:
-\pagebreak
-\begin{lstlisting}[language=yaml, caption={Zookeeper resource with metrics configuration applied.}, label={zookeeper_resource_with_metrics_config.yaml}]
-	...some code...
-
-	metricsConfig:
-	  type: jmxPrometheusExporter
-	  valueFrom:
-		configMapKeyRef:
-		  key: zookeeper-metrics-config.yml
-		  name: zookeeper-metrics
-
-	...more code...
-\end{lstlisting}
-This Zookeeper metrics config file is very similar to the Kafka metrics config file, \Cref{fig:prom_kafka_broker_config_map}, but is
-written for Zookeeper. This is also a community file.
-\bigbreak
-The final alteration of the Kafka resource is to include the configuration for the Kafka Exporter:
-\begin{lstlisting}[language=yaml, caption={Kafka resource with Kafka Exporter configuration applied.}, label={kafka_resource_with_kafka_exporter_config.yaml}]
-	...some code...
-
-  kafkaExporter:
-    groupRegex: ".*"
-    topicRegex: ".*"
-    logging: debug
-    enableSaramaLogging: true
-    readinessProbe:
-      initialDelaySeconds: 15
-      timeoutSeconds: 5
-    livenessProbe:
-      initialDelaySeconds: 15
-      timeoutSeconds: 5
-
-	...more code...
-	
-\end{lstlisting}
-Once the Kafka Exporter is added to the Kafka resource the Strimzi Operator handles the deployment of the Kafka Exporter.
-\bigbreak
-The new metrics ConfigMap with the metrics configuration for the Kafka Broker is the next resource applied. This is done as
-per \Cref{fig:prom_kafka_broker_config_map}. This is a community file for Kafka metrics, and applied to the cluster.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\linewidth]{figures/prom_kafka_broker_config_map.png}
-	\caption{ConfigMap for Kafka broker for Prometheus integration.}
-	\label{fig:prom_kafka_broker_config_map}
-\end{figure}
-Following on, a \code{ClusterRole}, \code{ClusterRoleBinding} and \code{ServiceAccount} are created to allow Prometheus to interact with the
-Strimzi components as per \Cref{fig:prom_yaml_strimzi}. This yaml successfully created the required resources although quite a bit of debugging
-was required to figure out how to piece this all together. A ClusterRole AKA a \code{Rules Based Access Control (RBAC) Role} is a role which
-is needed to set permissions in a given name space. The role must then be bound to the created ServiceAccount. A ServiceAccount is akin to
-a user account, when a user interacts with the Kube API server via kubectl, however it is the type of account that is given to any process
-running in a container in a particular namespace. There is usually a service account per application, if one is needed.
-\bigbreak
-Now that all the required resources have been applied to the Kubernetes cluster, a \code{jmx exporter}\autocite{JMXExporter2022} is required to translate the metrics
-from Kafka brokers to Prometheus. A similar approach is needed as the go-between for Prometheus and Zookeeper. Luckily these are already present
-in the Strimzi Operator, and the operator will provision what is needed so, no additional configuration is needed.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\linewidth]{figures/prom_yaml_strimzi.png}
-	\caption{Prometheus YAML for Strimzi components.}
-	\label{fig:prom_yaml_strimzi}
-\end{figure}
-With these steps all taken care of the Prometheus Operator should list the Strimzi components as targets.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_taget_strimzi_cluster_operator.png}
-	\caption{Prometheus successfully defining Strimzi Operator as a target.}
-	\label{fig:prom_taget_strimzi_cluster_operator}
-\end{figure}
-As can be observed, the Strimzi Operator itself is now a Prometheus target. Next is to check for the Topic Operator and the User Operator, which
-make up the Entity Operator, as per \Cref{fig:prom_target_strimzi_entity_operator}.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_target_entity_op.png}
-	\caption{Prometheus successfully defining both the Topic Operator and the User Operator as part of the Strimzi Entity Operator as a target.}
-	\label{fig:prom_target_strimzi_entity_operator}
-\end{figure}
-Finally, we can get down to the actual Kafka components, as per \Cref{fig:prom_target_strimzi_kafka_components}. For monitoring to be
-successful each Kafka component must be a Prometheus target and in a healthy state too.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/prom_target_strimzi_kafka_components.png}
-	\caption{Prometheus successfully defining the Kafka components as targets.}
-	\label{fig:prom_target_strimzi_kafka_components}
-\end{figure}
-As this is now the case; Zookeeper, the Kafka broker and the Kafka exporter are now targets, \Cref{fig:prom_target_strimzi_kafka_components}, queries
-can be run against the components via Prometheus UI:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\linewidth]{figures/prom_kafka_query.png}
-	\caption{Prometheus successfully querying the Kafka components via the UI.}
-	\label{fig:prom_ui_strimzi_kafka_components}
-\end{figure}
-Back to the open-source community to find some Grafana dashboards for Kafka Monitoring and the end product is the following:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/strimzi_op_dashb.png}
-	\caption{Grafana dashboard for the Strimzi Operator monitoring.}
-	\label{fig:strimzi_op_dashb}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{figures/strimzi_kafak_dashb.png}
-	\caption{Grafana dashboard for the Kafka broker.}
-	\label{fig:strimzi_kafka_dashb}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{figures/strimzi_zookeeper_dashb.png}
-	\caption{Grafana dashboard for the Zookeeper deployment.}
-	\label{fig:strimzi_zookeeper_dashb}
-\end{figure}
-The Kakfa Exporter shows some very interesting metrics in relation to the actual data stored
-in the Kafka brokers in topics.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/kafka_node_exporter_dash.png}
-	\caption{Grafana dashboard for the Kafka exporter dashboard I/II.}
-	\label{fig:strimzi_kafka_exporter_dashb}
-	\includegraphics[width=1\linewidth]{figures/kafka_exporter_topics.png}
-	\caption{Grafana dashboard for the Kafka exporter dashboard II/II.}
-	\label{fig:strimzi_kafka_exporter_dashb_II}
-\end{figure}
-As can be observed all topics are listed along partitions and offsets.
-\bigbreak
-This section has proven the age-old saying, `fail to prepare, prepare to fail'. There is no sound rationale
-for not implementing metrics from the start. The amount of data that can be gleamed is extraordinary. Once one becomes familiar with
-PromQL the ability to query the metrics becomes much easier.
-\subsection{Monitoring Flask Server}
-This section takes a look at the implementation of monitoring an application from the start, i.e. having metrics in focus during the design
-and development phase of the app. For this a simple Flask server has been created and containerised. This wasn't as straightforward as initially
-planned on account of the chosen technology. Initially the Flask App implemented Gunicorn\autocite{GunicornPythonWSGI} as the WSGI server,
-however, this proved to be too much configuration in the time that was remaining before the deadline. The reason being is that Gunicorn can run
-several processes in parallel, which is not ideal for the monitoring. Much time was spent trying to figure out how to achieve this, but
-could not be done. It is, however, possible to use Gunicorn with Prometheus there are workarounds involving Gunicorn's \code{multi-process-mode}.
-This implementation also needs a \code{CollectorRegistry} to store the metrics before until the Prom scrape. With time running out,
-the paper switched implementation to a simple Flask server (no Gunicorn multiprocess parallelism). This approach was successfully implemented,
-although Flask is not a production ready solution, therefore it is somewhat disappointing that the Gunicorn approach failed.
-\bigbreak
-The Flask app utilizes the \code{prometheus\_flask\_exporter} to implement the Prometheus data types in python, expose the metrics on a
-\code{/metrics} endpoint and as such act a translational layer between the Flask App and the Prometheus server. The code for the app is as
-follows:\\
-\begin{lstlisting}[language=python, label={flask_app}, caption={Flask App for Prometheus monitoring.}]
-import logging as log
-from flask import Flask, request
-from prometheus_flask_exporter import PrometheusMetrics
-
-app = Flask(__name__)
-metrics = PrometheusMetrics(app)
-
-metrics.info('app_info', 'Application info', version='0.0.1')
-
-# GET index route
-@app.route('/', methods=['GET'])
-def index():
-	return 'Hello, World!'
-
-@app.route('/index')
-def index_page():
-	return 'Yasu, World!'
-
-if __name__ == '__main__':
-	# load_dotenv()
-
-	# log to stdnout
-	log.basicConfig(level=log.INFO)
-	log.info('Starting up')
-	app.run(host='0.0.0.0', port=5005)
-	log.info('Listening on http://localhost:5005')
-\end{lstlisting}
-The metrics are called in line 7 and 9. The rest of the app is straightforward as to is the Dockerfile to containerise the app.\\
-The next steps are to create and apply the deployment resources for the Flask App.
-\pagebreak
-\begin{lstlisting}[language=yaml, label={flask_deployment}, caption={Deployment Resources for the Flask App}]
-apiVersion: apps/v1 
-kind: Deployment                            # Type of the kubernetes resource
-metadata:
-  name: fin-db-server                       # Name of the Kubernetes resource
-  labels:
-    app: fin-db-server
-spec:
-  replicas: 1                                # Number of pods to run at any given time
-  selector:
-    matchLabels: 
-      app: fin-db-server                     # This deployment applies to any Pods matching the specified label
-  template:                                  # This deployment will create a set of pods using the configurations in this template
-    metadata:
-      labels:                                # The labels that will be applied to all of the pods in this deployment
-        app: fin-db-server
-    spec:                                    # Spec for the container which will run in the Pod
-      containers:
-      - name: fin-db-server 
-        image: dimakis/fin-db:latest         # The image we are getting from dockerhub
-        imagePullPolicy: Always
-        # imagePullPolicy: Always
-          #IfNotPresent                      # If we have not pulled it before, get it from dockerhub
-        ports:
-          - name: http
-            containerPort: 5005              # Should match the port number that the Go application listens on
-\end{lstlisting}
-Following on from the deployment a service needs to be created for the Flask App:
-\begin{lstlisting}[language=yaml,label={flask_service_code},caption={Code for the Flask Service.}]
-apiVersion: v1  
-kind: Service              # Type of the kubernetes resource
-metadata:
-  name: fin-db-server      # Name of the Kubernetes resource
-  labels:                  # Labels that will be applied to the resource
-    app: fin-db-server
-spec:
-  type: NodePort           # Gives each node an external IP that's accessible from outside the cluster and also opens a Port.
-  selector:
-    app: fin-db-server     # Selects any Pod with labels `app=fin-db-server`
-  ports: 
-  - name: http
-    port: 5005
-    targetPort: 5005
-\end{lstlisting}
-Prometheus must now be configured to scrape the Flask App. This is one again done by adding a Prometheus job to the \code{additional-scrape-config}
-secret:
-\begin{lstlisting}[language=yaml,label={flask_prometheus_job},caption={Prometheus job for the Flask App.}]
-    - job_name: infer-server
-      scrape_interval: 10s
-      scrape_timeout: 10s
-      static_configs:
-        - targets: ["infer-server:5000"]
-\end{lstlisting}
-Once this job applied and Kubernetes completes its control loop, the Prometheus server should recognise the Flask app as a scrape target:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/fin-db-server-prom-target.png}
-	\caption{Prometheus successfully registering the Flask App as a target.}
-	\label{fig:fin-db-server-prom-target}
-\end{figure}
-A new dashboard is needed for the Flask App. This is done by adding a new dashboard to Grafana, running some curl commands in a loop and
-viewing the output:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{figures/findb_grafana_dash.png}
-	\caption{Grafana dashboard for the Flask application.}
-	\label{fig:flask_app_dash}
-\end{figure}
-\subsection{Additional PostGres Database Exporter for Prometheus}
-With the Flask App deployed, Prometheus and Grafana both operational, an unsuccessful attempt was made at integrating metrics from a postgresql database.
-This was done via the \code{prometheus\_postgres\_exporter} which is a Prometheus Exporter for Postgres. The exporter is successfully
-implemented, and is discoverable by Prometheus but even with the correct, user, db name secrets and other necessary credentials it is not
-able to scrape the database. \\
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{figures/prom_pg_exporter_target.png}
-	\caption{Target successful for Prometheus Postgres Exporter deployment.}
-	\label{fig:pg_exporter_target_success}
-\end{figure}
-Quite a bit of time was spent on this too.
-
-\subsection{Prometheus Self Monitoring}
-The final monitoring component added to the stack was the Prometheus self monitoring. Whilst implementing and troubleshooting the
-various monitoring components in the stack, it was discovered that the Prometheus server itself serves up its own metrics on
-its own endpoint. As Prometheus is already configured as a data source in Grafana the implementation of this was trivial. The
-dashboard was merely imported and straight away started receiving metrics.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\linewidth]{figures/prom_self_monitor.png}
-	\caption{Prometheus self monitoring.}
-	\label{fig:prom_self_monitoring}
-\end{figure}
-\section{Conclusion}
-This paper looked at the varies ways to implement Prometheus and tried to cover the differing scenarios one might face when implementing
-monitoring. It isn't always the case that monitoring was left out from the cluster creation process, sometimes the organisation may
-be utilizing a different monitoring stack and decide to switch, with minimal downtime to the system an obvious goal. This paper
-shows that, whilst some downtime is necessary in this set up, a full production cluster with multiple nodes and replicas which may be drained
-in small batches or if the org has a blue-green deployment strategy then the crossover may occur with no downtime required.
-\bigbreak
-Every time I work with Kubernetes the technology finds new ways to amaze me. Firstly with just how quickly and painlessly (after
-the admittedly steep learning curve) components can be upgraded. I tested new versions of the applications numerous times and
-Kubernetes never failed to bring up the pod. All very quickly too. I even brought up a pod somewhat by accident, with dubious configurations
-and yet again, Kube had the application up and running (and actually quite difficult to kill).
-\bigbreak
-The Operator pattern, the extension of the Kubernetes API via this pattern is a fantastic way of provisioning and managing
-resources. Once one is familiar-ish with what components need and the different types of `kinds' and native Kube resources
-(ConfigMaps, Deployments etc.) then someone with little Kubernetes experience can effectively spin up a huge amount of highly functional
-resources by utilizing template files / resource definitions provided by the teams who work on the technologies every day.\\
-The ability to nest operators and use them to create a larger resource is an extremely powerful concept.
-\bigbreak
-Prometheus works very well. The ecosystem is quite mature, and the community is very active. The amount of data that can be gleamed from 
-the system is large but so to are the different metrics that can be extracted. Being able to query the data in various forms is a big plus.
-As to is the ecosystem at large. There are exporters / operators for any third party application I've looked for and as such 
-I can see no reason why a team wouldn't avail of them. It is an integral tool in the quest for a Highly Available and efficient system.
-\bigbreak
-Grafana is also a very useful tool. The visualisations and dashboards are beautiful and there are a lot of options, in terms of 
-community dashboards freely available from the Grafana website, that work with a variety of data sources. 
-\bigbreak
-These technologies are definitely going to be part of future projects I work on. You don't actually know what you're missing until you have it.
-The dashboards and metrics are an amazing way to get a quick overview of the system in real time.\\
-The choice of Strimzi to monitor was a great one. There are quite a few components and as such whilst working through them, I was able to
-gain a much better understanding of Kubernetes, the various components and how they fit together. I'm somewhat disappointed that I didn't
-get to fix the postgresql exporter and the Gunicorn metrics, but I'm happy very with the overall experience.
-\bigbreak
-I would like to explore Grafana's integration with other tools some more. I also toyed with the idea of deploying a time series database
-such as QuestDB or InfluxDB as I see the way time data can be utilized by exploring and querying Prometheus and it is definitely something 
-I would like to see implemented.
+% TODO
+% mention the upgrade of the tapi server and just how quickly the migrations occurred and how successfully 
+% the pods were brought up.
 
 
+
+
+
+% \begin{wrapfigure}{r}{0.35\textwidth}
+% 	\centering
+% 	\includegraphics[width=0.3\textwidth]{figures/terra_dir_struct.png}
+% 	\caption{The Terraform project structure}
+% 	\label{fig:terra_project_structure}
+% \end{wrapfigure}
+% The Terraform directories in this lab are configured in Terraform \code{modules}. With a separate module for the VPC 
+% and the web servers.
+% The module approach makes it much easier to view, understand and edit the code in the Terraform project as it increases the 
+% readability. 
+
+% \begin{lstlisting}[language=yaml, label={lst:vpc_code}, caption={Code to create a VPC resource}]
+%   module "lab-vpc" {
+% 	source = "./modules/vpc"
+
+% 	region               = "eu-west-1"
+% 	vpc_cidr             = "10.10.0.0/16"
+% 	name                 = "lab-vpc"
+% 	env                  = "lab"
+% 	public_subnets_cidr  = ["10.10.0.0/24"]
+% 	private_subnets_cidr = ["10.10.4.0/24"]
+% 	availability_zones   = ["eu-west-1a"]
+% }
+% \end{lstlisting}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{figures/dir_structure.png}
+% 	\caption{Directory structure of the project}
+% 	\label{fig:project_structure}
+% \end{figure}
 
 
 

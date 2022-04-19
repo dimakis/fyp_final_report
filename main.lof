@@ -2,66 +2,34 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture of the proposed monitoring system.}}{3}{figure.1.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces System Architecture}}{5}{figure.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Architecture of Strimzi Operator from \autocite {StrimziDocumentation12}.}}{3}{figure.1.2}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Architecture of the observability stack, image from\autocite {prometheusOverviewPrometheusa}}}{4}{figure.1.3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces System Architecture}}{6}{figure.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Job definition for Prometheus to scrape metrics from custom application. Each component to be monitored gets its own job definition.}}{4}{figure.1.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Bounding Box Example}}{8}{figure.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Prometheus graph data query. From local cluster}}{5}{figure.1.5}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces SROIE Dataset Example}}{10}{figure.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Prometheus tabular data query. From local cluster}}{5}{figure.1.6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces SROIE Results (KIE)}}{10}{figure.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Prometheus targets in the GUI.}}{7}{figure.1.7}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Basic Transformer Sequence To Sequence example}}{13}{figure.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Prometheus recording rules yaml.}}{8}{figure.1.8}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Transformer Stacked Encoder and Decoder example\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{13}{figure.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Prometheus recording rules in the Prom GUI}}{8}{figure.1.9}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Transformer Encoder architecture example\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{13}{figure.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Grafana dashboard layout. From local cluster}}{9}{figure.1.10}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Transformer Decoder architecture example\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{14}{figure.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Alertmanager GUI depicting some alerts}}{10}{figure.1.11}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Original Transformers architecture example\nobreakspace {}\autocite {vaswaniAttentionAllYou}}}{15}{figure.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Helm chart for Prometheus Operator.}}{10}{figure.1.12}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Node Exporter Service.}}{11}{figure.1.13}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Training and Inference Labels created for the system}}{20}{figure.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Node Exporter successfully registered as a healthy target in the Prometheus GUI.}}{11}{figure.1.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Annotating the dataset using UBIAI Annotation Tool}}{20}{figure.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Node Exporter dashboard.}}{12}{figure.1.15}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces UBIAI Export Options}}{21}{figure.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Scrape Config Secret.}}{13}{figure.1.16}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Strimzi PodMonitor}}{14}{figure.1.17}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.18}{\ignorespaces ConfigMap for Kafka broker for Prometheus integration.}}{16}{figure.1.18}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Prometheus YAML for Strimzi components.}}{17}{figure.1.19}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Prometheus successfully defining Strimzi Operator as a target.}}{17}{figure.1.20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Prometheus successfully defining both the Topic Operator and the User Operator as part of the Strimzi Entity Operator as a target.}}{18}{figure.1.21}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Prometheus successfully defining the Kafka components as targets.}}{18}{figure.1.22}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Prometheus successfully querying the Kafka components via the UI.}}{19}{figure.1.23}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.24}{\ignorespaces Grafana dashboard for the Strimzi Operator monitoring.}}{19}{figure.1.24}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.25}{\ignorespaces Grafana dashboard for the Kafka broker.}}{20}{figure.1.25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.26}{\ignorespaces Grafana dashboard for the Zookeeper deployment.}}{20}{figure.1.26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.27}{\ignorespaces Grafana dashboard for the Kafka exporter dashboard I/II.}}{21}{figure.1.27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.28}{\ignorespaces Grafana dashboard for the Kafka exporter dashboard II/II.}}{21}{figure.1.28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.29}{\ignorespaces Prometheus successfully registering the Flask App as a target.}}{24}{figure.1.29}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.30}{\ignorespaces Grafana dashboard for the Flask application.}}{24}{figure.1.30}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.31}{\ignorespaces Target successful for Prometheus Postgres Exporter deployment.}}{25}{figure.1.31}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.32}{\ignorespaces Prometheus self monitoring.}}{25}{figure.1.32}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Training Dataframe}}{22}{figure.3.4}%

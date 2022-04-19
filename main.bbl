@@ -19,151 +19,679 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{adamPrometheusFlaskExporter2022}{misc}{}
+    \entry{GentleIntroductionBatch}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://machinelearningmastery.com/batch-normalization-for-training-of-deep-neural-networks/}
+      \field{title}{A {{Gentle Introduction}} to {{Batch Normalization}} for {{Deep Neural Networks}}}
+      \true{nocite}
+    \endentry
+    \entry{alammarIllustratedTransformer}{misc}{}
       \name{author}{1}{}{%
-        {{hash=7f5e5777e0ecb5d6da2e076246c4a286}{%
-           family={Adam},
+        {{hash=071e8b59bcc6de28244fea3bf962a165}{%
+           family={Alammar},
            familyi={A\bibinitperiod},
-           given={Viktor},
-           giveni={V\bibinitperiod}}}%
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{7f5e5777e0ecb5d6da2e076246c4a286}
-      \strng{fullhash}{7f5e5777e0ecb5d6da2e076246c4a286}
-      \strng{bibnamehash}{7f5e5777e0ecb5d6da2e076246c4a286}
-      \strng{authorbibnamehash}{7f5e5777e0ecb5d6da2e076246c4a286}
-      \strng{authornamehash}{7f5e5777e0ecb5d6da2e076246c4a286}
-      \strng{authorfullhash}{7f5e5777e0ecb5d6da2e076246c4a286}
+      \strng{namehash}{071e8b59bcc6de28244fea3bf962a165}
+      \strng{fullhash}{071e8b59bcc6de28244fea3bf962a165}
+      \strng{bibnamehash}{071e8b59bcc6de28244fea3bf962a165}
+      \strng{authorbibnamehash}{071e8b59bcc6de28244fea3bf962a165}
+      \strng{authornamehash}{071e8b59bcc6de28244fea3bf962a165}
+      \strng{authorfullhash}{071e8b59bcc6de28244fea3bf962a165}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Prometheus exporter for Flask applications}
+      \field{abstract}{Discussions: Hacker News (65 points, 4 comments), Reddit r/MachineLearning (29 points, 3 comments) Translations: Chinese (Simplified), French 1, French 2, Japanese, Korean, Russian, Spanish, Vietnamese Watch: MIT's Deep Learning State of the Art lecture referencing this post In the previous post, we looked at Attention –{} a ubiquitous method in modern deep learning models. Attention is a concept that helped improve the performance of neural machine translation applications. In this post, we will look at The Transformer –{} a model that uses attention to boost the speed with which these models can be trained. The Transformer outperforms the Google Neural Machine Translation model in specific tasks. The biggest benefit, however, comes from how The Transformer lends itself to parallelization. It is in fact Google Cloud's recommendation to use The Transformer as a reference model to use their Cloud TPU offering. So let's try to break the model apart and look at how it functions. The Transformer was proposed in the paper Attention is All You Need. A TensorFlow implementation of it is available as a part of the Tensor2Tensor package. Harvard's NLP group created a guide annotating the paper with PyTorch implementation. In this post, we will attempt to oversimplify things a bit and introduce the concepts one by one to hopefully make it easier to understand to people without in-depth knowledge of the subject matter. 2020 Update: I've created a ``Narrated Transformer'' video which is a gentler approach to the topic: A High-Level Look Let's begin by looking at the model as a single black box. In a machine translation application, it would take a sentence in one language, and output its translation in another.}
+      \field{howpublished}{https://jalammar.github.io/illustrated-transformer/}
+      \field{title}{The {{Illustrated Transformer}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/2VK4QG4A/illustrated-transformer.html
+      \endverb
+    \endentry
+    \entry{amamouFineTuningLayoutLMV22022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e1f1f817ebc24a523cab267b4fb1e0fc}{%
+           family={Amamou},
+           familyi={A\bibinitperiod},
+           given={Walid},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{fullhash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{bibnamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{authorbibnamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{authornamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{authorfullhash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{From annotation to training and inference}
+      \field{howpublished}{https://towardsdatascience.com/fine-tuning-layoutlm-v2-for-invoice-recognition-91bf2546b19e}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
       \field{month}{4}
-      \field{title}{Prometheus {{Flask}} Exporter}
+      \field{title}{Fine-{{Tuning LayoutLM}} v2 {{For Invoice Recognition}}}
       \field{year}{2022}
       \true{nocite}
-      \keyw{flask,metrics,prometheus-exporter}
-    \endentry
-    \entry{ChartsStablePrometheusoperator}{misc}{}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeltitlesource}{title}
-      \field{abstract}{{$\warning$}️(OBSOLETE) Curated applications for Kubernetes. Contribute to helm/charts development by creating an account on GitHub.}
-      \field{howpublished}{https://github.com/helm/charts}
-      \field{journaltitle}{GitHub}
-      \field{langid}{english}
-      \field{title}{Charts/Stable/Prometheus-Operator at Master {$\cdot$} Helm/Charts}
-      \true{nocite}
-    \endentry
-    \entry{CloudNativeComputinga}{misc}{}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Cloud Native Computing Foundation (CNCF) serves as the vendor-neutral home for many of the fastest-growing open source projects}
-      \field{howpublished}{https://www.cncf.io/}
-      \field{journaltitle}{Cloud Native Computing Foundation}
-      \field{langid}{american}
-      \field{title}{Cloud {{Native Computing Foundation}}}
-      \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/WSX4BT85/www.cncf.io.html
+      \verb /home/dimdakis/Zotero/storage/6SBXMRRI/fine-tuning-layoutlm-v2-for-invoice-recognition-91bf2546b19e.html
       \endverb
     \endentry
-    \entry{ConfigureServiceAccountsa}{misc}{}
+    \entry{ApacheKafka}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Apache Kafka: A Distributed Streaming Platform.}
+      \field{howpublished}{https://kafka.apache.org/documentation/}
+      \field{journaltitle}{Apache Kafka}
+      \field{langid}{english}
+      \field{title}{Apache {{Kafka}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/RJWJFNSN/documentation.html
+      \endverb
+    \endentry
+    \entry{ApacheKafkaKubernetes2020}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Deploying Apache Kafka on Kubernetes with Strimzi; Producing and Consuming messages with Go and Scala; Monitoring with Prometheus and Grafana}
+      \field{journaltitle}{Sina Nourian}
+      \field{langid}{american}
+      \field{month}{10}
+      \field{shorttitle}{Apache {{Kafka}} on {{Kubernetes}} with {{Strimzi}} - {{Part}} 3}
+      \field{title}{Apache {{Kafka}} on {{Kubernetes}} with {{Strimzi}} - {{Part}} 3: {{Monitoring}} Our {{Strimzi Kafka Cluster}} with {{Prometheus}} and {{Grafana}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/UAX2JDNZ/kafka-kubernetes-strimzi-part-3-monitoring-strimzi-kafka-with-prometheus-grafana.html
+      \endverb
+    \endentry
+    \entry{APIFlaskDocumentation}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://flask.palletsprojects.com/en/2.1.x/api/\#flask.Request.json}
+      \field{title}{{{API}} —{} {{Flask Documentation}} (2.1.x)}
+      \true{nocite}
+    \endentry
+    \entry{APIReferenceOverview}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://docs.clover.com/reference/api-reference-overview\#}
+      \field{title}{{{API Reference Overview}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/LIG9DL9I/api-reference-overview.html
+      \endverb
+    \endentry
+    \entry{ArtificialIntelligenceResearch}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Microsoft AI Research is creating artificial intelligence machines that complement human reasoning to augment and enrich our experience and competencies.}
+      \field{journaltitle}{Microsoft Research}
+      \field{langid}{american}
+      \field{title}{Artificial {{Intelligence}} Research at {{Microsoft}} Aims to Enrich Our Experiences}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/VSWUL5WX/artificial-intelligence.html
+      \endverb
+    \endentry
+    \entry{bachinaHowUseOwn2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6159094f32936c04b4cdd0cec022a378}{%
+           family={Bachina},
+           familyi={B\bibinitperiod},
+           given={Bhargav},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6159094f32936c04b4cdd0cec022a378}
+      \strng{fullhash}{6159094f32936c04b4cdd0cec022a378}
+      \strng{bibnamehash}{6159094f32936c04b4cdd0cec022a378}
+      \strng{authorbibnamehash}{6159094f32936c04b4cdd0cec022a378}
+      \strng{authornamehash}{6159094f32936c04b4cdd0cec022a378}
+      \strng{authorfullhash}{6159094f32936c04b4cdd0cec022a378}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A step by step guide with an example project}
+      \field{journaltitle}{Bachina Labs}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{How to {{Use Own Local Docker Images With Minikube}}}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{BERT}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/docs/transformers/model\_doc/bert}
+      \field{title}{{{BERT}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/5UBZCPS2/bert.html
+      \endverb
+    \endentry
+    \entry{BigScienceResearchWorkshop}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://bigscience.huggingface.co/}
+      \field{title}{{{BigScience Research Workshop}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/ENHTNJZL/bigscience.huggingface.co.html
+      \endverb
+    \endentry
+    \entry{BigscienceTr11176BmllogsHugging}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/bigscience/tr11-176B-ml-logs}
+      \field{title}{Bigscience/Tr11-{{176B-ml-logs}} {$\cdot$} {{Hugging Face}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/3EXBMSJY/tr11-176B-ml-logs.html
+      \endverb
+    \endentry
+    \entry{brownleeEncoderDecoderRecurrentNeural2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The encoder-decoder architecture for recurrent neural networks is the standard neural machine translation method that rivals and in some cases [\ldots ]}
+      \field{journaltitle}{Machine Learning Mastery}
+      \field{langid}{american}
+      \field{month}{12}
+      \field{title}{Encoder-{{Decoder Recurrent Neural Network Models}} for {{Neural Machine Translation}}}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/GQ9YK3AY/encoder-decoder-recurrent-neural-network-models-neural-machine-translation.html
+      \endverb
+    \endentry
+    \entry{ClickUpOneApp}{misc}{}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labeltitlesource}{title}
-      \field{abstract}{A service account provides an identity for processes that run in a Pod. Note: This document is a user introduction to Service Accounts and describes how service accounts behave in a cluster set up as recommended by the Kubernetes project. Your cluster administrator may have customized the behavior in your cluster, in which case this documentation may not apply. When you (a human) access the cluster (for example, using kubectl), you are authenticated by the apiserver as a particular User Account (currently this is usually admin, unless your cluster administrator has customized your cluster).}
-      \field{chapter}{docs}
-      \field{howpublished}{https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/}
+      \field{abstract}{Our mission is to make the world more productive. To do this, we built one app to replace them all - Tasks, Docs, Goals, and Chat.}
+      \field{howpublished}{https://clickup.com}
+      \field{langid}{english}
+      \field{title}{{{ClickUp}}\texttrademark{} | {{One}} App to Replace Them All}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/IX9VE5PD/clickup.com.html
+      \endverb
+    \endentry
+    \entry{cloudfactoryDataAnnotationTools}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=727b6910944ad2c0d60866ef5913061b}{%
+           family={CloudFactory},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{727b6910944ad2c0d60866ef5913061b}
+      \strng{fullhash}{727b6910944ad2c0d60866ef5913061b}
+      \strng{bibnamehash}{727b6910944ad2c0d60866ef5913061b}
+      \strng{authorbibnamehash}{727b6910944ad2c0d60866ef5913061b}
+      \strng{authornamehash}{727b6910944ad2c0d60866ef5913061b}
+      \strng{authorfullhash}{727b6910944ad2c0d60866ef5913061b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Selecting the right tool to annotate your data can save you time, money, and frustration. This guide will help you understand how to choose the best data annotation tools for your machine learning project.}
+      \field{howpublished}{https://www.cloudfactory.com/data-annotation-tool-guide}
+      \field{langid}{english}
+      \field{shorttitle}{Data {{Annotation Tools}} for {{Machine Learning}}}
+      \field{title}{Data {{Annotation Tools}} for {{Machine Learning}}: {{An Evolving Guide}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/8ZSS247W/data-annotation-tool-guide.html
+      \endverb
+    \endentry
+    \entry{ComputerVisionCenter}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Computer Vision Centre (CVC) is a not for profit institute, leader in research and development in the field of computer vision}
+      \field{langid}{american}
+      \field{title}{Computer {{Vision Center}} | {{The Computer Vision Centre}} ({{CVC}}) Is a Not for Profit Institute, Leader in Research and Development in the Field of Computer Vision}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/W6A38UW9/www.cvc.uab.es.html
+      \endverb
+    \endentry
+    \entry{Concepts}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Production-Grade Container Orchestration}
+      \field{howpublished}{https://kubernetes.io/docs/concepts/}
       \field{journaltitle}{Kubernetes}
       \field{langid}{english}
-      \field{title}{Configure {{Service Accounts}} for {{Pods}}}
-      \true{nocite}
-    \endentry
-    \entry{DataSources}{misc}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Data sources Grafana supports many different storage backends for your time series data (data source). Refer to Add a data source for instructions on how \ldots}
-      \field{howpublished}{https://grafana.com/docs/grafana/latest/datasources/}
-      \field{journaltitle}{Grafana Labs}
-      \field{langid}{english}
-      \field{title}{Data Sources}
+      \field{title}{Concepts}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/RFDP4P6J/datasources.html
+      \verb /home/dimdakis/Zotero/storage/TGL364UJ/concepts.html
       \endverb
     \endentry
-    \entry{DeployPrometheusMonitoring}{misc}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+    \entry{ConnectorsDebeziumDocumentation}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labeltitlesource}{title}
-      \field{abstract}{kube-prometheus-stack kube-prometheus-stack is a collection of Kubernetes manifests includ...}
-      \field{howpublished}{https://dev.to/kaitoii11/deploy-prometheus-monitoring-stack-to-kubernetes-with-a-single-helm-chart-2fbd}
-      \field{journaltitle}{DEV Community}
-      \field{langid}{english}
-      \field{title}{Deploy {{Prometheus}} Monitoring Stack to {{Kubernetes}} with a Single {{Helm Chart}}}
+      \field{howpublished}{https://debezium.io/documentation/reference/stable/connectors/index.html}
+      \field{title}{Connectors :: {{Debezium Documentation}}}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/DJMGHTPH/deploy-prometheus-monitoring-stack-to-kubernetes-with-a-single-helm-chart-2fbd.html
+      \verb /home/dimdakis/Zotero/storage/8VC4E2Y4/index.html
       \endverb
     \endentry
-    \entry{DeployingUpgrading28}{misc}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://strimzi.io/docs/operators/latest/deploying.html\#proc-metrics-kafka-deploy-options-str}
-      \field{title}{Deploying and {{Upgrading}} (0.28.0)}
-      \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/ED7ERXAQ/deploying.html
-      \endverb
-    \endentry
-    \entry{goltsmanDeployingTraefikIngress2019}{misc}{}
+    \entry{cristinaTransformerModel2021}{misc}{}
       \name{author}{1}{}{%
-        {{hash=b35a52e19fbbc9d9cc131d184431dc48}{%
-           family={Goltsman},
-           familyi={G\bibinitperiod},
-           given={Kirill},
+        {{hash=66cd2bbfcd0016a2479eac7167dcada8}{%
+           family={Cristina},
+           familyi={C\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{fullhash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{bibnamehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{authorbibnamehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{authornamehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{authorfullhash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have already familiarized ourselves with the concept of self-attention as implemented by the Transformer attention mechanism for neural machine [\ldots ]}
+      \field{journaltitle}{Machine Learning Mastery}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{The {{Transformer Model}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/SUYYIEZ5/the-transformer-model.html
+      \endverb
+    \endentry
+    \entry{DD5D5V08elb}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://link.medium.com/DD5D5V08elb}
+      \field{title}{{{DD5D5V08elb}}}
+      \true{nocite}
+    \endentry
+    \entry{DebeziumArchitectureDebezium}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://debezium.io/documentation/reference/architecture.html}
+      \field{title}{Debezium {{Architecture}} :: {{Debezium Documentation}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/VE2SE9E7/architecture.html
+      \endverb
+    \endentry
+    \entry{debeziumcommunityDebezium}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=24685d139ef087fe4a5351a5745f729e}{%
+           family={{Debezium Community}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{fullhash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{bibnamehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{authorbibnamehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{authornamehash}{24685d139ef087fe4a5351a5745f729e}
+      \strng{authorfullhash}{24685d139ef087fe4a5351a5745f729e}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Debezium is an open source distributed platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong.}
+      \field{howpublished}{https://debezium.io/}
+      \field{journaltitle}{Debezium}
+      \field{title}{Debezium}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/GFF7BNDQ/debezium.io.html
+      \endverb
+    \endentry
+    \entry{degioanniPhasesPrometheusAdoption2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f348f6260ef3581293d8d5517d0be803}{%
+           family={Degioanni},
+           familyi={D\bibinitperiod},
+           given={Loris},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f348f6260ef3581293d8d5517d0be803}
+      \strng{fullhash}{f348f6260ef3581293d8d5517d0be803}
+      \strng{bibnamehash}{f348f6260ef3581293d8d5517d0be803}
+      \strng{authorbibnamehash}{f348f6260ef3581293d8d5517d0be803}
+      \strng{authornamehash}{f348f6260ef3581293d8d5517d0be803}
+      \strng{authorfullhash}{f348f6260ef3581293d8d5517d0be803}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How to ensure visibility into your next-generation Kubernetes environment}
+      \field{howpublished}{https://www.infoworld.com/article/3275887/3-phases-of-prometheus-adoption.html}
+      \field{journaltitle}{InfoWorld}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{3 Phases of {{Prometheus}} Adoption}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/7BKALCZ8/3-phases-of-prometheus-adoption.html
+      \endverb
+    \endentry
+    \entry{DeployingContainerizedAPI}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://levelup.gitconnected.com/deploying-dockerized-golang-api-on-kubernetes-with-postgresql-mysql-d190e27ac09f}
+      \field{title}{Deploying a {{Containerized API}} on {{Kubernetes}} | by Victor Steven | {{Level Up Coding}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/PRJC474R/Deploying a Containerized API on Kubernetes by victor steven Level Up Coding.html
+      \endverb
+    \endentry
+    \entry{dhamiUnderstandingBERTWord2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6314a9308209ac9a4a5ef0f96801f81d}{%
+           family={Dhami},
+           familyi={D\bibinitperiod},
+           given={Dharti},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{6314a9308209ac9a4a5ef0f96801f81d}
+      \strng{fullhash}{6314a9308209ac9a4a5ef0f96801f81d}
+      \strng{bibnamehash}{6314a9308209ac9a4a5ef0f96801f81d}
+      \strng{authorbibnamehash}{6314a9308209ac9a4a5ef0f96801f81d}
+      \strng{authornamehash}{6314a9308209ac9a4a5ef0f96801f81d}
+      \strng{authorfullhash}{6314a9308209ac9a4a5ef0f96801f81d}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BERT Input}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Understanding {{BERT}} —{} {{Word Embeddings}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/3GRNVALE/understanding-bert-word-embeddings-7dc4d2ea54ca.html
+      \endverb
+    \endentry
+    \entry{DockercomposeCreateDb}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://stackoverflow.com/questions/59715622/docker-compose-and-create-db-in-postgres-on-init}
+      \field{journaltitle}{Stack Overflow}
+      \field{title}{Docker-Compose and Create Db in {{Postgres}} on Init}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/FYAYL49B/docker-compose-and-create-db-in-postgres-on-init.html
+      \endverb
+    \endentry
+    \entry{DockerimagesPostgres13}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Docker images for Debezium. Please log issues in our JIRA at https://issues.redhat.com/projects/DBZ/summary - docker-images/postgres/13 at main {$\cdot$} debezium/docker-images}
+      \field{howpublished}{https://github.com/debezium/docker-images}
+      \field{journaltitle}{GitHub}
+      \field{langid}{english}
+      \field{title}{Docker-Images/Postgres/13 at Main {$\cdot$} Debezium/Docker-Images}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/FCR52T2E/13.html
+      \endverb
+    \endentry
+    \entry{DockerimagesPostgresMain}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Docker images for Debezium. Please log issues in our JIRA at https://issues.redhat.com/projects/DBZ/summary - docker-images/postgres/9.6 at main {$\cdot$} debezium/docker-images}
+      \field{howpublished}{https://github.com/debezium/docker-images}
+      \field{journaltitle}{GitHub}
+      \field{langid}{english}
+      \field{title}{Docker-Images/Postgres/9.6 at Main {$\cdot$} Debezium/Docker-Images}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/VS2MZTN9/9.html
+      \endverb
+    \endentry
+    \entry{doshiTransformersExplainedVisually2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=85e0dd9d178e81b618c3068b81cd6dd7}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Ketan},
            giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{b35a52e19fbbc9d9cc131d184431dc48}
-      \strng{fullhash}{b35a52e19fbbc9d9cc131d184431dc48}
-      \strng{bibnamehash}{b35a52e19fbbc9d9cc131d184431dc48}
-      \strng{authorbibnamehash}{b35a52e19fbbc9d9cc131d184431dc48}
-      \strng{authornamehash}{b35a52e19fbbc9d9cc131d184431dc48}
-      \strng{authorfullhash}{b35a52e19fbbc9d9cc131d184431dc48}
+      \strng{namehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{fullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{bibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorbibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authornamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorfullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A Gentle Guide to Transformers for NLP, and why they are better than RNNs, in Plain English. How Attention helps improve performance.}
+      \field{howpublished}{https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shorttitle}{Transformers {{Explained Visually}} ({{Part}} 1)}
+      \field{title}{Transformers {{Explained Visually}} ({{Part}} 1): {{Overview}} of {{Functionality}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/S75ZMAJQ/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452.html
+      \endverb
+    \endentry
+    \entry{duttaAnnotationSoftwareImages2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=c95b384352d41d86ae5305e0e6a79ebe}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nice France}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a225f56693b453a127fb33f4db190ec2}
+      \strng{fullhash}{a225f56693b453a127fb33f4db190ec2}
+      \strng{bibnamehash}{a225f56693b453a127fb33f4db190ec2}
+      \strng{authorbibnamehash}{a225f56693b453a127fb33f4db190ec2}
+      \strng{authornamehash}{a225f56693b453a127fb33f4db190ec2}
+      \strng{authorfullhash}{a225f56693b453a127fb33f4db190ec2}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 27th {{ACM International Conference}} on {{Multimedia}}}
+      \field{isbn}{978-1-4503-6889-6}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{The {{VIA Annotation Software}} for {{Images}}, {{Audio}} and {{Video}}}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{2276\bibrangedash 2279}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/3343031.3350535
+      \endverb
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/68DG5Y4E/Dutta and Zisserman - 2019 - The VIA Annotation Software for Images, Audio and .pdf
+      \endverb
+    \endentry
+    \entry{EasyUseText}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Easy to Use Text Annotation Tool | Upload documents in native PDF, CSV, Docx, html or ZIP format, start annotating, and create advanced NLP model in a few hours. Collaborate with other users to accelerate the document annotation process. Manage users, assign documents and track the annotation progress. UBIAI high quality OCR annotation allow you to label native PDFs and images directly and auto annotate your dataset in multiple language annotation such as English, French and Arabic. UBIAI let you auto annotate your dataset using dictionaries (word, sentence and Regex inputs) and ML model.With UBIAI's built-in machine learning model, you can train and deploy your custom model without any code. Our NLP labeling tool supports Amazon Comprehend, JSON, Spacy, IOB, and CoreNLP formats}
+      \field{howpublished}{https://ubiai.tools/}
+      \field{langid}{english}
+      \field{title}{Easy to {{Use Text Annotation Tool}} | {{Upload}} Documents, Start Annotating, and Create Advanced {{NLP}} Model in a Few Hours.}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/LKYLFYV5/ubiai.tools.html
+      \endverb
+    \endentry
+    \entry{EasyUseTexta}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Easy to Use Text Annotation Tool | Upload documents in native PDF, CSV, Docx, html or ZIP format, start annotating, and create advanced NLP model in a few hours. Collaborate with other users to accelerate the document annotation process. Manage users, assign documents and track the annotation progress. UBIAI high quality OCR annotation allow you to label native PDFs and images directly and auto annotate your dataset in multiple language annotation such as English, French and Arabic. UBIAI let you auto annotate your dataset using dictionaries (word, sentence and Regex inputs) and ML model.With UBIAI's built-in machine learning model, you can train and deploy your custom model without any code. Our NLP labeling tool supports Amazon Comprehend, JSON, Spacy, IOB, and CoreNLP formats}
+      \field{howpublished}{https://ubiai.tools/blog/article/how-to-annotate-pdfs-and-scanned-images-for-nlp-applications}
+      \field{langid}{english}
+      \field{title}{Easy to {{Use Text Annotation Tool}} | {{Upload}} Documents, Start Annotating, and Create Advanced {{NLP}} Model in a Few Hours.}
+      \true{nocite}
+    \endentry
+    \entry{EasyUseTextb}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Easy to Use Text Annotation Tool | Upload documents in native PDF, CSV, Docx, html or ZIP format, start annotating, and create advanced NLP model in a few hours. Collaborate with other users to accelerate the document annotation process. Manage users, assign documents and track the annotation progress. UBIAI high quality OCR annotation allow you to label native PDFs and images directly and auto annotate your dataset in multiple language annotation such as English, French and Arabic. UBIAI let you auto annotate your dataset using dictionaries (word, sentence and Regex inputs) and ML model.With UBIAI's built-in machine learning model, you can train and deploy your custom model without any code. Our NLP labeling tool supports Amazon Comprehend, JSON, Spacy, IOB, and CoreNLP formats}
+      \field{howpublished}{https://ubiai.tools/blog/article/fine-tuning-transformer-model}
+      \field{langid}{english}
+      \field{title}{Easy to {{Use Text Annotation Tool}} | {{Upload}} Documents, Start Annotating, and Create Advanced {{NLP}} Model in a Few Hours.}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/4AZ686BU/fine-tuning-transformer-model.html
+      \endverb
+    \endentry
+    \entry{EngineConfigurationSQLAlchemy}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://docs.sqlalchemy.org/en/14/core/engines.html}
+      \field{title}{Engine {{Configuration}} —{} {{SQLAlchemy}} 1.4 {{Documentation}}}
+      \true{nocite}
+    \endentry
+    \entry{EventdrivenArchitectureMicroservices2020}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Complexities of combining EDA and microservices architecture styles to build scalable, distributed, highly available, fault-tolerant, and high-throughput systems.}
+      \field{journaltitle}{IBM Developer}
+      \field{langid}{american}
+      \field{month}{7}
+      \field{title}{Event-Driven Architecture and Microservices Combination Concerns}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/EA34XYSL/eda-and-microservices-architecture-best-practices.html
+      \endverb
+    \endentry
+    \entry{ghoshExtendingFlaskTutorial2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d6224b70b3e32479c6d20cdbc7cfebe1}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Ren{é}},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6224b70b3e32479c6d20cdbc7cfebe1}
+      \strng{fullhash}{d6224b70b3e32479c6d20cdbc7cfebe1}
+      \strng{bibnamehash}{d6224b70b3e32479c6d20cdbc7cfebe1}
+      \strng{authorbibnamehash}{d6224b70b3e32479c6d20cdbc7cfebe1}
+      \strng{authornamehash}{d6224b70b3e32479c6d20cdbc7cfebe1}
+      \strng{authorfullhash}{d6224b70b3e32479c6d20cdbc7cfebe1}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{You might already know from our previous tutorials about how to use Kubernetes Services to distribute traffic between multiple backends\ldots}
-      \field{journaltitle}{Supergiant.io}
+      \field{abstract}{If you're starting out in Flask development, you'll likely have followed the online tutorial over at pallet projects\ldots}
+      \field{journaltitle}{Medium}
       \field{langid}{english}
-      \field{month}{5}
-      \field{title}{Deploying {{Traefik}} as {{Ingress Controller}} for {{Your Kubernetes Cluster}}}
-      \field{year}{2019}
+      \field{month}{3}
+      \field{title}{Extending the {{Flask}} Tutorial App into a Fully-Fledged, Highly Available, Cloud-Based Application}
+      \field{year}{2021}
       \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/RLIRH7S5/deploying-traefik-as-ingress-controller-for-your-kubernetes-cluster-b03a0672ae0c.html
-      \endverb
     \endentry
-    \entry{GrafanaPrometheusSetup}{misc}{}
+    \entry{GOCDCPostgres}{misc}{}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labeltitlesource}{title}
-      \field{abstract}{A software developer gives a quick tutorial on how to use Strimzi to integrate Prometheus into a Java-based application. Read on to learn more!}
-      \field{howpublished}{https://dzone.com/articles/grafana-and-prometheus-setup-with-strimzi-aka-kafk}
-      \field{journaltitle}{dzone.com}
+      \field{howpublished}{https://dev.to/thiagosilvaf/gocdc-and-postgres-1m4m}
+      \field{title}{{{GOCDC}} and {{Postgres}}}
+      \true{nocite}
+    \endentry
+    \entry{GorillaMux2021}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A powerful HTTP router and URL matcher for building Go web servers with 🦍}
+      \field{howpublished}{Gorilla Web Toolkit}
+      \field{month}{10}
+      \field{title}{Gorilla/Mux}
+      \field{year}{2021}
+      \true{nocite}
+      \keyw{go,gorilla,http,middleware,mux,router}
+    \endentry
+    \entry{GPT3PowersNext2021}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over 300 applications are delivering GPT-3–powered search, conversation, text completion, and other advanced AI features through our API.}
+      \field{howpublished}{https://openai.com/blog/gpt-3-apps/}
+      \field{journaltitle}{OpenAI}
       \field{langid}{english}
-      \field{title}{Grafana and {{Prometheus Setup With Strimzi}}, a.k.a. {{Kafka}} on {{Kubernetes}}. - {{DZone Integration}}}
+      \field{month}{3}
+      \field{title}{{{GPT-3 Powers}} the {{Next Generation}} of {{Apps}}}
+      \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/IRLNV8E6/grafana-and-prometheus-setup-with-strimzi-aka-kafk.html
+      \verb /home/dimdakis/Zotero/storage/MB95T8TI/gpt-3-apps.html
       \endverb
     \endentry
-    \entry{GrafanaOpenObservabilitya}{misc}{}
+    \entry{GrafanaOpenObservability}{misc}{}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labeltitlesource}{shorttitle}
@@ -175,298 +703,547 @@
       \field{title}{Grafana: {{The}} Open Observability Platform}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/TVSYD3R8/grafana.com.html
+      \verb /home/dimdakis/Zotero/storage/GTHDN47S/grafana.com.html
       \endverb
     \endentry
-    \entry{gregoryTypesPrometheusMetrics2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=f535a3801a3aae9dc07a9b56e47b41b9}{%
-           family={Gregory},
-           familyi={G\bibinitperiod},
-           given={Tom},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{f535a3801a3aae9dc07a9b56e47b41b9}
-      \strng{fullhash}{f535a3801a3aae9dc07a9b56e47b41b9}
-      \strng{bibnamehash}{f535a3801a3aae9dc07a9b56e47b41b9}
-      \strng{authorbibnamehash}{f535a3801a3aae9dc07a9b56e47b41b9}
-      \strng{authornamehash}{f535a3801a3aae9dc07a9b56e47b41b9}
-      \strng{authorfullhash}{f535a3801a3aae9dc07a9b56e47b41b9}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Prometheus is an excellent tool for gathering metrics from your application so that you can better understand how it's behaving. When deciding how to publish metrics, you'll have 4 types of metrics to choose from. In this article you'll discover what are the different types of Prometheus metrics, how to decide which one is right for a specific scenario, and how to query them. Overview If you're new to Prometheus, or monitoring in general, be sure to check out my Monitoring A Spring Boot Application, Part 2: Prometheus article, from my series about monitoring a Spring Boot application. As a}
-      \field{chapter}{Monitoring}
-      \field{journaltitle}{Tom Gregory}
-      \field{langid}{british}
-      \field{month}{12}
-      \field{title}{The 4 {{Types Of Prometheus Metrics}}}
-      \field{year}{2019}
-      \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/E3PAF8YK/the-four-types-of-prometheus-metrics.html
-      \endverb
-    \endentry
-    \entry{GunicornPythonWSGI}{misc}{}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://gunicorn.org/}
-      \field{title}{Gunicorn - {{Python WSGI HTTP Server}} for {{UNIX}}}
-      \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/WCUQPM5V/gunicorn.org.html
-      \endverb
-    \endentry
-    \entry{HowSetupPrometheus2021}{misc}{}
+    \entry{Helm}{misc}{}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labeltitlesource}{title}
-      \field{abstract}{This guide will walk you through the Prometheus node exporter setup on a Kubernetes cluster and integrate Prometheus scrape config to scrape the node metrics.}
-      \field{chapter}{KUBERNETES}
-      \field{howpublished}{https://devopscube.com/node-exporter-kubernetes/}
+      \field{abstract}{Helm - The Kubernetes Package Manager.}
+      \field{howpublished}{https://helm.sh/}
       \field{langid}{american}
-      \field{month}{4}
-      \field{title}{How {{To Setup Prometheus Node Exporter On Kubernetes}}}
-      \field{year}{2021}
+      \field{title}{Helm}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/PEV68FQX/node-exporter-kubernetes.html
+      \verb /home/dimdakis/Zotero/storage/LQN9LERF/helm.sh.html
       \endverb
     \endentry
-    \entry{JMXExporter2022}{misc}{}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+    \entry{HowGiantCompanies}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
       \field{labeltitlesource}{title}
-      \field{abstract}{A process for exposing JMX Beans via HTTP for Prometheus consumption}
-      \field{howpublished}{Prometheus}
-      \field{month}{4}
-      \field{title}{{{JMX Exporter}}}
-      \field{year}{2022}
+      \field{abstract}{This guide gives an in-depth look at how 8 well-known companies use Kubernetes \& lists 60 others that use it.}
+      \field{howpublished}{https://www.containiq.com/post/companies-using-kubernetes}
+      \field{title}{How 8 {{Giant Companies Use Kubernetes}} \& 60 {{Others That Use It}}}
       \true{nocite}
-      \keyw{java-agent,jmx,mbean,monitoring,prometheus,prometheus-exporter}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/F2A44NEI/companies-using-kubernetes.html
+      \endverb
     \endentry
-    \entry{Kubeprometheusstack34Prometheus}{misc}{}
+    \entry{HowIntegrateKafka}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://labs.consol.de/development/2021/02/02/istio\_and\_kafka\_on\_openshift.html}
+      \field{title}{How to Integrate {{Kafka}} with {{Istio}} on {{OpenShift}}}
+      \true{nocite}
+    \endentry
+    \entry{HowPlotTrain}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://discuss.pytorch.org/t/how-to-plot-train-and-validation-accuracy-graph/105524}
+      \field{title}{How to Plot Train and Validation Accuracy Graph?}
+      \true{nocite}
+    \endentry
+    \entry{HowUseChange}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://dev.to/thiagosilvaf/how-to-use-change-database-capture-cdc-in-postgres-37b8}
+      \field{title}{How to Use {{Change Data Capture}} ({{CDC}}) with {{Postgres}}}
+      \true{nocite}
+    \endentry
+    \entry{HuggingFaceAI}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/}
+      \field{title}{Hugging {{Face}} –{} {{The AI}} Community Building the Future.}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/RG3K8PCF/huggingface.co.html
+      \endverb
+    \endentry
+    \entry{HuggingFaceTransformers}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rapid development of Transformers have brought a new wave of powerful tools to natural language processing. These models are large and very expensive to train, so pre-trained versions are shared and leveraged by researchers and practitioners. Hugging Face offers a wide variety of pre-trained transformers as open-source libraries, and\ldots}
+      \field{chapter}{2021 Feb Tutorials, Overviews}
+      \field{journaltitle}{KDnuggets}
+      \field{langid}{american}
+      \field{title}{Hugging {{Face Transformers Package}} - {{What Is It}} and {{How To Use It}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/WR3ETSKR/hugging-face-transformer-basics.html
+      \endverb
+    \endentry
+    \entry{InstallationGuideNGINX}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://kubernetes.github.io/ingress-nginx/deploy/}
+      \field{title}{Installation {{Guide}} - {{NGINX Ingress Controller}}}
+      \true{nocite}
+    \endentry
+    \entry{IntelligentDocumentProcessing}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://nanonets.com/blog/receipt-ocr/\%23receipt-digitization-using-tesseract}
+      \field{title}{Intelligent Document Processing with {{AI}}}
+      \true{nocite}
+    \endentry
+    \entry{issaevBeginnerGuideLoading2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fc21171c8367aa5af26b668887010e90}{%
+           family={Issaev},
+           familyi={I\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc21171c8367aa5af26b668887010e90}
+      \strng{fullhash}{fc21171c8367aa5af26b668887010e90}
+      \strng{bibnamehash}{fc21171c8367aa5af26b668887010e90}
+      \strng{authorbibnamehash}{fc21171c8367aa5af26b668887010e90}
+      \strng{authornamehash}{fc21171c8367aa5af26b668887010e90}
+      \strng{authorfullhash}{fc21171c8367aa5af26b668887010e90}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As data scientists, we deal with incoming data in a wide variety of formats. When it comes to loading image data with PyTorch, the\ldots}
+      \field{howpublished}{https://towardsdatascience.com/beginners-guide-to-loading-image-data-with-pytorch-289c60b7afec}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Beginner's {{Guide}} to {{Loading Image Data}} with {{PyTorch}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/R3BZHR8S/beginners-guide-to-loading-image-data-with-pytorch-289c60b7afec.html
+      \endverb
+    \endentry
+    \entry{KafkaConnectConfluent}{misc}{}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labeltitlesource}{title}
-      \field{abstract}{kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.}
-      \field{howpublished}{https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack}
-      \field{langid}{english}
-      \field{title}{Kube-Prometheus-Stack 34.7.1 {$\cdot$} Prometheus/Prometheus-Community}
+      \field{howpublished}{https://docs.confluent.io/platform/current/connect/index.html}
+      \field{title}{Kafka {{Connect}} | {{Confluent Documentation}}}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/H82ZACHF/kube-prometheus-stack.html
+      \verb /home/dimdakis/Zotero/storage/S7T2ZSPI/index.html
       \endverb
     \endentry
-    \entry{MonitoringPythonFlask2020}{misc}{}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Learn about how easy it is to monitor your Python Flask applications with Prometheus using an exporter library!}
-      \field{howpublished}{https://blog.viktoradam.net/2020/05/11/prometheus-flask-exporter/}
-      \field{journaltitle}{Viktor Adam's blog}
-      \field{langid}{american}
-      \field{month}{5}
-      \field{title}{Monitoring {{Python Flask}} Microservices with {{Prometheus}} {$\cdot$} {{Viktor Adam}}'s Blog}
-      \field{year}{2020}
-      \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/HHDHK55J/prometheus-flask-exporter.html
-      \endverb
-    \endentry
-    \entry{mutaiSetupPrometheusGrafana2021}{misc}{}
+    \entry{kamaniImplementingKafkaProducer}{misc}{}
       \name{author}{1}{}{%
-        {{hash=8e5538a563dbc05d54a85fabc2057ebc}{%
-           family={Mutai},
-           familyi={M\bibinitperiod},
-           given={Josphat},
-           giveni={J\bibinitperiod}}}%
+        {{hash=a035f2f59ecca0732c583b8f22709c17}{%
+           family={Kamani},
+           familyi={K\bibinitperiod},
+           given={Soham},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{8e5538a563dbc05d54a85fabc2057ebc}
-      \strng{fullhash}{8e5538a563dbc05d54a85fabc2057ebc}
-      \strng{bibnamehash}{8e5538a563dbc05d54a85fabc2057ebc}
-      \strng{authorbibnamehash}{8e5538a563dbc05d54a85fabc2057ebc}
-      \strng{authornamehash}{8e5538a563dbc05d54a85fabc2057ebc}
-      \strng{authorfullhash}{8e5538a563dbc05d54a85fabc2057ebc}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \strng{namehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{fullhash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{bibnamehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{authorbibnamehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{authornamehash}{a035f2f59ecca0732c583b8f22709c17}
+      \strng{authorfullhash}{a035f2f59ecca0732c583b8f22709c17}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Monitoring Production Kubernetes Cluster(s) is an important and progressive operation for any Cluster Administrator. There are myriad of solutions that fall}
-      \field{chapter}{Containers}
-      \field{howpublished}{https://computingforgeeks.com/setup-prometheus-and-grafana-on-kubernetes/}
-      \field{langid}{american}
-      \field{month}{7}
-      \field{title}{Setup {{Prometheus}} and {{Grafana}} on {{Kubernetes}} Using Prometheus-Operator | {{ComputingForGeeks}}}
+      \field{howpublished}{https://www.sohamkamani.com/golang/working-with-kafka/}
+      \field{title}{Implementing a {{Kafka Producer}} and {{Consumer In Golang}} ({{With Full Examples}}) {{For Production}}}
+      \true{nocite}
+    \endentry
+    \entry{khannaWordPieceSubwordbasedTokenization2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2ec4ad5e7ff4140ddea44f4a4bfb8603}{%
+           family={Khanna},
+           familyi={K\bibinitperiod},
+           given={Chetna},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ec4ad5e7ff4140ddea44f4a4bfb8603}
+      \strng{fullhash}{2ec4ad5e7ff4140ddea44f4a4bfb8603}
+      \strng{bibnamehash}{2ec4ad5e7ff4140ddea44f4a4bfb8603}
+      \strng{authorbibnamehash}{2ec4ad5e7ff4140ddea44f4a4bfb8603}
+      \strng{authornamehash}{2ec4ad5e7ff4140ddea44f4a4bfb8603}
+      \strng{authorfullhash}{2ec4ad5e7ff4140ddea44f4a4bfb8603}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Understand subword-based tokenization algorithm used by state-of-the-art NLP models{$\mkern1mu$}—{$\mkern1mu$}WordPiece}
+      \field{howpublished}{https://towardsdatascience.com/wordpiece-subword-based-tokenization-algorithm-1fbd14394ed7}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{{{WordPiece}}}
+      \field{title}{{{WordPiece}}: {{Subword-based}} Tokenization Algorithm}
       \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/HRZHCFK5/setup-prometheus-and-grafana-on-kubernetes.html
+      \verb /home/dimdakis/Zotero/storage/BKBEV3K5/wordpiece-subword-based-tokenization-algorithm-1fbd14394ed7.html
       \endverb
     \endentry
-    \entry{NodeExporter2022}{misc}{}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+    \entry{KubernetesAdoptionTrends}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labeltitlesource}{title}
-      \field{abstract}{Exporter for machine metrics}
-      \field{howpublished}{Prometheus}
-      \field{month}{4}
-      \field{title}{Node Exporter}
-      \field{year}{2022}
-      \true{nocite}
-      \keyw{host-metrics,machine-metrics,metrics,node-metrics,procfs,prometheus,prometheus-exporter,system-information,system-metrics}
-    \endentry
-    \entry{NodeExporterFull}{misc}{}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Data visualization \& monitoring with support for Graphite, InfluxDB, Prometheus, Elasticsearch and many more databases}
-      \field{howpublished}{https://grafana.com/grafana/dashboards/1860}
-      \field{journaltitle}{Grafana Labs}
-      \field{langid}{american}
-      \field{title}{Node {{Exporter Full}} Dashboard for {{Grafana}}}
+      \field{howpublished}{https://www.cockroachlabs.com/guides/kubernetes-trends/}
+      \field{title}{Kubernetes {{Adoption Trends Report}}}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/4NHHX2JD/1860.html
+      \verb /home/dimdakis/Zotero/storage/5X8X75AZ/kubernetes-trends.html
       \endverb
     \endentry
-    \entry{ReillyMicroservicesAdoption2020}{misc}{}
-      \field{sortinit}{O}
-      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+    \entry{KubernetesOperatorStateful2021}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labeltitlesource}{title}
-      \field{abstract}{O'Reilly, the premier source for insight-driven learning on technology and business, today released the survey findings of its latest report, ``Microse}
-      \field{howpublished}{https://www.businesswire.com/news/home/20200716005101/en/O\%E2\%80\%99Reilly\%E2\%80\%99s-Microservices-Adoption-in-2020-Report-Finds-that-92-of-Organizations-are-Experiencing-Success-with-Microservices}
+      \field{abstract}{Kubernetes Operator are a replacement of the engineers who are responsible to operate the system. It has knowledge about the current and the desired state.}
+      \field{howpublished}{https://k21academy.com/docker-kubernetes/kubernetes-operator/}
+      \field{journaltitle}{Cloud Training Program}
+      \field{langid}{american}
+      \field{month}{5}
+      \field{title}{Kubernetes {{Operator}} | {{Stateful Kubernetes Application}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/ZRC7M3VZ/kubernetes-operator.html
+      \endverb
+    \endentry
+    \entry{KubernetesSecurityBest}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-security-best-practices-10-steps-to-securing-k8s/}
+      \field{title}{Kubernetes {{Security Best Practices}}: 10 {{Steps}} to {{Securing K8s}}}
+      \true{nocite}
+    \endentry
+    \entry{kudariSQLAlchemyPythonTutorial2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7a048ce6fdefabad0670b4008218aba8}{%
+           family={Kudari},
+           familyi={K\bibinitperiod},
+           given={Vinay},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a048ce6fdefabad0670b4008218aba8}
+      \strng{fullhash}{7a048ce6fdefabad0670b4008218aba8}
+      \strng{bibnamehash}{7a048ce6fdefabad0670b4008218aba8}
+      \strng{authorbibnamehash}{7a048ce6fdefabad0670b4008218aba8}
+      \strng{authornamehash}{7a048ce6fdefabad0670b4008218aba8}
+      \strng{authorfullhash}{7a048ce6fdefabad0670b4008218aba8}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We often encounter data as Relational Databases. To work with them we generally would need to write raw SQL queries, pass them to the\ldots}
+      \field{howpublished}{https://towardsdatascience.com/sqlalchemy-python-tutorial-79a577141a91}
+      \field{journaltitle}{Medium}
       \field{langid}{english}
-      \field{month}{7}
-      \field{title}{O'{{Reilly}}'s {{Microservices Adoption}} in 2020 {{Report Finds}} That 92\% of {{Organizations}} Are {{Experiencing Success}} with {{Microservices}}}
+      \field{month}{9}
+      \field{title}{{{SQLAlchemy}} —{} {{Python Tutorial}}}
       \field{year}{2020}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/VABHFAER/O’Reilly’s-Microservices-Adoption-in-2020-Report-Finds-that-92-of-Organizations-are-Experie.html
+      \verb /home/dimdakis/Zotero/storage/AG7KGNPD/sqlalchemy-python-tutorial-79a577141a91.html
       \endverb
     \endentry
-    \entry{PodMonitorVsServiceMonitor}{misc}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+    \entry{kutayChangeDataCapture2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2ce236269226e1958e85a3af3f92cf19}{%
+           family={Kutay},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ce236269226e1958e85a3af3f92cf19}
+      \strng{fullhash}{2ce236269226e1958e85a3af3f92cf19}
+      \strng{bibnamehash}{2ce236269226e1958e85a3af3f92cf19}
+      \strng{authorbibnamehash}{2ce236269226e1958e85a3af3f92cf19}
+      \strng{authornamehash}{2ce236269226e1958e85a3af3f92cf19}
+      \strng{authorfullhash}{2ce236269226e1958e85a3af3f92cf19}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Hi, I\&\#39;m new to prometheus-operator and I do not see difference between ServiceMonitor and PodMonitor. Documentation describes them as: ServiceMonitor, which declaratively specifies how groups o...}
-      \field{howpublished}{https://github.com/prometheus-operator/prometheus-operator/issues/3119}
-      \field{journaltitle}{GitHub}
-      \field{langid}{english}
-      \field{shorttitle}{{{PodMonitor}} vs {{ServiceMonitor}} What Is the Difference?}
-      \field{title}{{{PodMonitor}} vs {{ServiceMonitor}} What Is the Difference? {$\cdot$} {{Issue}} \#3119 {$\cdot$} Prometheus-Operator/Prometheus-Operator}
+      \field{abstract}{Change Data Capture is ideal for real time data movement. Learn how it works, the best use cases for CDC, and the role it plays in streaming ETL.}
+      \field{chapter}{CDC}
+      \field{journaltitle}{Striim}
+      \field{langid}{american}
+      \field{month}{5}
+      \field{shorttitle}{Change {{Data Capture}} ({{CDC}})}
+      \field{title}{Change {{Data Capture}} ({{CDC}}): {{What}} It Is and {{How}} It {{Works}}}
+      \field{year}{2021}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/T85THI35/3119.html
+      \verb /home/dimdakis/Zotero/storage/7MYRK8MN/change-data-capture-cdc-what-it-is-and-how-it-works.html
       \endverb
     \endentry
-    \entry{prometheusAlertmanagerPrometheus}{misc}{}
+    \entry{LabelStudioOpen}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most flexible data labeling tool that supports all your data types. Prepare training data for computer vision, natural language processing, speech, voice, and video models.}
+      \field{howpublished}{https://labelstud.io/}
+      \field{title}{Label {{Studio}} –{} {{Open Source Data Labeling}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/VJIMR2Y7/labelstud.io.html
+      \endverb
+    \endentry
+    \entry{LAMBERT2022}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Publicly released code for the LAMBERT model}
+      \field{howpublished}{Applica}
+      \field{month}{4}
+      \field{title}{{{LAMBERT}}}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{LessonsLearnedRunning}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://debezium.io/blog/2020/02/25/lessons-learned-running-debezium-with-postgresql-on-rds/}
+      \field{title}{Lessons {{Learned}} from {{Running Debezium}} with {{PostgreSQL}} on {{Amazon RDS}}}
+      \true{nocite}
+    \endentry
+    \entry{LightTagTextAnnotation}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.lighttag.io/}
+      \field{title}{{{LightTag}} - {{The Text Annotation Tool For Teams}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/L6CDSPXX/www.lighttag.io.html
+      \endverb
+    \endentry
+    \entry{LogicalDecodingOutput}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://debezium.io/documentation/reference/postgres-plugins.html}
+      \field{title}{Logical {{Decoding Output Plug-in Installation}} for {{PostgreSQL}} :: {{Debezium Documentation}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/AP3XHUXI/postgres-plugins.html
+      \endverb
+    \endentry
+    \entry{MethodStrucTexTTask}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://rrc.cvc.uab.es/?ch=13\&com=evaluation\&view=method\_info\&task=3\&m=90335}
+      \field{title}{Method: {{StrucTexT}} - {{Task}} 3 - {{Key Information Extraction}} - {{ICDAR}} 2019 {{Robust Reading Challenge}} on {{Scanned Receipts OCR}} and {{Information Extraction}} - {{Robust Reading Competition}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/TFEHEXIZ/rrc.cvc.uab.es.html
+      \endverb
+    \endentry
+    \entry{MinikubeStart}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{abstract}{minikube is local Kubernetes}
+      \field{howpublished}{https://minikube.sigs.k8s.io/docs/start/}
+      \field{journaltitle}{minikube}
+      \field{langid}{english}
+      \field{title}{Minikube Start}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/G46IY2P3/start.html
+      \endverb
+    \endentry
+    \entry{munozAttentionAllYou2021}{misc}{}
       \name{author}{1}{}{%
-        {{hash=e1723a08afd7bca35570fd31a7656f59}{%
-           family={Prometheus},
-           familyi={P\bibinitperiod}}}%
+        {{hash=d6a69450536681f98b83d704a37432f1}{%
+           family={Mu{ñ}oz},
+           familyi={M\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{fullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{bibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorbibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authornamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorfullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \field{extraname}{1}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \strng{namehash}{d6a69450536681f98b83d704a37432f1}
+      \strng{fullhash}{d6a69450536681f98b83d704a37432f1}
+      \strng{bibnamehash}{d6a69450536681f98b83d704a37432f1}
+      \strng{authorbibnamehash}{d6a69450536681f98b83d704a37432f1}
+      \strng{authornamehash}{d6a69450536681f98b83d704a37432f1}
+      \strng{authorfullhash}{d6a69450536681f98b83d704a37432f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Detailed implementation of a Transformer model in Tensorflow}
+      \field{howpublished}{https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shorttitle}{Attention Is All You Need}
+      \field{title}{Attention Is All You Need: {{Discovering}} the {{Transformer}} Paper}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/W7IF9JUN/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634.html
+      \endverb
+    \endentry
+    \entry{naincyjainEffectBatchSize}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dc6c8979daf3f9a2ca10bc8c083be2f5}{%
+           family={Naincyjain},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc6c8979daf3f9a2ca10bc8c083be2f5}
+      \strng{fullhash}{dc6c8979daf3f9a2ca10bc8c083be2f5}
+      \strng{bibnamehash}{dc6c8979daf3f9a2ca10bc8c083be2f5}
+      \strng{authorbibnamehash}{dc6c8979daf3f9a2ca10bc8c083be2f5}
+      \strng{authornamehash}{dc6c8979daf3f9a2ca10bc8c083be2f5}
+      \strng{authorfullhash}{dc6c8979daf3f9a2ca10bc8c083be2f5}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.}
-      \field{howpublished}{https://prometheus.io/docs/alerting/latest/alertmanager/}
-      \field{langid}{english}
-      \field{title}{Alertmanager | {{Prometheus}}}
+      \field{howpublished}{https://medium.com/analytics-vidhya/effect-of-batch-size-on-training-process-and-results-by-gradient-accumulation-e7252ee2cb3f}
+      \field{title}{Effect of {{Batch Size}} on {{Training Process}} and Results by {{Gradient Accumulation}}}
       \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/KG5K55BG/alertmanager.html
-      \endverb
     \endentry
-    \entry{prometheusClientLibrariesPrometheus}{misc}{}
+    \entry{nathGracefulShutdownGolang2019}{misc}{}
       \name{author}{1}{}{%
-        {{hash=e1723a08afd7bca35570fd31a7656f59}{%
-           family={Prometheus},
-           familyi={P\bibinitperiod}}}%
+        {{hash=54ae891e387112227749de9462535862}{%
+           family={Nath},
+           familyi={N\bibinitperiod},
+           given={Pinku\bibnamedelima Deb},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
-      \strng{namehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{fullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{bibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorbibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authornamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorfullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \strng{namehash}{54ae891e387112227749de9462535862}
+      \strng{fullhash}{54ae891e387112227749de9462535862}
+      \strng{bibnamehash}{54ae891e387112227749de9462535862}
+      \strng{authorbibnamehash}{54ae891e387112227749de9462535862}
+      \strng{authornamehash}{54ae891e387112227749de9462535862}
+      \strng{authorfullhash}{54ae891e387112227749de9462535862}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.}
-      \field{howpublished}{https://prometheus.io/docs/instrumenting/clientlibs/}
+      \field{abstract}{Whenever a server needs to shut down for various reasons, the common one being OS interrupts, we would want our servers to shut down\ldots}
+      \field{journaltitle}{Medium}
       \field{langid}{english}
-      \field{title}{Client Libraries | {{Prometheus}}}
+      \field{month}{5}
+      \field{title}{Graceful Shutdown of {{Golang}} Servers Using {{Context}} and {{OS}} Signals}
+      \field{year}{2019}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/KRCZU57J/clientlibs.html
+      \verb /home/dimdakis/Zotero/storage/6WUCTKFQ/graceful-shutdown-of-golang-servers-using-context-and-os-signals-cc1fa2c55e97.html
       \endverb
     \endentry
-    \entry{prometheusExportersIntegrationsPrometheus}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=e1723a08afd7bca35570fd31a7656f59}{%
-           family={Prometheus},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{fullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{bibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorbibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authornamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorfullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \field{extraname}{3}
+    \entry{OpenAIAPI}{misc}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An API for accessing new AI models developed by OpenAI}
+      \field{howpublished}{https://beta.openai.com}
+      \field{langid}{english}
+      \field{title}{{{OpenAI API}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/9BIUKY5J/examples.html
+      \endverb
+    \endentry
+    \entry{OperatorPattern}{misc}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Operators are software extensions to Kubernetes that make use of custom resources to manage applications and their components. Operators follow Kubernetes principles, notably the control loop. Motivation The Operator pattern aims to capture the key aim of a human operator who is managing a service or set of services. Human operators who look after specific applications and services have deep knowledge of how the system ought to behave, how to deploy it, and how to react if there are problems.}
+      \field{chapter}{docs}
+      \field{howpublished}{https://kubernetes.io/docs/concepts/extend-kubernetes/operator/}
+      \field{journaltitle}{Kubernetes}
+      \field{langid}{english}
+      \field{title}{Operator Pattern}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/2B974M26/operator.html
+      \endverb
+    \endentry
+    \entry{OverviewICDAR2019}{misc}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://rrc.cvc.uab.es/?ch=13}
+      \field{title}{Overview - {{ICDAR}} 2019 {{Robust Reading Challenge}} on {{Scanned Receipts OCR}} and {{Information Extraction}} - {{Robust Reading Competition}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/PTVVKC7T/rrc.cvc.uab.es.html
+      \endverb
+    \endentry
+    \entry{PartHandlingMigrations}{misc}{}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.}
-      \field{howpublished}{https://prometheus.io/docs/instrumenting/exporters/}
-      \field{langid}{english}
-      \field{title}{Exporters and Integrations | {{Prometheus}}}
+      \field{howpublished}{https://codesahara.com/blog/making-migrations-with-gorm-in-go/}
+      \field{title}{Part 5: {{Handling Migrations With Gorm}} in {{Go}} | {{Code}} Sahara}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/UIM8KV9C/exporters.html
+      \verb /home/dimdakis/Zotero/storage/YEJ2YA5T/making-migrations-with-gorm-in-go.html
       \endverb
+      \keyw{gorm migrations}
     \endentry
-    \entry{prometheusOverviewPrometheusa}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=e1723a08afd7bca35570fd31a7656f59}{%
-           family={Prometheus},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{fullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{bibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorbibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authornamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorfullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \field{extraname}{4}
+    \entry{PGOPostgresOperator}{misc}{}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.}
-      \field{howpublished}{https://prometheus.io/docs/introduction/overview/}
-      \field{langid}{english}
-      \field{title}{Overview | {{Prometheus}}}
+      \field{howpublished}{https://access.crunchydata.com/documentation/postgres-operator/5.0.5/tutorial/connect-cluster/}
+      \field{title}{{{PGO}}, the {{Postgres Operator}} from {{Crunchy Data}}}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/BSC92HTX/overview.html
+      \verb /home/dimdakis/Zotero/storage/KYAPNFLH/connect-cluster.html
       \endverb
     \endentry
-    \entry{prometheusPrometheusMonitoringSystemb}{misc}{}
+    \entry{PodKubernetesEngine}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://cloud.google.com/kubernetes-engine/docs/concepts/pod}
+      \field{title}{Pod ~|~ {{Kubernetes Engine Documentation}} ~|~ {{Google Cloud}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/MKUX9LLS/pod.html
+      \endverb
+    \endentry
+    \entry{PostgreSQLLinuxDownloads}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.postgresql.org/download/linux/ubuntu/}
+      \field{title}{{{PostgreSQL}}: {{Linux}} Downloads ({{Ubuntu}})}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/UZ6R4S43/ubuntu.html
+      \endverb
+    \endentry
+    \entry{ProductionGradeContainerOrchestration}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Production-Grade Container Orchestration}
+      \field{howpublished}{https://kubernetes.io/}
+      \field{journaltitle}{Kubernetes}
+      \field{langid}{english}
+      \field{title}{Production-{{Grade Container Orchestration}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/HVIGLI4Z/kubernetes.io.html
+      \endverb
+    \endentry
+    \entry{prometheusPrometheusMonitoringSystema}{misc}{}
       \name{author}{1}{}{%
         {{hash=e1723a08afd7bca35570fd31a7656f59}{%
            family={Prometheus},
@@ -478,7 +1255,6 @@
       \strng{authorbibnamehash}{e1723a08afd7bca35570fd31a7656f59}
       \strng{authornamehash}{e1723a08afd7bca35570fd31a7656f59}
       \strng{authorfullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \field{extraname}{5}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{labelnamesource}{author}
@@ -489,108 +1265,710 @@
       \field{title}{Prometheus - {{Monitoring}} System \& Time Series Database}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/WJEDL5WE/prometheus.io.html
+      \verb /home/dimdakis/Zotero/storage/ADG34MBU/prometheus.io.html
       \endverb
     \endentry
-    \entry{prometheusQueryFunctionsPrometheus}{misc}{}
+    \entry{pythonFlaskExampleSetting}{misc}{}
       \name{author}{1}{}{%
-        {{hash=e1723a08afd7bca35570fd31a7656f59}{%
-           family={Prometheus},
-           familyi={P\bibinitperiod}}}%
+        {{hash=63d3284055f00b0562e3fc54273a2507}{%
+           family={Python},
+           familyi={P\bibinitperiod},
+           given={Real},
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{fullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{bibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorbibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authornamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorfullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \field{extraname}{6}
+      \strng{namehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{fullhash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{bibnamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authorbibnamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authornamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authorfullhash}{63d3284055f00b0562e3fc54273a2507}
+      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.}
-      \field{howpublished}{https://prometheus.io/docs/prometheus/latest/querying/functions/}
+      \field{abstract}{This tutorial shows you how to process text and then setup a task queue with Flask. In part two, we'll set up our PostgreSQL database along with SQLAlchemy and Alembic to handle migrations.}
+      \field{howpublished}{https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/}
       \field{langid}{english}
-      \field{title}{Query Functions | {{Prometheus}}}
+      \field{title}{Flask by {{Example}} –{} {{Setting}} up {{Postgres}}, {{SQLAlchemy}}, and {{Alembic}} –{} {{Real Python}}}
       \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/47R679NA/functions.html
-      \endverb
     \endentry
-    \entry{prometheusQueryingBasicsPrometheus}{misc}{}
+    \entry{pythonHowBuildCommand}{misc}{}
       \name{author}{1}{}{%
-        {{hash=e1723a08afd7bca35570fd31a7656f59}{%
-           family={Prometheus},
-           familyi={P\bibinitperiod}}}%
+        {{hash=63d3284055f00b0562e3fc54273a2507}{%
+           family={Python},
+           familyi={P\bibinitperiod},
+           given={Real},
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{fullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{bibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorbibnamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authornamehash}{e1723a08afd7bca35570fd31a7656f59}
-      \strng{authorfullhash}{e1723a08afd7bca35570fd31a7656f59}
-      \field{extraname}{7}
+      \strng{namehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{fullhash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{bibnamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authorbibnamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authornamehash}{63d3284055f00b0562e3fc54273a2507}
+      \strng{authorfullhash}{63d3284055f00b0562e3fc54273a2507}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.}
-      \field{howpublished}{https://prometheus.io/docs/prometheus/latest/querying/basics/}
+      \field{abstract}{In this step-by-step Python tutorial, you'll learn how to take your command line Python scripts to the next level by adding a convenient command line interface that you can write with argparse.}
+      \field{howpublished}{https://realpython.com/command-line-interfaces-python-argparse/}
       \field{langid}{english}
-      \field{title}{Querying Basics | {{Prometheus}}}
+      \field{title}{How to {{Build Command Line Interfaces}} in {{Python With}} Argparse –{} {{Real Python}}}
       \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/XKC9L7VG/basics.html
-      \endverb
     \endentry
-    \entry{PrometheusflaskexporterPyPI}{misc}{}
+    \entry{PythonHTTPRequest2019}{misc}{}
       \field{sortinit}{P}
       \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{https://pypi.org/project/prometheus-flask-exporter/}
-      \field{title}{Prometheus-Flask-Exporter {$\cdot$} {{PyPI}}}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Learn about Python Request library and how to make a request. Follow examples to Get \& Post HTTP \& JSON requests today!}
+      \field{howpublished}{https://www.datacamp.com/community/tutorials/making-http-requests-in-python}
+      \field{journaltitle}{DataCamp Community}
+      \field{month}{9}
+      \field{shorttitle}{Python {{HTTP Request Tutorial}}}
+      \field{title}{Python {{HTTP Request Tutorial}}: {{Get}} \& {{Post HTTP}} \& {{JSON Requests}}}
+      \field{year}{2019}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/K64RMWBM/prometheus-flask-exporter.html
+      \verb /home/dimdakis/Zotero/storage/S6GWPILF/making-http-requests-in-python.html
       \endverb
     \endentry
-    \entry{StrimziDocumentation12}{misc}{}
+    \entry{ReleasesStrimziStrimzikafkaoperator}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Apache Kafka running on Kubernetes. Contribute to strimzi/strimzi-kafka-operator development by creating an account on GitHub.}
+      \field{howpublished}{https://github.com/strimzi/strimzi-kafka-operator/releases}
+      \field{journaltitle}{GitHub}
+      \field{langid}{english}
+      \field{title}{Releases {$\cdot$} Strimzi/Strimzi-Kafka-Operator}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/GXFZJ9FN/0.26.html
+      \endverb
+    \endentry
+    \entry{ResultsICDAR2019a}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://rrc.cvc.uab.es/?ch=13\&com=evaluation\&task=3}
+      \field{title}{Results - {{ICDAR}} 2019 {{Robust Reading Challenge}} on {{Scanned Receipts OCR}} and {{Information Extraction}} - {{Robust Reading Competition}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/A9REYKPX/rrc.cvc.uab.es.html
+      \endverb
+    \endentry
+    \entry{RoBERTa}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/docs/transformers/model\_doc/roberta}
+      \field{title}{{{RoBERTa}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/DRSGK8HP/roberta.html
+      \endverb
+    \endentry
+    \entry{rusevImboxPythonIMAP}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6cc5c6d5d6e1cf260d73a54a1d8c9447}{%
+           family={Rusev},
+           familyi={R\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6cc5c6d5d6e1cf260d73a54a1d8c9447}
+      \strng{fullhash}{6cc5c6d5d6e1cf260d73a54a1d8c9447}
+      \strng{bibnamehash}{6cc5c6d5d6e1cf260d73a54a1d8c9447}
+      \strng{authorbibnamehash}{6cc5c6d5d6e1cf260d73a54a1d8c9447}
+      \strng{authornamehash}{6cc5c6d5d6e1cf260d73a54a1d8c9447}
+      \strng{authorfullhash}{6cc5c6d5d6e1cf260d73a54a1d8c9447}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Imbox}
+      \field{title}{Imbox: {{Python IMAP}} for {{Human}} Beings}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/T43ZM4WU/imbox.html
+      \endverb
+      \keyw{email;,IMAP;,parsing emails}
+    \endentry
+    \entry{saysKubernetesDesiredState2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=19aefb9524160e2984957fb43cb92f73}{%
+           family={{says}},
+           familyi={s\bibinitperiod},
+           given={Sub},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{19aefb9524160e2984957fb43cb92f73}
+      \strng{fullhash}{19aefb9524160e2984957fb43cb92f73}
+      \strng{bibnamehash}{19aefb9524160e2984957fb43cb92f73}
+      \strng{authorbibnamehash}{19aefb9524160e2984957fb43cb92f73}
+      \strng{authornamehash}{19aefb9524160e2984957fb43cb92f73}
+      \strng{authorfullhash}{19aefb9524160e2984957fb43cb92f73}
+      \field{sortinit}{s}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{If you've just gotten started with Kubernetes, you might be curious to know how the desired state is achieved? Think\ldots}
+      \field{journaltitle}{The IT Hollow}
+      \field{langid}{american}
+      \field{month}{9}
+      \field{title}{Kubernetes - {{Desired State}} and {{Control Loops}}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/BY28S9ZV/kubernetes-desired-state-and-control-loops.html
+      \endverb
+    \endentry
+    \entry{Secrets}{misc}{}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://strimzi.io/docs/0.12.2/}
-      \field{title}{Strimzi {{Documentation}} (0.12.2)}
-      \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/ZYHXI5VQ/0.12.2.html
-      \endverb
-    \endentry
-    \entry{UsingPodMonitorScraping}{misc}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Type of change Bugfix Description After some analysis on the current Prometheus configurations (ServiceMonitor, PodMonitor, and additional ones) I have got the following results: the kubernetes\_{}...}
-      \field{howpublished}{https://github.com/strimzi/strimzi-kafka-operator/pull/3351}
-      \field{journaltitle}{GitHub}
-      \field{langid}{english}
-      \field{title}{Using {{PodMonitor}} for Scraping {{Kafka}} Related Metrics by Ppatierno {$\cdot$} {{Pull Request}} \#3351 {$\cdot$} Strimzi/Strimzi-Kafka-Operator}
-      \true{nocite}
-      \verb{file}
-      \verb /home/dimdakis/Zotero/storage/K4S8QIMD/3351.html
-      \endverb
-    \endentry
-    \entry{UsingRBACAuthorization}{misc}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Role-based access control (RBAC) is a method of regulating access to computer or network resources based on the roles of individual users within your organization. RBAC authorization uses the rbac.authorization.k8s.io API group to drive authorization decisions, allowing you to dynamically configure policies through the Kubernetes API. To enable RBAC, start the API server with the --authorization-mode flag set to a comma-separated list that includes RBAC; for example: kube-apiserver --authorization-mode=Example,RBAC --other-options --more-options API objects The RBAC API declares four kinds of Kubernetes object: Role, ClusterRole, RoleBinding and ClusterRoleBinding.}
+      \field{abstract}{A Secret is an object that contains a small amount of sensitive data such as a password, a token, or a key. Such information might otherwise be put in a Pod specification or in a container image. Using a Secret means that you don't need to include confidential data in your application code. Because Secrets can be created independently of the Pods that use them, there is less risk of the Secret (and its data) being exposed during the workflow of creating, viewing, and editing Pods.}
       \field{chapter}{docs}
-      \field{howpublished}{https://kubernetes.io/docs/reference/access-authn-authz/rbac/}
+      \field{howpublished}{https://kubernetes.io/docs/concepts/configuration/secret/}
       \field{journaltitle}{Kubernetes}
       \field{langid}{english}
-      \field{title}{Using {{RBAC Authorization}}}
+      \field{title}{Secrets}
       \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/NGK4PZM8/secret.html
+      \endverb
+    \endentry
+    \entry{sotiriouFaultToleranceKubernetes2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4a5264fc9f0af918d5189578890cd9c7}{%
+           family={Sotiriou},
+           familyi={S\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a5264fc9f0af918d5189578890cd9c7}
+      \strng{fullhash}{4a5264fc9f0af918d5189578890cd9c7}
+      \strng{bibnamehash}{4a5264fc9f0af918d5189578890cd9c7}
+      \strng{authorbibnamehash}{4a5264fc9f0af918d5189578890cd9c7}
+      \strng{authornamehash}{4a5264fc9f0af918d5189578890cd9c7}
+      \strng{authorfullhash}{4a5264fc9f0af918d5189578890cd9c7}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What is it, why you should care, and how to apply it using Quarkus}
+      \field{journaltitle}{The Startup}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Fault {{Tolerance}} in {{Kubernetes Clusters}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/M8L585U5/fault-tolerance-in-kubernetes-clusters-f5d707bc8b5c.html
+      \endverb
+    \endentry
+    \entry{SQLAlchemyDatabaseToolkit}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.sqlalchemy.org/}
+      \field{title}{{{SQLAlchemy}} - {{The Database Toolkit}} for {{Python}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/LKSWKVUF/www.sqlalchemy.org.html
+      \endverb
+    \endentry
+    \entry{SquareSolutionsTools}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Square helps millions of sellers run their business –{} from secure credit card processing, point of sale solutions to setting up a free online store. Get paid faster with Square and sign up today!}
+      \field{howpublished}{https://squareup.com/ie/en}
+      \field{journaltitle}{Square}
+      \field{langid}{en-IE}
+      \field{shorttitle}{{Square}}
+      \field{title}{{Square: Solutions \& Tools to Grow Your Business}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/YH6H72QL/en.html
+      \endverb
+    \endentry
+    \entry{StrimziDocumentation16}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/docs/0.16.2/}
+      \field{title}{Strimzi {{Documentation}} (0.16.2)}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/2I5KXDBZ/0.16.2.html
+      \endverb
+    \endentry
+    \entry{StrimziQuickStart}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/docs/operators/latest/quickstart.html}
+      \field{title}{Strimzi {{Quick Start}} Guide (0.26.0)}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/TB2Y3BYQ/quickstart.html
+      \endverb
+    \endentry
+    \entry{SummaryTokenizers}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/docs/transformers/tokenizer\_summary}
+      \field{title}{Summary of the Tokenizers}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/AJXUULVC/tokenizer_summary.html
+      \endverb
+    \endentry
+    \entry{syalHuggingFaceStep2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=abb708fd141f911bedfd829c4c2d2de9}{%
+           family={Syal},
+           familyi={S\bibinitperiod},
+           given={Anuj},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{abb708fd141f911bedfd829c4c2d2de9}
+      \strng{fullhash}{abb708fd141f911bedfd829c4c2d2de9}
+      \strng{bibnamehash}{abb708fd141f911bedfd829c4c2d2de9}
+      \strng{authorbibnamehash}{abb708fd141f911bedfd829c4c2d2de9}
+      \strng{authornamehash}{abb708fd141f911bedfd829c4c2d2de9}
+      \strng{authorfullhash}{abb708fd141f911bedfd829c4c2d2de9}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{It's not an emoji, it's NLP for everyone}
+      \field{howpublished}{https://towardsdatascience.com/hugging-face-a-step-towards-democratizing-nlp-2c79f258c951}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{shorttitle}{Hugging {{Face}}}
+      \field{title}{Hugging {{Face}}: {{A Step Towards Democratizing NLP}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/4T4QQWG6/hugging-face-a-step-towards-democratizing-nlp-2c79f258c951.html
+      \endverb
+    \endentry
+    \entry{TEMxXnwlvmb}{misc}{}
+      \field{sortinit}{t}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://link.medium.com/tEMxXnwlvmb}
+      \field{title}{{{tEMxXnwlvmb}}}
+      \true{nocite}
+    \endentry
+    \entry{BestCDCTools}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://hevodata.com/learn/7-best-cdc-tools/}
+      \field{title}{The 7 {{Best CDC Tools}} ({{Change Data Capture}}) - {{Learn}} | {{Hevo}}}
+      \true{nocite}
+    \endentry
+    \entry{RoleThatSMEs}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Role That SMEs Will Play in Rebuilding the Irish Economy.}
+      \field{howpublished}{https://aibf.ie/times/the-role-that-smes-will-play-in-rebuilding-the-irish-economy-free-downloadable-executive-summary/}
+      \field{title}{The {{Role That SMEs Will Play}} in {{Rebuilding}} the {{Irish Economy}} ({{Free Downloadable Executive Summary}})}
+      \true{nocite}
+    \endentry
+    \entry{TipsTricksRunning}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/blog/2020/07/22/tips-and-tricks-for-running-strimzi-with-kubectl/}
+      \field{title}{Tips \& {{Tricks}} for Running {{Strimzi}} with Kubectl}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/I9CTCBJW/tips-and-tricks-for-running-strimzi-with-kubectl.html
+      \endverb
+    \endentry
+    \entry{TokenClassification}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/docs/transformers/main/en/tasks/token\_classification}
+      \field{title}{Token Classification}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/XMZ6VTA3/token_classification.html
+      \endverb
+    \endentry
+    \entry{UnderstandingBackpropagationNeural}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.linkedin.com/pulse/understanding-backpropagation-neural-network-1-srikanth-machiraju/}
+      \field{title}{Understanding {{Backpropagation}} in a {{Neural Network}} - 1}
+      \true{nocite}
+    \endentry
+    \entry{UsingHelm}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://helm.sh/docs/intro/using\_helm/}
+      \field{title}{Using {{Helm}}}
+      \true{nocite}
+    \endentry
+    \entry{UsingSQLAlchemyFlask2020}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nowadays, Object-Relational Mappers like SQLAlchemy are used as a bridge between applications and SQL databases and make it easy to work with them programmatically.}
+      \field{howpublished}{https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/}
+      \field{journaltitle}{Stack Abuse}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Using {{SQLAlchemy}} with {{Flask}} and {{PostgreSQL}}}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{UsingSQLAlchemyFlask2017}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Connecting to PostgreSQL from a Flask app, and defining models.}
+      \field{howpublished}{https://vsupalov.com/flask-sqlalchemy-postgres/}
+      \field{journaltitle}{vsupalov.com}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Using {{SQLAlchemy}} with {{Flask}} to {{Connect}} to {{PostgreSQL}}}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{UsingStrimzi}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://strimzi.io/docs/operators/latest/full/using.html}
+      \field{title}{Using {{Strimzi}}}
+      \true{nocite}
+    \endentry
+    \entry{vaswaniAttentionAllYou}{article}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.}
+      \field{langid}{english}
+      \field{title}{Attention Is {{All}} You {{Need}}}
+      \true{nocite}
+      \field{pages}{11}
+      \range{pages}{1}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/NI87Q83X/Vaswani et al. - Attention is All you Need.pdf
+      \endverb
+    \endentry
+    \entry{velichkoHowGraspContainers}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b51d221c0fce72808289cf6befd3ad15}{%
+           family={Velichko},
+           familyi={V\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{fullhash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{bibnamehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{authorbibnamehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{authornamehash}{b51d221c0fce72808289cf6befd3ad15}
+      \strng{authorfullhash}{b51d221c0fce72808289cf6befd3ad15}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://iximiuz.com/en/posts/container-learning-path/}
+      \field{title}{How to {{Grasp Containers}} - {{Efficient Learning Path}} - {{Ivan Velichko}}}
+      \true{nocite}
+    \endentry
+    \entry{wadaLabelmeImagePolygonal2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2e7cd8f27e534e2edb888b1113d20275}{%
+           family={Wada},
+           familyi={W\bibinitperiod},
+           given={Kentaro},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e7cd8f27e534e2edb888b1113d20275}
+      \strng{fullhash}{2e7cd8f27e534e2edb888b1113d20275}
+      \strng{bibnamehash}{2e7cd8f27e534e2edb888b1113d20275}
+      \strng{authorbibnamehash}{2e7cd8f27e534e2edb888b1113d20275}
+      \strng{authornamehash}{2e7cd8f27e534e2edb888b1113d20275}
+      \strng{authorfullhash}{2e7cd8f27e534e2edb888b1113d20275}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Image Polygonal Annotation with Python (polygon, rectangle, circle, line, point and image-level flag annotation).}
+      \field{month}{4}
+      \field{shorttitle}{Labelme}
+      \field{title}{Labelme: {{Image Polygonal Annotation}} with {{Python}}}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.5281/zenodo.5711226
+      \endverb
+    \endentry
+    \entry{WhatHelmChart2019}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Helm is a Kubernetes package and operations manager. The name ``kubernetes'' is derived from the Greek word for ``pilot'' or ``helmsman'', making Helm its steering wheel. Using a packaging manager, Charts, Helm allows us to package Kubernetes releases into a convenient zip (.tgz) file. A Helm chart can contain any number of Kubernetes objects, all [\ldots ]}
+      \field{journaltitle}{Coveros}
+      \field{langid}{american}
+      \field{month}{8}
+      \field{shorttitle}{What {{Is A Helm Chart}}?}
+      \field{title}{What {{Is A Helm Chart}}? –{} {{A Beginner}}'s {{Guide}}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/QIRGPMNE/what-is-a-helm-chart-a-beginners-guide.html
+      \endverb
+    \endentry
+    \entry{WhatKubernetesOperator}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Kubernetes operator is a method of packaging, deploying, and managing an application by extending the functionality of the Kubernetes API.}
+      \field{howpublished}{https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator}
+      \field{langid}{english}
+      \field{title}{What Is a {{Kubernetes}} Operator?}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/IY5I3P4X/what-is-a-kubernetes-operator.html
+      \endverb
+    \endentry
+    \entry{WhatMakefileHow}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://opensource.com/article/18/8/what-how-makefile}
+      \field{title}{What Is a {{Makefile}} and How Does It Work?}
+      \true{nocite}
+    \endentry
+    \entry{WhatEventdrivenArchitecture}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture}
+      \field{title}{What Is Event-Driven Architecture?}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/FR9MBNIR/what-is-event-driven-architecture.html
+      \endverb
+    \endentry
+    \entry{WhatTokenizationTokenization2020}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tokenization is an NLP concept you should know before entering the field. Learn what is tokenization and working of tokenization in NLP using python.}
+      \field{journaltitle}{Analytics Vidhya}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{What Is {{Tokenization}} | {{Tokenization In NLP}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/W6BWIEGT/what-is-tokenization-nlp.html
+      \endverb
+    \endentry
+    \entry{WhatTransferLearning2021}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{I am using Hugging Face Models for NLP tasks. I see a lot of online examples like below which freezes the bottom layers and only train only few top layers. Basic idea is to use transfer learning, without having to train model from scratch. Which makes sense to me. for layer in model.layers[:-2]: layer.trainable = False However i find that accuracy of my model improves significantly when train it from scratch, Are there any downsides to train transformer model from scratch? What is the rig...}
+      \field{howpublished}{https://discuss.huggingface.co/t/what-is-transfer-learning-and-why-is-it-needed/4431}
+      \field{journaltitle}{Hugging Face Forums}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shorttitle}{What Is Transfer Learning and Why Is It Needed?}
+      \field{title}{What Is Transfer Learning and Why Is It Needed? - {{Beginners}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/4JW5Z2JC/4431.html
+      \endverb
+    \endentry
+    \entry{WhatZookeeperWhy}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Are you using Apache Kafka to build message streaming services? Then you might have run into the expression Zookeeper. To us at CloudKarafka, as a Apache Kafka hosting service, it's important that our users understand what Zookeeper is and how it integrates with Kafka.}
+      \field{howpublished}{https://www.cloudkarafka.com/blog/cloudkarafka-what-is-zookeeper.html}
+      \field{langid}{english}
+      \field{shorttitle}{What Is {{Zookeeper}} and Why Is It Needed for {{Apache Kafka}}?}
+      \field{title}{What Is {{Zookeeper}} and Why Is It Needed for {{Apache Kafka}}? - {{CloudKarafka}}, {{Apache Kafka Message}} Streaming as a {{Service}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/2BX7YJYB/cloudkarafka-what-is-zookeeper.html
+      \endverb
+    \endentry
+    \entry{WhoUsingDebezium}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Debezium is an open source distributed platform for change data capture. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong.}
+      \field{howpublished}{https://debezium.io/community/users/}
+      \field{journaltitle}{Debezium}
+      \field{title}{Who's {{Using Debezium}}?}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/HIR6YUTZ/users.html
+      \endverb
+    \endentry
+    \entry{xuLayoutLMv2MultimodalPretraining2022}{article}{}
+      \name{author}{12}{}{%
+        {{hash=9eda43a644030ac3eceaf837cb2489ac}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=37ab3773594025d7f25c839aac01952d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yiheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=16c15c1e2b6e3b196fd18ea0415143d4}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Tengchao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e614d1177b4e766695f7585009f350ae}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Guoxin},
+           giveni={G\bibinitperiod}}}%
+        {{hash=251643e5328edc453395a4babee3ac78}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yijuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6c2e0327abbc10ed65f68d90762db88e}{%
+           family={Florencio},
+           familyi={F\bibinitperiod},
+           given={Dinei},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6be2ddbf537bae561864776d40c36220}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Cha},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cb0803882fba28a6c7ecb519069a89de}{%
+           family={Che},
+           familyi={C\bibinitperiod},
+           given={Wanxiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c5f133678c8bdff0e050e19158f289ed}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e93cb68b77ead87355fd8fcb65dfb29a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Lidong},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{27132c6cb44b714617bf10b11e58f9bd}
+      \strng{fullhash}{99459ab68d902d3d1bf72d1efd9459eb}
+      \strng{bibnamehash}{27132c6cb44b714617bf10b11e58f9bd}
+      \strng{authorbibnamehash}{27132c6cb44b714617bf10b11e58f9bd}
+      \strng{authornamehash}{27132c6cb44b714617bf10b11e58f9bd}
+      \strng{authorfullhash}{99459ab68d902d3d1bf72d1efd9459eb}
+      \field{sortinit}{X}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pre-training of text and layout has proved effective in a variety of visually-rich document understanding tasks due to its effective model architecture and the advantage of large-scale unlabeled scanned/digital-born documents. We propose LayoutLMv2 architecture with new pre-training tasks to model the interaction among text, layout, and image in a single multi-modal framework. Specifically, with a two-stream multi-modal Transformer encoder, LayoutLMv2 uses not only the existing masked visual-language modeling task but also the new text-image alignment and text-image matching tasks, which make it better capture the cross-modality interaction in the pre-training stage. Meanwhile, it also integrates a spatial-aware self-attention mechanism into the Transformer architecture so that the model can fully understand the relative positional relationship among different text blocks. Experiment results show that LayoutLMv2 outperforms LayoutLM by a large margin and achieves new state-ofthe-art results on a wide variety of downstream visually-rich document understanding tasks, including FUNSD (0.7895 \textrightarrow{} 0.8420), CORD (0.9493 \textrightarrow{} 0.9601), SROIE (0.9524 \textrightarrow{} 0.9781), Kleister-NDA (0.8340 \textrightarrow{} 0.8520), RVL-CDIP (0.9443 \textrightarrow{} 0.9564), and DocVQA (0.7295 \textrightarrow{} 0.8672). We made our model and code publicly available at https://aka.ms /layoutlmv2.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:2012.14740 [cs]}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{{{LayoutLMv2}}}
+      \field{title}{{{LayoutLMv2}}: {{Multi-modal Pre-training}} for {{Visually-Rich Document Understanding}}}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2012.14740
+      \endverb
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/UPMSVEYX/Xu et al. - 2022 - LayoutLMv2 Multi-modal Pre-training for Visually-.pdf
+      \endverb
+      \keyw{Computer Science - Computation and Language}
     \endentry
   \enddatalist
 \endrefsection
