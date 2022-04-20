@@ -366,3 +366,6 @@ style=numeric
 
 % for strikeout text
 \usepackage[normalem]{ulem}
+
+% for quotes
+\usepackage[font=itshape]{quoting}
