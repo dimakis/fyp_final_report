@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.28)  19 APR 2022 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.28)  20 APR 2022 04:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -884,21 +884,32 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen196
 \Gm@layoutvoffset=\dimen197
 \Gm@dimlist=\toks46
-)) (/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+)) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box65
+\UL@hyphenbox=\box66
+\UL@skip=\skip112
+\UL@hook=\toks47
+\UL@height=\dimen198
+\UL@pe=\count453
+\UL@pixel=\dimen199
+\ULC@box=\box67
+Package: ulem 2019/11/18
+\ULdepth=\dimen256
+) (/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
  (/usr/share/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
 )
-\beforeepigraphskip=\skip112
-\afterepigraphskip=\skip113
-\epigraphwidth=\skip114
-\epigraphrule=\skip115
+\beforeepigraphskip=\skip113
+\afterepigraphskip=\skip114
+\epigraphwidth=\skip115
+\epigraphrule=\skip116
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks47
-\pgfutil@tempdima=\dimen198
-\pgfutil@tempdimb=\dimen199
+\pgfutil@everybye=\toks48
+\pgfutil@tempdima=\dimen257
+\pgfutil@tempdimb=\dimen258
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box65
+\pgfutil@abb=\box68
  (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -908,31 +919,31 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks48
-\pgfkeys@temptoks=\toks49
+\pgfkeys@pathtoks=\toks49
+\pgfkeys@temptoks=\toks50
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks50
+\pgfkeys@tmptoks=\toks51
 ))
-\pgf@x=\dimen256
-\pgf@y=\dimen257
-\pgf@xa=\dimen258
-\pgf@ya=\dimen259
-\pgf@xb=\dimen260
-\pgf@yb=\dimen261
-\pgf@xc=\dimen262
-\pgf@yc=\dimen263
-\pgf@xd=\dimen264
-\pgf@yd=\dimen265
+\pgf@x=\dimen259
+\pgf@y=\dimen260
+\pgf@xa=\dimen261
+\pgf@ya=\dimen262
+\pgf@xb=\dimen263
+\pgf@yb=\dimen264
+\pgf@xc=\dimen265
+\pgf@yc=\dimen266
+\pgf@xd=\dimen267
+\pgf@yd=\dimen268
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count453
-\c@pgf@countb=\count454
-\c@pgf@countc=\count455
-\c@pgf@countd=\count456
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
-\pgf@sys@id@count=\count457
+\c@pgf@counta=\count454
+\c@pgf@countb=\count455
+\c@pgf@countc=\count456
+\c@pgf@countd=\count457
+\t@pgf@toka=\toks52
+\t@pgf@tokb=\toks53
+\t@pgf@tokc=\toks54
+\pgf@sys@id@count=\count458
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -943,59 +954,59 @@ File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count458
-\pgfsyssoftpath@bigbuffer@items=\count459
+\pgfsyssoftpath@smallbuffer@items=\count459
+\pgfsyssoftpath@bigbuffer@items=\count460
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen266
-\pgfmath@count=\count460
-\pgfmath@box=\box66
-\pgfmath@toks=\toks54
-\pgfmath@stack@operand=\toks55
-\pgfmath@stack@operation=\toks56
+\pgfmath@dimen=\dimen269
+\pgfmath@count=\count461
+\pgfmath@box=\box69
+\pgfmath@toks=\toks55
+\pgfmath@stack@operand=\toks56
+\pgfmath@stack@operation=\toks57
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count461
+\c@pgfmathroundto@lastzeros=\count462
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen267
-\pgf@picmaxx=\dimen268
-\pgf@picminy=\dimen269
-\pgf@picmaxy=\dimen270
-\pgf@pathminx=\dimen271
-\pgf@pathmaxx=\dimen272
-\pgf@pathminy=\dimen273
-\pgf@pathmaxy=\dimen274
-\pgf@xx=\dimen275
-\pgf@xy=\dimen276
-\pgf@yx=\dimen277
-\pgf@yy=\dimen278
-\pgf@zx=\dimen279
-\pgf@zy=\dimen280
+\pgf@picminx=\dimen270
+\pgf@picmaxx=\dimen271
+\pgf@picminy=\dimen272
+\pgf@picmaxy=\dimen273
+\pgf@pathminx=\dimen274
+\pgf@pathmaxx=\dimen275
+\pgf@pathminy=\dimen276
+\pgf@pathmaxy=\dimen277
+\pgf@xx=\dimen278
+\pgf@xy=\dimen279
+\pgf@yx=\dimen280
+\pgf@yy=\dimen281
+\pgf@zx=\dimen282
+\pgf@zy=\dimen283
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen281
-\pgf@path@lasty=\dimen282
+\pgf@path@lastx=\dimen284
+\pgf@path@lasty=\dimen285
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen283
-\pgf@shorten@start@additional=\dimen284
+\pgf@shorten@end@additional=\dimen286
+\pgf@shorten@start@additional=\dimen287
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box67
-\pgf@hbox=\box68
-\pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count462
+\pgfpic=\box70
+\pgf@hbox=\box71
+\pgf@layerbox@main=\box72
+\pgf@picture@serial@count=\count463
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen285
+\pgflinewidth=\dimen288
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen286
-\pgf@pt@y=\dimen287
-\pgf@pt@temp=\dimen288
+\pgf@pt@x=\dimen289
+\pgf@pt@y=\dimen290
+\pgf@pt@temp=\dimen291
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -1004,17 +1015,17 @@ File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen289
+\pgfarrowsep=\dimen292
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen290
-\pgf@sys@shading@range@num=\count463
-\pgf@shadingcount=\count464
+\pgf@max=\dimen293
+\pgf@sys@shading@range@num=\count464
+\pgf@shadingcount=\count465
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box70
+\pgfexternal@startupbox=\box73
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -1025,59 +1036,59 @@ File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box71
+\pgfnodeparttextbox=\box74
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen291
-\pgf@nodesepend=\dimen292
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen293
-\pgffor@skip=\dimen294
-\pgffor@stack=\toks57
-\pgffor@toks=\toks58
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks58
+\pgffor@toks=\toks59
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count465
-\pgfplotmarksize=\dimen295
+\pgf@plot@mark@count=\count466
+\pgfplotmarksize=\dimen298
 )
-\tikz@lastx=\dimen296
-\tikz@lasty=\dimen297
-\tikz@lastxsaved=\dimen298
-\tikz@lastysaved=\dimen299
-\tikz@lastmovetox=\dimen300
-\tikz@lastmovetoy=\dimen301
-\tikzleveldistance=\dimen302
-\tikzsiblingdistance=\dimen303
-\tikz@figbox=\box72
-\tikz@figbox@bg=\box73
-\tikz@tempbox=\box74
-\tikz@tempbox@bg=\box75
-\tikztreelevel=\count466
-\tikznumberofchildren=\count467
-\tikznumberofcurrentchild=\count468
-\tikz@fig@count=\count469
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count467
+\tikznumberofchildren=\count468
+\tikznumberofcurrentchild=\count469
+\tikz@fig@count=\count470
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count470
-\pgfmatrixcurrentcolumn=\count471
-\pgf@matrix@numberofcolumns=\count472
+\pgfmatrixcurrentrow=\count471
+\pgfmatrixcurrentcolumn=\count472
+\pgf@matrix@numberofcolumns=\count473
 )
-\tikz@expandcount=\count473
+\tikz@expandcount=\count474
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-\@quotelevel=\count474
-\@quotereset=\count475
+\@quotelevel=\count475
+\@quotereset=\count476
 
 
 LaTeX Warning: Unused global option(s):
@@ -1109,17 +1120,17 @@ LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 19
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count476
-\scratchdimen=\dimen304
-\scratchbox=\box76
-\nofMPsegments=\count477
-\nofMParguments=\count478
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count479
-\MPscratchDim=\dimen305
-\MPnumerator=\count480
-\makeMPintoPDFobject=\count481
-\everyMPtoPDFconversion=\toks60
+\scratchcounter=\count477
+\scratchdimen=\dimen307
+\scratchbox=\box79
+\nofMPsegments=\count478
+\nofMParguments=\count479
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count480
+\MPscratchDim=\dimen308
+\MPnumerator=\count481
+\makeMPintoPDFobject=\count482
+\everyMPtoPDFconversion=\toks61
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1129,7 +1140,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package scrbase Info: activating english \contentsname on input line 19.
 Package scrbase Info: activating english \listfigurename on input line 19.
 Package scrbase Info: activating english \listtablename on input line 19.
-\AtBeginShipoutBox=\box77
+\AtBeginShipoutBox=\box80
 Package hyperref Info: Link coloring ON on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1138,7 +1149,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count482
+\c@section@level=\count483
 )
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
@@ -1161,9 +1172,9 @@ Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input line 168.
-\BKM@id=\count483
+\BKM@id=\count484
 ))
-\c@lstlisting=\count484
+\c@lstlisting=\count485
 Package scrhack Info: undefining \float@addtolists on input line 19.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1331,7 +1342,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 LaTeX Warning: Reference `chap:conclusion' on page 1 undefined on input line 156.
 
-<figures/archi_phase_1_&_2.png, id=164, 2383.90625pt x 983.675pt>
+<figures/archi_phase_1_&_2.png, id=189, 2383.90625pt x 983.675pt>
 File: figures/archi_phase_1_&_2.png Graphic file (type png)
 <use figures/archi_phase_1_&_2.png>
 Package pdftex.def Info: figures/archi_phase_1_&_2.png  used on input line 163.
@@ -1355,7 +1366,7 @@ l.45 \include{chap1}
 
  (./chap2.tex
 chapter 2.
-<figures/delivered_archi.png, id=179, 1486.55376pt x 1073.00874pt>
+<figures/delivered_archi.png, id=203, 1486.55376pt x 1073.00874pt>
 File: figures/delivered_archi.png Graphic file (type png)
 <use figures/delivered_archi.png>
 Package pdftex.def Info: figures/delivered_archi.png  used on input line 11.
@@ -1381,119 +1392,163 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) h
                                                   \fi \fi 
 l.31 	\item T
              he Inference Server pulls the desired invoice locally. <./figures/delivered_archi.png>] [7]
-<figures/bounding_box_partial.png, id=211, 541.52313pt x 293.095pt>
+<figures/bounding_box_partial.png, id=235, 541.52313pt x 293.095pt>
 File: figures/bounding_box_partial.png Graphic file (type png)
 <use figures/bounding_box_partial.png>
-Package pdftex.def Info: figures/bounding_box_partial.png  used on input line 93.
+Package pdftex.def Info: figures/bounding_box_partial.png  used on input line 94.
 (pdftex.def)             Requested size: 386.95901pt x 209.44504pt.
 Class scrbook Info: Workaround for not recommended usage of \\ or
-(scrbook)           \newlinein caption text  on input line 96.
+(scrbook)           \newlinein caption text  on input line 97.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 ...alue is the bounding box or vice versa.\\
+l.102 ...alue is the bounding box or vice versa.\\
                                                    <./figures/bounding_box_partial.png>]
-<figures/sroie_example.png, id=220, 1248.665pt x 688.5725pt>
+<figures/sroie_example.png, id=244, 1248.665pt x 688.5725pt>
 File: figures/sroie_example.png Graphic file (type png)
 <use figures/sroie_example.png>
-Package pdftex.def Info: figures/sroie_example.png  used on input line 132.
+Package pdftex.def Info: figures/sroie_example.png  used on input line 135.
 (pdftex.def)             Requested size: 386.95901pt x 213.38171pt.
  [9]
-<figures/SROIE_results.png, id=231, 1152.305pt x 506.89375pt>
+<figures/SROIE_results.png, id=255, 1152.305pt x 506.89375pt>
 File: figures/SROIE_results.png Graphic file (type png)
 <use figures/SROIE_results.png>
-Package pdftex.def Info: figures/SROIE_results.png  used on input line 145.
+Package pdftex.def Info: figures/SROIE_results.png  used on input line 148.
 (pdftex.def)             Requested size: 483.69693pt x 212.77791pt.
 Class scrbook Info: Workaround for not recommended usage of \\ or
-(scrbook)           \newlinein caption text  on input line 148.
+(scrbook)           \newlinein caption text  on input line 151.
  [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.157 \bigbreak
+l.160 \bigbreak
                pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.157 \bigbreak
+l.160 \bigbreak
                 <./figures/sroie_example.png> <./figures/SROIE_results.png>] [11] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 216.
-<figures/basic_transformer.png, id=270, 1428.33624pt x 476.78125pt>
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 219.
+<figures/basic_transformer.png, id=293, 1428.33624pt x 476.78125pt>
 File: figures/basic_transformer.png Graphic file (type png)
 <use figures/basic_transformer.png>
-Package pdftex.def Info: figures/basic_transformer.png  used on input line 242.
-(pdftex.def)             Requested size: 314.40004pt x 104.94312pt.
+Package pdftex.def Info: figures/basic_transformer.png  used on input line 244.
+(pdftex.def)             Requested size: 338.58636pt x 113.01846pt.
  [12]
-<figures/transformer_stacked_encoder_decoder.png, id=290, 1108.14pt x 799.98875pt>
+<figures/transformer_stacked_encoder_decoder.png, id=314, 1108.14pt x 799.98875pt>
 File: figures/transformer_stacked_encoder_decoder.png Graphic file (type png)
 <use figures/transformer_stacked_encoder_decoder.png>
-Package pdftex.def Info: figures/transformer_stacked_encoder_decoder.png  used on input line 251.
+Package pdftex.def Info: figures/transformer_stacked_encoder_decoder.png  used on input line 253.
 (pdftex.def)             Requested size: 314.40004pt x 226.97379pt.
-<figures/encoder_architecture.png, id=293, 721.69624pt x 332.24126pt>
+<figures/encoder_architecture.png, id=317, 721.69624pt x 332.24126pt>
 File: figures/encoder_architecture.png Graphic file (type png)
 <use figures/encoder_architecture.png>
-Package pdftex.def Info: figures/encoder_architecture.png  used on input line 259.
-(pdftex.def)             Requested size: 338.58636pt x 155.8695pt.
-<figures/decoder_archi_1.png, id=296, 894.34125pt x 265.99374pt>
+Package pdftex.def Info: figures/encoder_architecture.png  used on input line 261.
+(pdftex.def)             Requested size: 290.2211pt x 133.60388pt.
+<figures/decoder_archi_1.png, id=320, 894.34125pt x 265.99374pt>
 File: figures/decoder_archi_1.png Graphic file (type png)
 <use figures/decoder_archi_1.png>
-Package pdftex.def Info: figures/decoder_archi_1.png  used on input line 266.
+Package pdftex.def Info: figures/decoder_archi_1.png  used on input line 268.
 (pdftex.def)             Requested size: 435.32428pt x 129.47356pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.269 \end{figure}
+l.271 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.269 \end{figure}
+l.271 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.269 \end{figure}
+l.271 \end{figure}
                    <./figures/basic_transformer.png> <./figures/transformer_stacked_encoder_decoder.png> <./figures/encoder_architecture.png>]
-<figures/original_transformer_archi.png, id=307, 492.84125pt x 692.5875pt>
+<figures/original_transformer_archi.png, id=330, 492.84125pt x 692.5875pt>
 File: figures/original_transformer_archi.png Graphic file (type png)
 <use figures/original_transformer_archi.png>
-Package pdftex.def Info: figures/original_transformer_archi.png  used on input line 277.
-(pdftex.def)             Requested size: 338.58636pt x 475.8357pt.
+Package pdftex.def Info: figures/original_transformer_archi.png  used on input line 279.
+(pdftex.def)             Requested size: 266.03477pt x 373.87543pt.
  [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.281 
-       <./figures/decoder_archi_1.png>] [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
+l.286 	\item \textbf
+                    {Input Embeddings}: As can be seen at the bottom of the~...pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.298 T
-       okenization usually comes in three different forms; there are word, s... <./figures/original_transformer_archi.png>] [16] [17]) [18]
+l.286 	\item \textbf
+                    {Input Embeddings}: As can be seen at the bottom of the~... <./figures/decoder_archi_1.png> <./figures/original_transformer_archi.png>]
+<figures/feed_forward.png, id=343, 871.255pt x 247.92625pt>
+File: figures/feed_forward.png Graphic file (type png)
+<use figures/feed_forward.png>
+Package pdftex.def Info: figures/feed_forward.png  used on input line 302.
+(pdftex.def)             Requested size: 483.69693pt x 137.6423pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.318 ... depending on the context (a homonym). \\
+                                                   <./figures/feed_forward.png>] [16] [17]
+<figures/layoutlmv2_archi.png, id=372, 1381.16pt x 1191.45125pt>
+File: figures/layoutlmv2_archi.png Graphic file (type png)
+<use figures/layoutlmv2_archi.png>
+Package pdftex.def Info: figures/layoutlmv2_archi.png  used on input line 415.
+(pdftex.def)             Requested size: 483.69693pt x 417.25053pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.426 \begin{itemize}
+                      <./figures/layoutlmv2_archi.png>]
+<figures/attention_usage.png, id=391, 673.51625pt x 675.52374pt>
+File: figures/attention_usage.png Graphic file (type png)
+<use figures/attention_usage.png>
+Package pdftex.def Info: figures/attention_usage.png  used on input line 445.
+(pdftex.def)             Requested size: 338.58636pt x 339.5958pt.
+ [19]
+<figures/k_v_q_linear_layers.png, id=403, 873.2625pt x 374.39874pt>
+File: figures/k_v_q_linear_layers.png Graphic file (type png)
+<use figures/k_v_q_linear_layers.png>
+Package pdftex.def Info: figures/k_v_q_linear_layers.png  used on input line 467.
+(pdftex.def)             Requested size: 483.69693pt x 207.37672pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.471 I
+       n training the values for the linear layers are initially set randoml... <./figures/attention_usage.png>] [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.500 \bigbreak
+                <./figures/k_v_q_linear_layers.png>]) [22]
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
 chapter 3.
-[19
+[23
 
 
 
 ]
-<figures/training_labels.png, id=378, 1147.28625pt x 417.56pt>
+<figures/training_labels.png, id=453, 1147.28625pt x 417.56pt>
 File: figures/training_labels.png Graphic file (type png)
 <use figures/training_labels.png>
 Package pdftex.def Info: figures/training_labels.png  used on input line 57.
 (pdftex.def)             Requested size: 435.32428pt x 158.43233pt.
-<figures/ubiai_annotate.png, id=379, 2889.79625pt x 794.97pt>
+<figures/ubiai_annotate.png, id=454, 2889.79625pt x 794.97pt>
 File: figures/ubiai_annotate.png Graphic file (type png)
 <use figures/ubiai_annotate.png>
 Package pdftex.def Info: figures/ubiai_annotate.png  used on input line 68.
 (pdftex.def)             Requested size: 483.69693pt x 133.0567pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1504,34 +1559,34 @@ l.75 	      T
                                                   \fi \fi 
 l.75 	      T
              his finding was corroborated by Walid. <./figures/training_labels.png> <./figures/ubiai_annotate.png>]
-<figures/ubiai_export_options.png, id=391, 362.35374pt x 484.81125pt>
+<figures/ubiai_export_options.png, id=466, 362.35374pt x 484.81125pt>
 File: figures/ubiai_export_options.png Graphic file (type png)
 <use figures/ubiai_export_options.png>
 Package pdftex.def Info: figures/ubiai_export_options.png  used on input line 80.
 (pdftex.def)             Requested size: 169.29688pt x 226.51494pt.
-<figures/training_dataframe.png, id=393, 1614.03pt x 566.115pt>
+<figures/training_dataframe.png, id=468, 1614.03pt x 566.115pt>
 File: figures/training_dataframe.png Graphic file (type png)
 <use figures/training_dataframe.png>
 Package pdftex.def Info: figures/training_dataframe.png  used on input line 109.
 (pdftex.def)             Requested size: 483.69693pt x 169.6544pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.113 I
-       t is important to note that each row in the dataframe represents a si... <./figures/ubiai_export_options.png>] [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+       t is important to note that each row in the dataframe represents a si... <./figures/ubiai_export_options.png>] [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.147 \end{itemize}
-                    <./figures/training_dataframe.png>]) [23] [24
+                    <./figures/training_dataframe.png>]) [27] [28
 
 
-] [25] [26] [27]
+] [29] [30] [31] [32]
 \tf@thm=\write9
 \openout9 = `main.thm'.
 
- [28]
+ [33]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./main.aux (./chap1.aux) (./chap2.aux) (./chap3.aux))
@@ -1548,18 +1603,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39035 strings out of 481239
- 750942 string characters out of 5920377
- 1559635 words of memory out of 5000000
- 53372 multiletter control sequences out of 15000+600000
- 621781 words of font info for 117 fonts, out of 8000000 for 9000
+ 39187 strings out of 481239
+ 754287 string characters out of 5920377
+ 1566167 words of memory out of 5000000
+ 53501 multiletter control sequences out of 15000+600000
+ 621887 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,20n,81p,10153b,1854s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,20n,81p,10153b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (32 pages, 3090868 bytes).
+Output written on main.pdf (37 pages, 3625433 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
- 641 compressed objects within 7 object streams
- 250 named destinations out of 1000 (max. 500000)
- 328 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 828 PDF objects out of 1000 (max. 8388607)
+ 719 compressed objects within 8 object streams
+ 264 named destinations out of 1000 (max. 500000)
+ 380 words of extra memory for PDF output out of 10000 (max. 10000000)
 

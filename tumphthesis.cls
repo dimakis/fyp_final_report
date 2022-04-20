@@ -360,7 +360,9 @@ style=numeric
 % edit page number position up or down
 \setlength{\footskip}{20pt}
 
-
 % for subsubsection in toc
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
+
+% for strikeout text
+\usepackage[normalem]{ulem}

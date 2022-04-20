@@ -311,6 +311,36 @@
       \verb /home/dimdakis/Zotero/storage/8VC4E2Y4/index.html
       \endverb
     \endentry
+    \entry{cristinaTransformerAttentionMechanism2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=66cd2bbfcd0016a2479eac7167dcada8}{%
+           family={Cristina},
+           familyi={C\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{fullhash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{bibnamehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{authorbibnamehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{authornamehash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \strng{authorfullhash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Before the introduction of the Transformer model, the use of attention for neural machine translation was being implemented by RNN-based [\ldots ]}
+      \field{journaltitle}{Machine Learning Mastery}
+      \field{langid}{american}
+      \field{month}{10}
+      \field{title}{The {{Transformer Attention Mechanism}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/KSGA89ZB/the-transformer-attention-mechanism.html
+      \endverb
+    \endentry
     \entry{cristinaTransformerModel2021}{misc}{}
       \name{author}{1}{}{%
         {{hash=66cd2bbfcd0016a2479eac7167dcada8}{%
@@ -325,6 +355,7 @@
       \strng{authorbibnamehash}{66cd2bbfcd0016a2479eac7167dcada8}
       \strng{authornamehash}{66cd2bbfcd0016a2479eac7167dcada8}
       \strng{authorfullhash}{66cd2bbfcd0016a2479eac7167dcada8}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
@@ -494,6 +525,37 @@
       \verb /home/dimdakis/Zotero/storage/VS2MZTN9/9.html
       \endverb
     \endentry
+    \entry{doshiTransformersExplainedVisually2021b}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=85e0dd9d178e81b618c3068b81cd6dd7}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Ketan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{fullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{bibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorbibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authornamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorfullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Gentle Guide to how the Attention Score calculations capture relationships between words in a sequence, in Plain English.}
+      \field{howpublished}{https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Transformers {{Explained Visually}} —{} {{Not}} Just How, but {{Why}} They Work so Well}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/GZABTYYF/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3.html
+      \endverb
+    \endentry
     \entry{doshiTransformersExplainedVisually2021}{misc}{}
       \name{author}{1}{}{%
         {{hash=85e0dd9d178e81b618c3068b81cd6dd7}{%
@@ -508,6 +570,7 @@
       \strng{authorbibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
       \strng{authornamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
       \strng{authorfullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{labelnamesource}{author}
@@ -523,6 +586,38 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/S75ZMAJQ/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452.html
+      \endverb
+    \endentry
+    \entry{doshiTransformersExplainedVisually2021a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=85e0dd9d178e81b618c3068b81cd6dd7}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Ketan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{fullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{bibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorbibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authornamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorfullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A Gentle Guide to the inner workings of Self-Attention, Encoder-Decoder Attention, Attention Score and Masking, in Plain English.}
+      \field{howpublished}{https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shorttitle}{Transformers {{Explained Visually}} ({{Part}} 3)}
+      \field{title}{Transformers {{Explained Visually}} ({{Part}} 3): {{Multi-head Attention}}, Deep Dive}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/SB5AYIX5/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853.html
       \endverb
     \endentry
     \entry{duttaAnnotationSoftwareImages2019}{inproceedings}{}
@@ -629,6 +724,49 @@
       \verb /home/dimdakis/Zotero/storage/EA34XYSL/eda-and-microservices-architecture-best-practices.html
       \endverb
     \endentry
+    \entry{FacebookresearchDetectron22022}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.}
+      \field{howpublished}{Meta Research}
+      \field{month}{4}
+      \field{title}{Facebookresearch/Detectron2}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{FasterRCNNExplained2020}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We'll fully explain the Faster R-CNN model, and how it performs object detection using region-proposal networks.}
+      \field{howpublished}{https://blog.paperspace.com/faster-r-cnn-explained-object-detection/}
+      \field{journaltitle}{Paperspace Blog}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Faster {{R-CNN Explained}} for {{Object Detection Tasks}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/334WJY23/faster-r-cnn-explained-object-detection.html
+      \endverb
+    \endentry
+    \entry{FeedforwardNeuralNetwork2022}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Feedforward Neural Networks, also known as Deep feedforward Networks or Multi-layer Perceptrons, are the focus of this article.}
+      \field{journaltitle}{Analytics Vidhya}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{Feedforward {{Neural Network}}}
+      \field{title}{Feedforward {{Neural Network}}: {{Its Layers}}, {{Functions}}, and {{Importance}}}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/HHG34CSF/feedforward-neural-network-its-layers-functions-and-importance.html
+      \endverb
+    \endentry
     \entry{ghoshExtendingFlaskTutorial2021}{misc}{}
       \name{author}{1}{}{%
         {{hash=d6224b70b3e32479c6d20cdbc7cfebe1}{%
@@ -704,6 +842,37 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/GTHDN47S/grafana.com.html
+      \endverb
+    \endentry
+    \entry{guptaDeepLearningFeedforward2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=915f7110cb6d2925d2de5d4d8d1c4894}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Tushar},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{915f7110cb6d2925d2de5d4d8d1c4894}
+      \strng{fullhash}{915f7110cb6d2925d2de5d4d8d1c4894}
+      \strng{bibnamehash}{915f7110cb6d2925d2de5d4d8d1c4894}
+      \strng{authorbibnamehash}{915f7110cb6d2925d2de5d4d8d1c4894}
+      \strng{authornamehash}{915f7110cb6d2925d2de5d4d8d1c4894}
+      \strng{authorfullhash}{915f7110cb6d2925d2de5d4d8d1c4894}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Coming to the third part of the series. In this article I would be explain the concept of Deep Feedforward Networks.}
+      \field{howpublished}{https://towardsdatascience.com/deep-learning-feedforward-neural-network-26a6705dbdc7}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{shorttitle}{Deep {{Learning}}}
+      \field{title}{Deep {{Learning}}: {{Feedforward Neural Network}}}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/9E8W4RAA/deep-learning-feedforward-neural-network-26a6705dbdc7.html
       \endverb
     \endentry
     \entry{Helm}{misc}{}
@@ -1009,6 +1178,22 @@
       \field{title}{{{LAMBERT}}}
       \field{year}{2022}
       \true{nocite}
+    \endentry
+    \entry{LayoutLMExplained2022}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labeltitlesource}{title}
+      \field{abstract}{LayoutLM is a deep learning model used to perform document processing. In this article we share a LayoutLM tutorial, a deeper dive in architecture, and provide code samples for HuggingFace LayoutLM}
+      \field{howpublished}{https://nanonets.com/blog/layoutlm-explained/}
+      \field{journaltitle}{AI \& Machine Learning Blog}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{{{LayoutLM Explained}}}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/46ISG8W8/layoutlm-explained.html
+      \endverb
     \endentry
     \entry{LessonsLearnedRunning}{misc}{}
       \field{sortinit}{L}
@@ -1743,6 +1928,36 @@
       \field{howpublished}{https://iximiuz.com/en/posts/container-learning-path/}
       \field{title}{How to {{Grasp Containers}} - {{Efficient Learning Path}} - {{Ivan Velichko}}}
       \true{nocite}
+    \endentry
+    \entry{vijayraniaDifferentNormalizationLayers2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6d64cbd93e9f9e50dc34938d22c21b4c}{%
+           family={Vijayrania},
+           familyi={V\bibinitperiod},
+           given={Nilesh},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d64cbd93e9f9e50dc34938d22c21b4c}
+      \strng{fullhash}{6d64cbd93e9f9e50dc34938d22c21b4c}
+      \strng{bibnamehash}{6d64cbd93e9f9e50dc34938d22c21b4c}
+      \strng{authorbibnamehash}{6d64cbd93e9f9e50dc34938d22c21b4c}
+      \strng{authornamehash}{6d64cbd93e9f9e50dc34938d22c21b4c}
+      \strng{authorfullhash}{6d64cbd93e9f9e50dc34938d22c21b4c}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Presently Deep Learning has been revolutionizing many subfields such as natural language processing, computer vision, robotics, etc. Deep\ldots}
+      \field{howpublished}{https://towardsdatascience.com/different-normalization-layers-in-deep-learning-1a7214ff71d6}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Different {{Normalization Layers}} in {{Deep Learning}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/CHIDP3NH/different-normalization-layers-in-deep-learning-1a7214ff71d6.html
+      \endverb
     \endentry
     \entry{wadaLabelmeImagePolygonal2022}{misc}{}
       \name{author}{1}{}{%
