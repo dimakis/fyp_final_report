@@ -34,28 +34,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Transformers and the LayoutLMv2 Architecture}{12}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Encoder and Decoder High Level View}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Encoder and Decoder High Level Overview}{13}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Tokenisation}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Original Transformers Architecture}{14}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Multi Modal - Token Embeddings}{17}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Context}{16}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Encoder and Decoder}{17}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Tokenisation}{16}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Hugging Face LayoutLMv2}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {2.3.5}Multi Modal Token Embeddings}{17}{subsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.0.1}Transfer Learning}{18}{subsubsection.2.4.0.1}%
+\contentsline {subsection}{\numberline {2.3.6}LayoutLMv2 Architecture}{18}{subsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}The Challenges}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.3.7}Multi-head Self Attention, Is All You Need}{19}{subsection.2.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Implementation}{19}{chapter.3}%
+\contentsline {subsubsection}{\numberline {2.3.7.1}Attention Score}{21}{subsubsection.2.3.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Overview}{19}{section.3.1}%
+\contentsline {section}{\numberline {2.4}Hugging Face LayoutLMv2}{21}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Dataset Preparation}{19}{section.3.2}%
+\contentsline {subsubsection}{\numberline {2.4.0.1}Transfer Learning}{21}{subsubsection.2.4.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Training the Model}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {2.4.2}The Challenges}{22}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Data for Model Training}{23}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {3}Implementation}{23}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{24}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.1}Overview}{23}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Dataset Preparation}{23}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Training the Model}{25}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Data for Model Training}{27}{subsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{28}{subsection.3.3.1}%

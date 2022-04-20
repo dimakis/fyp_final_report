@@ -22,14 +22,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Transformer Decoder architecture example\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{14}{figure.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Original Transformers architecture example\nobreakspace {}\autocite {vaswaniAttentionAllYou}}}{15}{figure.2.9}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Original Transformers architecture\nobreakspace {}\autocite {vaswaniAttentionAllYou}, akin to the previous example the encoder stack is situated on the left whilst the decoder is situated on the right.}}{14}{figure.2.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Classic Feed Forward Neural network layer architecture\nobreakspace {}\autocite {guptaDeepLearningFeedforward2018}, The left side depicts a single perceptron whilst the right depicts a multilayer network.}}{15}{figure.2.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces LayoutLMv2 Architecture as per\nobreakspace {}\autocite {xuLayoutLMv2MultimodalPretraining2022}}}{18}{figure.2.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Attention Usage}}{20}{figure.2.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Key, Value and Query linear layers from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021a}.}}{21}{figure.2.13}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Training and Inference Labels created for the system}}{20}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Training and Inference Labels created for the system}}{24}{figure.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Annotating the dataset using UBIAI Annotation Tool}}{20}{figure.3.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Annotating the dataset using UBIAI Annotation Tool}}{24}{figure.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces UBIAI Export Options}}{21}{figure.3.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces UBIAI Export Options}}{25}{figure.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Training Dataframe}}{22}{figure.3.4}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Training Dataframe}}{26}{figure.3.4}%

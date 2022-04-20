@@ -69,3 +69,4 @@ subword
 OOV
 Subword
 subwords
+dimensionalities

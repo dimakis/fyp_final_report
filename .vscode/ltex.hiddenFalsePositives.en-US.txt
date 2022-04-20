@@ -15,3 +15,4 @@
 {"rule":"EN_WORD_COHERENCY","sentence":"^\\QWord Tokenization: A word is defined as a sequence of characters which are separated by a delimiter, usually, separated by a space.\\E$"}
 {"rule":"EN_WORD_COHERENCY","sentence":"^\\QTokenization usually comes in three different forms: there are word, subword and character-based tokenization.\\E$"}
 {"rule":"ALL_OF_THE","sentence":"^\\QNote: not all of the output is as coherent and accurate as the chosen example, although a sub-product of GPT-3 can be found powering tools such as GitHub Co-Pilot which is a tool to aid developers by making suggestions for code completion based on the context of the code already written or by the comments written in the code which Co-Pilot can then use to suggest code completion.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QPart of the output embedding is masked during training so the model doesn't `peek ahead'.\\E$"}
