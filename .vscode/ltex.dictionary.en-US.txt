@@ -70,3 +70,5 @@ OOV
 Subword
 subwords
 dimensionalities
+FUNSD
+JAX

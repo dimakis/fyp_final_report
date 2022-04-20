@@ -9,7 +9,7 @@ This report's structure will follow this style:
 	\item The system's initial proposed architecture. Along with the necessary pivots
 	      that occurred during development and the justification for those pivots.
 	\item The technologies considered, the technologies chosen and the plan which was followed.
-	\item It will detail the implementation of the varies system components from the start to the working prototype.
+	\item It will detail the implementation of the various system components from the start to the working prototype.
 	      % \item may not need this next point. am I repeating myself?
 	\item The report will outline the challenges faced in the implementation of the system design.
 	\item A conclusion will be given including both technical and personal reflection.
@@ -19,7 +19,7 @@ This report's structure will follow this style:
 \end{itemize}
 \section{Motivation}
 The motivation for this project comes from a number of major pain points of mine, from my previous / side career as a bar owner and manager. \\ This project focuses on building a system for use by
-bar / public houses (pubs) and as such a single bar entity will be referred to as a \emph{user} of the system.\\
+bars / public houses (pubs) and as such a single bar entity will be referred to as a \emph{user} of the system.\\
 There is also scope for this system to be altered slightly and to be used with any business which operates with a similar back-end structure.
 In fact, as the system is currently implemented, it is possible to use components of the system, for any business
 which receives invoices (more on this later).
@@ -28,7 +28,7 @@ which receives invoices (more on this later).
 Some of the most time-consuming and least valuable, from a time - reward perspective, are the back-end processes of running the business. Reward is defined here as the actions which result
 in potential business growth. Time spent scanning invoices from suppliers, filling out income and expenditure spreadsheets and calculating gross and net figures (which will be referred to
 as `\emph{group A}' activities). Whilst these processes are critical to a business' operation and regulatory compliance they do not do much for business growth.\\
-On the other hand, time spent on sourcing new products / inventory, finding new / novel forms of entertainment, business promotion and customer engagement (which will be referred to as
+On the other hand, time spent on sourcing new products / inventory, finding novel forms of entertainment, business promotion and customer engagement (which will be referred to as
 `\emph{group B}' activities) are the catalysts which drive sales and business growth.\\
 The ultimate aim of this project is to provide more time for group B growth activities and processes by automating the group A processes.
 \bigbreak
@@ -64,13 +64,13 @@ These core processes fall into two broad categories, defined as:
 \end{itemize}
 This is quite a lengthy and complex list of processes to automate.
 \bigbreak
-There exists further motivation for this project. It is a purely personal reason, which is a massive interest in developing knowledge 
-about the entire process of developing a deep learning system. From the dataset creation phase to the training, evaluation and inference phases. 
+There exists further motivation for this project. It is a purely personal reason, which is a massive interest in developing knowledge
+about the entire process of developing a deep learning system. From the dataset creation phase to the training, evaluation and inference phases.
 In essence the entire ML stack. Furthermore, this area of Data Science is the major point of focus for work completed in semester two, the second half of this project.\\
 I will use this project as a vehicle to explore and test both industry standard and brand-new technologies with an emphasis on open-source tech.
 This will stress test my knowledge of the
 technologies and both allow me to see what I can implement along with being a showcase of my skills in the field to potential employers.
-This system will be built with the primary target of having each component implemented in such a way as to ensure maximum efficiency is the 
+This system will be built with the primary target of having each component implemented in such a way as to ensure maximum efficiency is the
 front and center focus.
 \section{Scope}
 The scope of this project was highly ambitious. The project focuses on tackling both the Category One and Two processes, with
@@ -79,8 +79,8 @@ an eye on weeding out every potential pitfall as if this project is the prototyp
 \textbf{Note:} The Category One processes have been implemented, are functional and are reported on in the first report.
 These processes are mentioned briefly here, for the reader to get an understanding of the
 system's goals end-to-end. This report will focus on the development carried out in the second phase of development (semester two)
-namely the Category Two processes, which have a heavy Data Science focus.\footnote{For a more in depth look at how the Category One 
-processes have been implemented please refer to section 2.1.2 \emph{Current Architecture} of the first report.}
+namely the Category Two processes, which have a heavy Data Science focus.\footnote{For a more in depth look at how the Category One
+	processes have been implemented please refer to section 2.1.2 \emph{Current Architecture} of the first report.}
 \bigbreak
 Given the time constraints and the complexity of the system in development
 there are some non-core components that	have been omitted or mocked. There are also some
@@ -88,8 +88,8 @@ pivots that needed to be made in order to get a functional demo by the deadline.
 documented here to allow the reader to know that these processes have been thought about thoroughly,
 before the decision was made to continue as detailed. \\ These include:
 \begin{enumerate}
-	\item For the Category One processes, the users' sales transactions and details are faked / generated. This is done through the main entry API which has a \code{.../transactions/fake/create}
-	      endpoint. There is no Point of Sale (PoS) till software created.
+	\item For the Category One processes, the users' sales transactions and details are mocked. This is done through the main transactional
+	      entry API which has a \code{.../transactions/fake/create} endpoint. There is no Point of Sale (PoS) till software created.
 	      \bigbreak
 	      \emph{To obtain transactional data into the system from real data a new API server would need to be
 		      implemented to fetch data from popular PoS systems. This has not been implemented, although
@@ -102,7 +102,8 @@ before the decision was made to continue as detailed. \\ These include:
 	      \emph{Upon stating that,
 		      it is possible to obtain data insights from the system via SQL calls to the database, including total expenditure,
 		      tax expenditure (to be offset against future tax payments) and net goods amounts.\\
-			  Furthermore, the implementation of a Grafana (an open-source visualisation tool) dashboard}
+		      Furthermore, the implementation of a Grafana (an open-source visualisation tool) dashboard would not be very difficult to implement 
+			  to allow for nice visualisations of the data.}
 	\item There is one area to note here is that there is a possible discrepancy between newly ordered inventory invoiced and the product actually delivered
 	      by a supplier to a business.\\
 	      Sometimes products which have been ordered are not delivered, i.e., out of stock with supplier or damaged in transit.
@@ -119,20 +120,20 @@ before the decision was made to continue as detailed. \\ These include:
 	      (this is reported on in greater detail later)
 	      % link to detail.
 	\item Whilst trying to balance the goal of using open-source components with creating a system that performs as effectively as possible, some
-	      design decisions were made to prioritize the accuracy of the system's performance at the expense of using only open source components.\\ 
-		  Upon that being said, the system can be operated using only open source components.\\
+	      design decisions were made to prioritize the accuracy of the system's performance at the expense of using only open source components.\\
+	      Upon that being said, the system can be operated using only open source components.\\
 	      The proprietary components and the open-source alternatives used in the deliverable are:
 	      \begin{itemize}
 		      \item \textbf{AWS Textract}: This is a combined Text Localisation and OCR engine that delivers very accurate results. This project
 		            utilizes the AWS Textract API to for both the Text Localisation and OCR
-					\bigbreak
-					\emph{The system is capable of using other OCR engines and is already configured to use PyTesseract. This is an open-source Text 
-					Localisation and OCR engine, but the output results are not as accurate as AWS Textract. To allow for the best overall results, 
-					the system leverages AWS Textract.\\ AWS provides a very reasonable free tier for use of Textract with 10,000 free requests per month.}
+		            \bigbreak
+		            \emph{The system is capable of using other OCR engines and is already configured to use PyTesseract. This is an open-source Text
+			            Localisation and OCR engine, but the output results are not as accurate as AWS Textract. To allow for the best overall results,
+			            the system leverages AWS Textract.\\ AWS provides a very reasonable free tier for use of Textract with 10,000 free requests per month.}
 		      \item \textbf{AWS S3 Bucket Storage}: S3 Bucket Storage is a service that allows for the storage of files in a bucket. This is used to store the
-		            invoices. 
-					\bigbreak
-					\emph{This can easily be replaced with local storage or any other storage service.}
+		            invoices.
+		            \bigbreak
+		            \emph{This can easily be replaced with local storage or any other storage service.}
 	      \end{itemize}
 \end{enumerate}
 \section{Side Benefits}
@@ -148,7 +149,8 @@ business but also trends and such from the data aggregated from all users of the
 	\item An example of another insight that can be derived from the information in the system which is of value to external entities, given decent levels of adoption in the industry,
 	      are live sales per product.
 	      Having a multitude of different users in the system, the sale quantities of specific items can be accessed and / or extrapolated in real-time. This can provide some invaluable
-	      data to brewers, of sales which could be utilized to precisely schedule production times and production quantities.
+	      data to brewers, of sales which could be utilized to precisely schedule production times and production quantities which in turn would reduce waste 
+		  and cut costs.
 \end{itemize}
 
 \section{Planning and Strategy}
