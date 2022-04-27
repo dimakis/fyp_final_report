@@ -27,6 +27,50 @@
       \field{title}{A {{Gentle Introduction}} to {{Batch Normalization}} for {{Deep Neural Networks}}}
       \true{nocite}
     \endentry
+    \entry{aiGPT3NoLonger}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f5e2a683625e41cdf3c7097f963aa6b}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Last\bibnamedelima Week},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f5e2a683625e41cdf3c7097f963aa6b}
+      \strng{fullhash}{8f5e2a683625e41cdf3c7097f963aa6b}
+      \strng{bibnamehash}{8f5e2a683625e41cdf3c7097f963aa6b}
+      \strng{authorbibnamehash}{8f5e2a683625e41cdf3c7097f963aa6b}
+      \strng{authornamehash}{8f5e2a683625e41cdf3c7097f963aa6b}
+      \strng{authorfullhash}{8f5e2a683625e41cdf3c7097f963aa6b}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{GPT-3 was by far the largest AI model of its kind last year. Now? Not so much.}
+      \field{howpublished}{https://lastweekin.ai/p/gpt-3-is-no-longer-the-only-game}
+      \field{title}{{{GPT-3}} Is {{No Longer}} the {{Only Game}} in {{Town}}}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/8G3P2IC3/gpt-3-is-no-longer-the-only-game.html
+      \endverb
+    \endentry
+    \entry{AIWeeklyAI2021}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{AI models are becoming larger -- and more capable. But they're also becoming more costly to train, highlighting a problem in the field.}
+      \field{journaltitle}{VentureBeat}
+      \field{langid}{american}
+      \field{month}{10}
+      \field{shorttitle}{{{AI Weekly}}}
+      \field{title}{{{AI Weekly}}: {{AI}} Model Training Costs on the Rise, Highlighting Need for New Solutions}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/8GJ9FPG6/ai-weekly-ai-model-training-costs-on-the-rise-highlighting-need-for-new-solutions.html
+      \endverb
+    \endentry
     \entry{alammarIllustratedTransformer}{misc}{}
       \name{author}{1}{}{%
         {{hash=071e8b59bcc6de28244fea3bf962a165}{%
@@ -67,6 +111,7 @@
       \strng{authorbibnamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
       \strng{authornamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
       \strng{authorfullhash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
@@ -81,6 +126,37 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/6SBXMRRI/fine-tuning-layoutlm-v2-for-invoice-recognition-91bf2546b19e.html
+      \endverb
+    \endentry
+    \entry{amamouFineTuningTransformerModel2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e1f1f817ebc24a523cab267b4fb1e0fc}{%
+           family={Amamou},
+           familyi={A\bibinitperiod},
+           given={Walid},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{fullhash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{bibnamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{authorbibnamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{authornamehash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \strng{authorfullhash}{e1f1f817ebc24a523cab267b4fb1e0fc}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A step-by-step guide from annotation to training}
+      \field{howpublished}{https://towardsdatascience.com/fine-tuning-transformer-model-for-invoice-recognition-1e55869336d4}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Fine-{{Tuning Transformer Model}} for {{Invoice Recognition}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/HZJMP67M/fine-tuning-transformer-model-for-invoice-recognition-1e55869336d4.html
       \endverb
     \endentry
     \entry{ApacheKafka}{misc}{}
@@ -171,6 +247,92 @@
       \field{year}{2020}
       \true{nocite}
     \endentry
+    \entry{baoUniLMv2PseudoMaskedLanguage2020}{article}{}
+      \name{author}{11}{}{%
+        {{hash=23b85b8dc8040cdb61538ffc8420256a}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Hangbo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d3349e5c2b2661f3b497e9f014ffcf7d}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=82baeb93c6572095f63e51c66a00d89f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenhui},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a44174a97a52d8b64289ef831cb1ac37}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b881686cdf68b52745dbcb6374b8008b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b2eccb185095fccfeb40fdffd8b2105f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=951019a488e761d9f1d01784da9d1482}{%
+           family={Piao},
+           familyi={P\bibinitperiod},
+           given={Songhao},
+           giveni={S\bibinitperiod}}}%
+        {{hash=159bca5607e3797666654a2e3022978a}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd9fe85df78f0bfbb1d0c3441f053f74}{%
+           family={Hon},
+           familyi={H\bibinitperiod},
+           given={Hsiao-Wuen},
+           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{50a291f185ccb81f121d0577c446c54f}
+      \strng{fullhash}{e0983a2a2ffe74e141cb01a30a144b98}
+      \strng{bibnamehash}{50a291f185ccb81f121d0577c446c54f}
+      \strng{authorbibnamehash}{50a291f185ccb81f121d0577c446c54f}
+      \strng{authornamehash}{50a291f185ccb81f121d0577c446c54f}
+      \strng{authorfullhash}{e0983a2a2ffe74e141cb01a30a144b98}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We propose to pre-train a unified language model for both autoencoding and partially autoregressive language modeling tasks using a novel training procedure, referred to as a pseudo-masked language model (PMLM). Given an input text with masked tokens, we rely on conventional masks to learn inter-relations between corrupted tokens and context via autoencoding, and pseudo masks to learn intra-relations between masked spans via partially autoregressive modeling. With welldesigned position embeddings and self-attention masks, the context encodings are reused to avoid redundant computation. Moreover, conventional masks used for autoencoding provide global masking information, so that all the position embeddings are accessible in partially autoregressive language modeling. In addition, the two tasks pre-train a unified language model as a bidirectional encoder and a sequence-to-sequence decoder, respectively. Our experiments show that the unified language models pre-trained using PMLM achieve new state-of-the-art results on a wide range of natural language understanding and generation tasks across several widely used benchmarks.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:2002.12804 [cs]}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shorttitle}{{{UniLMv2}}}
+      \field{title}{{{UniLMv2}}: {{Pseudo-Masked Language Models}} for {{Unified Language Model Pre-Training}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2002.12804
+      \endverb
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/K3MBAMPS/Bao et al. - 2020 - UniLMv2 Pseudo-Masked Language Models for Unified.pdf
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
     \entry{BERT}{misc}{}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
@@ -182,6 +344,15 @@
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/5UBZCPS2/bert.html
       \endverb
+    \endentry
+    \entry{BERTNaturalLanguage}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BERT stands for Bidirectional Encoder Representation from Transformer and uses deep bidirectional layers of transformers encoders}
+      \field{howpublished}{https://www.analyticsvidhya.com/blog/2021/05/all-you-need-to-know-about-bert/}
+      \field{title}{{{BERT}} for {{Natural Language Processing}} |{{All You Need}} to Know about {{BERT}}}
+      \true{nocite}
     \endentry
     \entry{BigScienceResearchWorkshop}{misc}{}
       \field{sortinit}{B}
@@ -206,6 +377,36 @@
       \verb /home/dimdakis/Zotero/storage/3EXBMSJY/tr11-176B-ml-logs.html
       \endverb
     \endentry
+    \entry{brownleeGentleIntroductionCrossEntropy2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cross-entropy is commonly used in machine learning as a loss function. Cross-entropy is a measure from the field of information [\ldots ]}
+      \field{journaltitle}{Machine Learning Mastery}
+      \field{langid}{american}
+      \field{month}{10}
+      \field{title}{A {{Gentle Introduction}} to {{Cross-Entropy}} for {{Machine Learning}}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/43N5BIGB/cross-entropy-for-machine-learning.html
+      \endverb
+    \endentry
     \entry{brownleeEncoderDecoderRecurrentNeural2017}{misc}{}
       \name{author}{1}{}{%
         {{hash=915af163e2107106fced5dd3164d9a8e}{%
@@ -220,6 +421,7 @@
       \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
       \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{labelnamesource}{author}
@@ -233,6 +435,36 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/GQ9YK3AY/encoder-decoder-recurrent-neural-network-models-neural-machine-translation.html
+      \endverb
+    \endentry
+    \entry{calvoDissectingBERTPart2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9df227dee4f8256346cdb26b459614cf}{%
+           family={Calvo},
+           familyi={C\bibinitperiod},
+           given={Miguel\bibnamedelima Romero},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9df227dee4f8256346cdb26b459614cf}
+      \strng{fullhash}{9df227dee4f8256346cdb26b459614cf}
+      \strng{bibnamehash}{9df227dee4f8256346cdb26b459614cf}
+      \strng{authorbibnamehash}{9df227dee4f8256346cdb26b459614cf}
+      \strng{authornamehash}{9df227dee4f8256346cdb26b459614cf}
+      \strng{authorfullhash}{9df227dee4f8256346cdb26b459614cf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This is Part 1/2 of Understanding BERT written jointly by Miguel Romero and Francisco Ingham. If you already understand the Encoder\ldots}
+      \field{journaltitle}{Dissecting BERT}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shorttitle}{Dissecting {{BERT Part}} 1}
+      \field{title}{Dissecting {{BERT Part}} 1: {{The Encoder}}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/X5M86LSF/dissecting-bert-part-1-d3c3d495cdb3.html
       \endverb
     \endentry
     \entry{ClickUpOneApp}{misc}{}
@@ -273,6 +505,28 @@
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/8ZSS247W/data-annotation-tool-guide.html
       \endverb
+    \endentry
+    \entry{codeemporiumBERTNeuralNetwork2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6911ddd30c92e316135e1f2b2f3aa26d}{%
+           family={{CodeEmporium}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6911ddd30c92e316135e1f2b2f3aa26d}
+      \strng{fullhash}{6911ddd30c92e316135e1f2b2f3aa26d}
+      \strng{bibnamehash}{6911ddd30c92e316135e1f2b2f3aa26d}
+      \strng{authorbibnamehash}{6911ddd30c92e316135e1f2b2f3aa26d}
+      \strng{authornamehash}{6911ddd30c92e316135e1f2b2f3aa26d}
+      \strng{authorfullhash}{6911ddd30c92e316135e1f2b2f3aa26d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understand the BERT Transformer in and out. Please subscribe to keep me alive: https://www.youtube.com/c/CodeEmporiu... INVESTING [1] Webull (You can get 3 free stocks setting up a webull account today): https://a.webull.com/8XVa1znjYxio6ESdff REFERENCES [1] BERT main paper: https://arxiv.org/pdf/1810.04805.pdf [1] BERT in google search: https://blog.google/products/search/s... [2] Overview of BERT: https://arxiv.org/pdf/2002.12327v1.pdf [4] BERT word embeddings explained: https://medium.com/@\_init\_/why-bert-h... [5] More details of BERT in this amazing blog: https://towardsdatascience.com/bert-e... [6] Stanford lecture slides on BERT: https://nlp.stanford.edu/seminar/deta...}
+      \field{month}{5}
+      \field{title}{{{BERT Neural Network}} - {{EXPLAINED}}!}
+      \field{year}{2020}
+      \true{nocite}
     \endentry
     \entry{ComputerVisionCenter}{misc}{}
       \field{sortinit}{C}
@@ -468,6 +722,57 @@
       \verb /home/dimdakis/Zotero/storage/PRJC474R/Deploying a Containerized API on Kubernetes by victor steven Level Up Coding.html
       \endverb
     \endentry
+    \entry{devlinBERTPretrainingDeep2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorbibnamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be finetuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial taskspecific architecture modifications.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1810.04805 [cs]}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shorttitle}{{{BERT}}}
+      \field{title}{{{BERT}}: {{Pre-training}} of {{Deep Bidirectional Transformers}} for {{Language Understanding}}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1810.04805
+      \endverb
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/NZEG4YAC/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
     \entry{dhamiUnderstandingBERTWord2020}{misc}{}
       \name{author}{1}{}{%
         {{hash=6314a9308209ac9a4a5ef0f96801f81d}{%
@@ -537,6 +842,107 @@
       \verb /home/dimdakis/Zotero/storage/VS2MZTN9/9.html
       \endverb
     \endentry
+    \entry{dongUnifiedLanguageModel2019}{article}{}
+      \name{author}{9}{}{%
+        {{hash=d3349e5c2b2661f3b497e9f014ffcf7d}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a44174a97a52d8b64289ef831cb1ac37}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=82baeb93c6572095f63e51c66a00d89f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenhui},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b881686cdf68b52745dbcb6374b8008b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b2eccb185095fccfeb40fdffd8b2105f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=159bca5607e3797666654a2e3022978a}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd9fe85df78f0bfbb1d0c3441f053f74}{%
+           family={Hon},
+           familyi={H\bibinitperiod},
+           given={Hsiao-Wuen},
+           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{291d1365bc34bea7b11076a308040aa5}
+      \strng{fullhash}{b5dc19cfc9852b30e36a1efa8e4c9645}
+      \strng{bibnamehash}{291d1365bc34bea7b11076a308040aa5}
+      \strng{authorbibnamehash}{291d1365bc34bea7b11076a308040aa5}
+      \strng{authornamehash}{291d1365bc34bea7b11076a308040aa5}
+      \strng{authorfullhash}{b5dc19cfc9852b30e36a1efa8e4c9645}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a new UNIfied pre-trained Language Model (UNILM) that can be fine-tuned for both natural language understanding and generation tasks. The model is pre-trained using three types of language modeling tasks: unidirectional, bidirectional, and sequence-to-sequence prediction. The unified modeling is achieved by employing a shared Transformer network and utilizing specific self-attention masks to control what context the prediction conditions on. UNILM compares favorably with BERT on the GLUE benchmark, and the SQuAD 2.0 and CoQA question answering tasks. Moreover, UNILM achieves new state-ofthe-art results on five natural language generation datasets, including improving the CNN/DailyMail abstractive summarization ROUGE-L to 40.51 (2.04 absolute improvement), the Gigaword abstractive summarization ROUGE-L to 35.75 (0.86 absolute improvement), the CoQA generative question answering F1 score to 82.5 (37.1 absolute improvement), the SQuAD question generation BLEU-4 to 22.12 (3.75 absolute improvement), and the DSTC7 document-grounded dialog response generation NIST-4 to 2.67 (human performance is 2.65). The code and pre-trained models are available at https://github.com/microsoft/unilm.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1905.03197 [cs]}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Unified {{Language Model Pre-training}} for {{Natural Language Understanding}} and {{Generation}}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1905.03197
+      \endverb
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/I3255268/Dong et al. - 2019 - Unified Language Model Pre-training for Natural La.pdf
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{dontlooAnswerWhatExactly2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=28e3b31bef21bc6e98cea9a573eac41f}{%
+           family={{dontloo}},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{28e3b31bef21bc6e98cea9a573eac41f}
+      \strng{fullhash}{28e3b31bef21bc6e98cea9a573eac41f}
+      \strng{bibnamehash}{28e3b31bef21bc6e98cea9a573eac41f}
+      \strng{authorbibnamehash}{28e3b31bef21bc6e98cea9a573eac41f}
+      \strng{authornamehash}{28e3b31bef21bc6e98cea9a573eac41f}
+      \strng{authorfullhash}{28e3b31bef21bc6e98cea9a573eac41f}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Cross Validated}
+      \field{month}{8}
+      \field{shorttitle}{Answer to "{{What}} Exactly Are Keys, Queries, and Values in Attention Mechanisms?}
+      \field{title}{Answer to "{{What}} Exactly Are Keys, Queries, and Values in Attention Mechanisms?"}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/M8ERYT5V/what-exactly-are-keys-queries-and-values-in-attention-mechanisms.html
+      \endverb
+    \endentry
     \entry{doshiTransformersExplainedVisually2021b}{misc}{}
       \name{author}{1}{}{%
         {{hash=85e0dd9d178e81b618c3068b81cd6dd7}{%
@@ -600,7 +1006,7 @@
       \verb /home/dimdakis/Zotero/storage/S75ZMAJQ/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452.html
       \endverb
     \endentry
-    \entry{doshiTransformersExplainedVisually2021a}{misc}{}
+    \entry{doshiTransformersExplainedVisually2021c}{misc}{}
       \name{author}{1}{}{%
         {{hash=85e0dd9d178e81b618c3068b81cd6dd7}{%
            family={Doshi},
@@ -615,6 +1021,38 @@
       \strng{authornamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
       \strng{authorfullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
       \field{extraname}{3}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A Gentle Guide to the Transformer under the hood, and its end-to-end operation.}
+      \field{howpublished}{https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shorttitle}{Transformers {{Explained Visually}} ({{Part}} 2)}
+      \field{title}{Transformers {{Explained Visually}} ({{Part}} 2): {{How}} It Works, Step-by-Step}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/LIZWCDY9/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34.html
+      \endverb
+    \endentry
+    \entry{doshiTransformersExplainedVisually2021a}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=85e0dd9d178e81b618c3068b81cd6dd7}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Ketan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{fullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{bibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorbibnamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authornamehash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \strng{authorfullhash}{85e0dd9d178e81b618c3068b81cd6dd7}
+      \field{extraname}{4}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{labelnamesource}{author}
@@ -713,6 +1151,32 @@
       \verb /home/dimdakis/Zotero/storage/4AZ686BU/fine-tuning-transformer-model.html
       \endverb
     \endentry
+    \entry{emilAnswerWhatExactly2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a615b19358fba76194f28754194f2794}{%
+           family={Emil},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a615b19358fba76194f28754194f2794}
+      \strng{fullhash}{a615b19358fba76194f28754194f2794}
+      \strng{bibnamehash}{a615b19358fba76194f28754194f2794}
+      \strng{authorbibnamehash}{a615b19358fba76194f28754194f2794}
+      \strng{authornamehash}{a615b19358fba76194f28754194f2794}
+      \strng{authorfullhash}{a615b19358fba76194f28754194f2794}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Cross Validated}
+      \field{month}{1}
+      \field{shorttitle}{Answer to "{{What}} Exactly Are Keys, Queries, and Values in Attention Mechanisms?}
+      \field{title}{Answer to "{{What}} Exactly Are Keys, Queries, and Values in Attention Mechanisms?"}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/NHQPRWYA/what-exactly-are-keys-queries-and-values-in-attention-mechanisms.html
+      \endverb
+    \endentry
     \entry{EngineConfigurationSQLAlchemy}{misc}{}
       \field{sortinit}{E}
       \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
@@ -777,6 +1241,18 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/HHG34CSF/feedforward-neural-network-its-layers-functions-and-importance.html
+      \endverb
+    \endentry
+    \entry{FinetunePretrainedModel}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We're on a journey to advance and democratize artificial intelligence through open source and open science.}
+      \field{howpublished}{https://huggingface.co/docs/transformers/training}
+      \field{title}{Fine-Tune a Pretrained Model}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/57CS7XEA/training.html
       \endverb
     \endentry
     \entry{FUNSD}{misc}{}
@@ -898,6 +1374,22 @@
       \verb /home/dimdakis/Zotero/storage/9E8W4RAA/deep-learning-feedforward-neural-network-26a6705dbdc7.html
       \endverb
     \endentry
+    \entry{HarmonicMean2022}{article}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In mathematics, the harmonic mean is one of several kinds of average, and in particular, one of the Pythagorean means. It is sometimes appropriate for situations when the average rate is desired. The harmonic mean can be expressed as the reciprocal of the arithmetic mean of the reciprocals of the given set of observations. As a simple example, the harmonic mean of 1, 4, and 4 is ( 1 - 1 + 4 - 1 + 4 - 1 3 ) - 1 = 3 1 1 + 1 4 + 1 4 = 3 1.5 = 2 . \{\textbackslash displaystyle \textbackslash left(\{\textbackslash frac \{1\^\{-1\}+4\^\{-1\}+4\^\{-1\}\}\{3\}\}\textbackslash right)\^\{-1\}=\{\textbackslash frac \{3\}\{\{\textbackslash frac \{1\}\{1\}\}+\{\textbackslash frac \{1\}\{4\}\}+\{\textbackslash frac \{1\}\{4\}\}\}\}=\{\textbackslash frac \{3\}\{1.5\}\}=2\textbackslash,.\}}
+      \field{annotation}{Page Version ID: 1083612353}
+      \field{journaltitle}{Wikipedia}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Harmonic Mean}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/RC9926P8/Harmonic_mean.html
+      \endverb
+    \endentry
     \entry{Helm}{misc}{}
       \field{sortinit}{H}
       \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
@@ -909,6 +1401,37 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/LQN9LERF/helm.sh.html
+      \endverb
+    \endentry
+    \entry{horevBERTExplainedState2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=560447bfb91e21ee5f00393c278af557}{%
+           family={Horev},
+           familyi={H\bibinitperiod},
+           given={Rani},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{560447bfb91e21ee5f00393c278af557}
+      \strng{fullhash}{560447bfb91e21ee5f00393c278af557}
+      \strng{bibnamehash}{560447bfb91e21ee5f00393c278af557}
+      \strng{authorbibnamehash}{560447bfb91e21ee5f00393c278af557}
+      \strng{authornamehash}{560447bfb91e21ee5f00393c278af557}
+      \strng{authorfullhash}{560447bfb91e21ee5f00393c278af557}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An approachable and understandable explanation of BERT, a recent paper by Google that achieved SOTA results in wide variety of NLP tasks.}
+      \field{howpublished}{https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shorttitle}{{{BERT Explained}}}
+      \field{title}{{{BERT Explained}}: {{State}} of the Art Language Model for {{NLP}}}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/4Y72R99R/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270.html
       \endverb
     \endentry
     \entry{HowGiantCompanies}{misc}{}
@@ -1095,6 +1618,36 @@
       \verb /home/dimdakis/Zotero/storage/BKBEV3K5/wordpiece-subword-based-tokenization-algorithm-1fbd14394ed7.html
       \endverb
     \endentry
+    \entry{korstanjeF1Score2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f9aa0c55a33059d21b829b3c604ebfab}{%
+           family={Korstanje},
+           familyi={K\bibinitperiod},
+           given={Joos},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{fullhash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{bibnamehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{authorbibnamehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{authornamehash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \strng{authorfullhash}{f9aa0c55a33059d21b829b3c604ebfab}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{All you need to know about the F1 score in machine learning. With an example applying the F1 score in Python.}
+      \field{howpublished}{https://towardsdatascience.com/the-f1-score-bec2bbc38aa6}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{The {{F1}} Score}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/JZC27VAH/the-f1-score-bec2bbc38aa6.html
+      \endverb
+    \endentry
     \entry{KubernetesAdoptionTrends}{misc}{}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
@@ -1242,6 +1795,35 @@
       \verb /home/dimdakis/Zotero/storage/F969IVJA/layoutlmv2.html
       \endverb
     \endentry
+    \entry{leeConfusionMatrixPrecision2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=56c2c832b8c30ba9190c4147d859ebea}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{56c2c832b8c30ba9190c4147d859ebea}
+      \strng{fullhash}{56c2c832b8c30ba9190c4147d859ebea}
+      \strng{bibnamehash}{56c2c832b8c30ba9190c4147d859ebea}
+      \strng{authorbibnamehash}{56c2c832b8c30ba9190c4147d859ebea}
+      \strng{authornamehash}{56c2c832b8c30ba9190c4147d859ebea}
+      \strng{authorfullhash}{56c2c832b8c30ba9190c4147d859ebea}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The confusion matrix is a useful tools to measure the effectiveness of model. It can be explained in a table with 4 different combination\ldots}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Confusion {{Matrix}} ({{Precision}}, {{Recall}}, {{F1 Score}})}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/LDSVARRT/confusion-matrix-precision-recall-f1-score-76e579eb2d48.html
+      \endverb
+    \endentry
     \entry{LessonsLearnedRunning}{misc}{}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
@@ -1272,6 +1854,36 @@
       \verb /home/dimdakis/Zotero/storage/AP3XHUXI/postgres-plugins.html
       \endverb
     \endentry
+    \entry{maoLayerNormalizationExplained2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=35f1a7bc88916938dc7eb55fae761594}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{35f1a7bc88916938dc7eb55fae761594}
+      \strng{fullhash}{35f1a7bc88916938dc7eb55fae761594}
+      \strng{bibnamehash}{35f1a7bc88916938dc7eb55fae761594}
+      \strng{authorbibnamehash}{35f1a7bc88916938dc7eb55fae761594}
+      \strng{authornamehash}{35f1a7bc88916938dc7eb55fae761594}
+      \strng{authorfullhash}{35f1a7bc88916938dc7eb55fae761594}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Layer Normalization vs Batch Normalization vs Instance Normalization}
+      \field{howpublished}{https://leimao.github.io/blog/Layer-Normalization/}
+      \field{journaltitle}{Lei Mao's Log Book}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Layer {{Normalization Explained}}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/7UDE63SQ/Layer-Normalization.html
+      \endverb
+    \endentry
     \entry{MethodStrucTexTTask}{misc}{}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
@@ -1281,6 +1893,21 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/TFEHEXIZ/rrc.cvc.uab.es.html
+      \endverb
+    \endentry
+    \entry{MicrosoftNvidiaTeam2021}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Microsoft and Nvidia claim to have trained one of the world's largest natural language models, containing 530 billion parameters.}
+      \field{journaltitle}{VentureBeat}
+      \field{langid}{american}
+      \field{month}{10}
+      \field{title}{Microsoft and {{Nvidia}} Team up to Train One of the World's Largest Language Models}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/XFVTZ7CQ/microsoft-and-nvidia-team-up-to-train-one-of-the-worlds-largest-language-models.html
       \endverb
     \endentry
     \entry{MinikubeStart}{misc}{}
@@ -1307,6 +1934,66 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/383T6HMK/models.html
+      \endverb
+    \endentry
+    \entry{mohajonConfusionMatrixYour2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=081285ca1a98a517b40b445db081bc2c}{%
+           family={Mohajon},
+           familyi={M\bibinitperiod},
+           given={Joydwip},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{081285ca1a98a517b40b445db081bc2c}
+      \strng{fullhash}{081285ca1a98a517b40b445db081bc2c}
+      \strng{bibnamehash}{081285ca1a98a517b40b445db081bc2c}
+      \strng{authorbibnamehash}{081285ca1a98a517b40b445db081bc2c}
+      \strng{authornamehash}{081285ca1a98a517b40b445db081bc2c}
+      \strng{authorfullhash}{081285ca1a98a517b40b445db081bc2c}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A beginner's guide on how to calculate Precision, Recall, F1-score for a multi-class classification problem.}
+      \field{howpublished}{https://towardsdatascience.com/confusion-matrix-for-your-multi-class-machine-learning-model-ff9aa3bf7826}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Confusion {{Matrix}} for {{Your Multi-Class Machine Learning Model}}}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/7DHL6MFR/confusion-matrix-for-your-multi-class-machine-learning-model-ff9aa3bf7826.html
+      \endverb
+    \endentry
+    \entry{montantesBERTTransformersHow2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b250c6fb1341b25c0300ea1598aa243}{%
+           family={Montantes},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b250c6fb1341b25c0300ea1598aa243}
+      \strng{fullhash}{8b250c6fb1341b25c0300ea1598aa243}
+      \strng{bibnamehash}{8b250c6fb1341b25c0300ea1598aa243}
+      \strng{authorbibnamehash}{8b250c6fb1341b25c0300ea1598aa243}
+      \strng{authornamehash}{8b250c6fb1341b25c0300ea1598aa243}
+      \strng{authorfullhash}{8b250c6fb1341b25c0300ea1598aa243}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BERT Transformers Are Revolutionary But How Do They Work?}
+      \field{howpublished}{https://becominghuman.ai/bert-transformers-how-do-they-work-cd44e8e31359}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{{{BERT Transformers}} —{} {{How Do They Work}}?}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/L6JTA7WT/bert-transformers-how-do-they-work-cd44e8e31359.html
       \endverb
     \endentry
     \entry{munozAttentionAllYou2021}{misc}{}
@@ -1578,6 +2265,37 @@
       \verb /home/dimdakis/Zotero/storage/S6GWPILF/making-http-requests-in-python.html
       \endverb
     \endentry
+    \entry{rahmanCOMPASCaseStudy2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=62a7e71cdb7eb4abe79ac09e7827a215}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Farhan},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a7e71cdb7eb4abe79ac09e7827a215}
+      \strng{fullhash}{62a7e71cdb7eb4abe79ac09e7827a215}
+      \strng{bibnamehash}{62a7e71cdb7eb4abe79ac09e7827a215}
+      \strng{authorbibnamehash}{62a7e71cdb7eb4abe79ac09e7827a215}
+      \strng{authornamehash}{62a7e71cdb7eb4abe79ac09e7827a215}
+      \strng{authorfullhash}{62a7e71cdb7eb4abe79ac09e7827a215}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{COMPAS and classifier fairness}
+      \field{howpublished}{https://towardsdatascience.com/compas-case-study-fairness-of-a-machine-learning-model-f0f804108751}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shorttitle}{{{COMPAS Case Study}}}
+      \field{title}{{{COMPAS Case Study}}: {{Fairness}} of a {{Machine Learning Model}}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/XREAJN7D/compas-case-study-fairness-of-a-machine-learning-model-f0f804108751.html
+      \endverb
+    \endentry
     \entry{ReleasesStrimziStrimzikafkaoperator}{misc}{}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
@@ -1592,7 +2310,7 @@
       \verb /home/dimdakis/Zotero/storage/GXFZJ9FN/0.26.html
       \endverb
     \endentry
-    \entry{ResultsICDAR2019a}{misc}{}
+    \entry{ResultsICDAR2019}{misc}{}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{labeltitlesource}{title}
@@ -1600,7 +2318,7 @@
       \field{title}{Results - {{ICDAR}} 2019 {{Robust Reading Challenge}} on {{Scanned Receipts OCR}} and {{Information Extraction}} - {{Robust Reading Competition}}}
       \true{nocite}
       \verb{file}
-      \verb /home/dimdakis/Zotero/storage/A9REYKPX/rrc.cvc.uab.es.html
+      \verb /home/dimdakis/Zotero/storage/JSHQ9GUX/rrc.cvc.uab.es.html
       \endverb
     \endentry
     \entry{RoBERTa}{misc}{}
@@ -1668,6 +2386,32 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/BY28S9ZV/kubernetes-desired-state-and-control-loops.html
+      \endverb
+    \endentry
+    \entry{seanWhatExactlyAre2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=40d18d5a7ae85f9597a40f1306041fd1}{%
+           family={Sean},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{40d18d5a7ae85f9597a40f1306041fd1}
+      \strng{fullhash}{40d18d5a7ae85f9597a40f1306041fd1}
+      \strng{bibnamehash}{40d18d5a7ae85f9597a40f1306041fd1}
+      \strng{authorbibnamehash}{40d18d5a7ae85f9597a40f1306041fd1}
+      \strng{authornamehash}{40d18d5a7ae85f9597a40f1306041fd1}
+      \strng{authorfullhash}{40d18d5a7ae85f9597a40f1306041fd1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cross Validated}
+      \field{month}{12}
+      \field{title}{What Exactly Are Keys, Queries, and Values in Attention Mechanisms?}
+      \field{type}{Forum Post}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/4K98HYZS/what-exactly-are-keys-queries-and-values-in-attention-mechanisms.html
       \endverb
     \endentry
     \entry{Secrets}{misc}{}
@@ -1821,6 +2565,29 @@
       \field{title}{The 7 {{Best CDC Tools}} ({{Change Data Capture}}) - {{Learn}} | {{Hevo}}}
       \true{nocite}
     \endentry
+    \entry{thea.i.hacker-michaelphiIllustratedGuideTransformers2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=746fb753f0aeb513cf4dfb42c8251126}{%
+           family={{The A.I. Hacker - Michael Phi}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{746fb753f0aeb513cf4dfb42c8251126}
+      \strng{fullhash}{746fb753f0aeb513cf4dfb42c8251126}
+      \strng{bibnamehash}{746fb753f0aeb513cf4dfb42c8251126}
+      \strng{authorbibnamehash}{746fb753f0aeb513cf4dfb42c8251126}
+      \strng{authornamehash}{746fb753f0aeb513cf4dfb42c8251126}
+      \strng{authorfullhash}{746fb753f0aeb513cf4dfb42c8251126}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Transformers are the rage nowadays, but how do they work? This video demystifies the novel neural network architecture with step by step explanation and illustrations on how transformers work. CORRECTIONS: The sine and cosine functions are actually applied to the embedding dimensions and time steps! Audo Studio | Automagically Make Audio Recordings Studio Quality https://www.audostudio.com/ Magic Mic | Join waitlist and get it FREE forever when launched! 🎙️ https://magicmic.ai/ Audo AI | Audio Background Noise Removal Developer API and SDK https://audo.ai/ Subscribe to my email newsletter for updated Content. No spam 🙅‍\male ️ only gold 🥇. https://bit.ly/320hUdx Discord Server: Join a community of A.I. Hackers https://discord.gg/9wSTT4F Hugging Face Write with Transformers https://transformer.huggingface.co/}
+      \field{month}{4}
+      \field{shorttitle}{Illustrated {{Guide}} to {{Transformers Neural Network}}}
+      \field{title}{Illustrated {{Guide}} to {{Transformers Neural Network}}: {{A}} Step by Step Explanation}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
     \entry{RoleThatSMEs}{misc}{}
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
@@ -1853,6 +2620,15 @@
       \verb /home/dimdakis/Zotero/storage/XMZ6VTA3/token_classification.html
       \endverb
     \endentry
+    \entry{TransformerArchitectureSelfattention}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Explore and run machine learning code with Kaggle Notebooks | Using data from No attached data sources}
+      \field{howpublished}{https://www.kaggle.com/residentmario/transformer-architecture-self-attention}
+      \field{title}{Transformer Architecture, Self-Attention}
+      \true{nocite}
+    \endentry
     \entry{Transformers}{misc}{}
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
@@ -1863,6 +2639,34 @@
       \true{nocite}
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/BCF2836N/index.html
+      \endverb
+    \endentry
+    \entry{tsengAnswerWhatExactly2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=069485c05b79ec19f30a08ca698efe9c}{%
+           family={Tseng},
+           familyi={T\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{069485c05b79ec19f30a08ca698efe9c}
+      \strng{fullhash}{069485c05b79ec19f30a08ca698efe9c}
+      \strng{bibnamehash}{069485c05b79ec19f30a08ca698efe9c}
+      \strng{authorbibnamehash}{069485c05b79ec19f30a08ca698efe9c}
+      \strng{authornamehash}{069485c05b79ec19f30a08ca698efe9c}
+      \strng{authorfullhash}{069485c05b79ec19f30a08ca698efe9c}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Cross Validated}
+      \field{month}{4}
+      \field{shorttitle}{Answer to "{{What}} Exactly Are Keys, Queries, and Values in Attention Mechanisms?}
+      \field{title}{Answer to "{{What}} Exactly Are Keys, Queries, and Values in Attention Mechanisms?"}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/E8VJSJ23/what-exactly-are-keys-queries-and-values-in-attention-mechanisms.html
       \endverb
     \endentry
     \entry{UnderstandingBackpropagationNeural}{misc}{}
@@ -2095,6 +2899,15 @@
       \field{title}{What Is a {{Makefile}} and How Does It Work?}
       \true{nocite}
     \endentry
+    \entry{WhatAttention}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Attention is becoming increasingly popular in machine learning, but what makes it such an attractive concept? What is the relationship [\ldots ]}
+      \field{howpublished}{https://machinelearningmastery.com/what-is-attention/}
+      \field{title}{What Is {{Attention}}?}
+      \true{nocite}
+    \endentry
     \entry{WhatEventdrivenArchitecture}{misc}{}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
@@ -2234,6 +3047,7 @@
       \strng{authorbibnamehash}{27132c6cb44b714617bf10b11e58f9bd}
       \strng{authornamehash}{27132c6cb44b714617bf10b11e58f9bd}
       \strng{authorfullhash}{99459ab68d902d3d1bf72d1efd9459eb}
+      \field{extraname}{1}
       \field{sortinit}{X}
       \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
       \field{labelnamesource}{author}
@@ -2253,6 +3067,72 @@
       \endverb
       \verb{file}
       \verb /home/dimdakis/Zotero/storage/UPMSVEYX/Xu et al. - 2022 - LayoutLMv2 Multi-modal Pre-training for Visually-.pdf
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{xuLayoutLMPretrainingText2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=37ab3773594025d7f25c839aac01952d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yiheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=54c3918df39c65be2d07d130c2d4bc6d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d22cf63412f5bb89dcde7965f3514581}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=183ec41bf2d4edc2c4d5fb9f288d8e6a}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shaohan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{fullhash}{ff4fda81c2a59d198cecdea15e01a150}
+      \strng{bibnamehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{authorbibnamehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{authornamehash}{34c59249e1a9dc9e867dccc4aecc7faa}
+      \strng{authorfullhash}{ff4fda81c2a59d198cecdea15e01a150}
+      \field{extraname}{2}
+      \field{sortinit}{X}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the widespread use of pre-training models for NLP applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the LayoutLM to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into LayoutLM. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for documentlevel pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained LayoutLM models are publicly available at https://aka.ms/layoutlm.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{{{LayoutLM}}}
+      \field{title}{{{LayoutLM}}: {{Pre-training}} of {{Text}} and {{Layout}} for {{Document Image Understanding}}}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1192\bibrangedash 1200}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3394486.3403172
+      \endverb
+      \verb{eprint}
+      \verb 1912.13318
+      \endverb
+      \verb{file}
+      \verb /home/dimdakis/Zotero/storage/GDBIW7J5/Xu et al. - 2020 - LayoutLM Pre-training of Text and Layout for Docu.pdf
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry

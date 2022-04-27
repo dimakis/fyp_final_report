@@ -2,70 +2,80 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces System Architecture}}{5}{figure.1.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces System Architecture}}{7}{figure.1.1}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces System Architecture}}{6}{figure.2.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Semester 2 System Architecture.}}{8}{figure.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Bounding Box Example}}{8}{figure.2.2}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Bounding Box Example}}{11}{figure.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces SROIE Dataset Example}}{10}{figure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces SROIE Dataset Example (source\nobreakspace {}\autocite {ResultsICDAR2019}).}}{13}{figure.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces SROIE Results (KIE)}}{10}{figure.2.4}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces SROIE Results (KIE)}}{14}{figure.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Basic Transformer Sequence To Sequence example}}{13}{figure.2.5}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The LayoutLMv2 ancestry.}}{17}{figure.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Transformer Stacked Encoder and Decoder example, sourced from here\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{13}{figure.2.6}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Basic Transformer Sequence to Sequence example.}}{18}{figure.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Transformer Encoder architecture example, sourced from here\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{14}{figure.2.7}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Transformer Stacked Encoder and Decoder example (source\nobreakspace {}\autocite {alammarIllustratedTransformer}).}}{19}{figure.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Transformer Decoder architecture example, sourced from here\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{14}{figure.2.8}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Transformer Encoder architecture example (source\nobreakspace {}\autocite {alammarIllustratedTransformer}).}}{19}{figure.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Original Transformers architecture\nobreakspace {}\autocite {vaswaniAttentionAllYou}, akin to the previous example the encoder stack is situated on the left whilst the decoder is situated on the right.}}{15}{figure.2.9}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Transformer Decoder architecture example (source\nobreakspace {}\autocite {alammarIllustratedTransformer}).}}{20}{figure.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Classic Feed Forward Neural network layer architecture\nobreakspace {}\autocite {guptaDeepLearningFeedforward2018}, The left side depicts a single perceptron whilst the right depicts a Multi-Layer Perceptron network.}}{16}{figure.2.10}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Original Transformers Architecture\nobreakspace {}\autocite {vaswaniAttentionAllYou}}}{21}{figure.2.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Invoice depicting inconsistencies}}{17}{figure.2.11}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Classic Feed Forward Neural network layer architecture\nobreakspace {}\autocite {guptaDeepLearningFeedforward2018}, The left side depicts a single perceptron whilst the right depicts a Multi-Layer Perceptron network.}}{22}{figure.2.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces LayoutLMv2 Architecture as per\nobreakspace {}\autocite {xuLayoutLMv2MultimodalPretraining2022}}}{20}{figure.2.12}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Invoice depicting inconsistencies}}{23}{figure.2.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Attention Usage}}{21}{figure.2.13}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces LayoutLMv2 Architecture (source\nobreakspace {}\autocite {xuLayoutLMv2MultimodalPretraining2022}).}}{28}{figure.2.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Key, Value and Query linear layers from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021a}.}}{22}{figure.2.14}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Attention example for the total figure in an invoice.}}{30}{figure.2.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Attention Score Formula}}{22}{figure.2.15}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Attention Usage}}{31}{figure.2.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Attention Score Formula visualized in the context of matrices. From this source\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{23}{figure.2.16}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Encoder Self-Attention}}{32}{figure.2.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Attention Layer in detail from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}.}}{23}{figure.2.17}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Key, Value and Query creation via linear layers (source\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021a}).}}{33}{figure.2.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Attention Layer with heads from here\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{24}{figure.2.18}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Attention Score Formula visualized in the context of matrices (source\nobreakspace {}\autocite {alammarIllustratedTransformer}).}}{34}{figure.2.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Concatenated Attention Head Matrices as sourced from here\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{25}{figure.2.19}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Attention Summary from here\nobreakspace {}\autocite {alammarIllustratedTransformer}}}{25}{figure.2.20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Dot Product of Query and Key Transpose sourced from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}}}{26}{figure.2.21}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Dot Product of Query Key Transpose and Values sourced from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}, depicting the resulting attention score.}}{26}{figure.2.22}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Attention Weight Summation from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}, depicting the resulting attention score.}}{26}{figure.2.23}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Dot Product of Query, Key and Value from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}, depicting the resulting attention score.}}{27}{figure.2.24}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Self Attention Mechanism for Decoder from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}, depicting the resulting attention score.}}{28}{figure.2.25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Attention Mechanism for Encoder-Decoder in the decoder from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}.}}{28}{figure.2.26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Attention Mechanism for Encoder-Decoder from here\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}. Same input and target as \Cref {fig:atn_decoder}.}}{29}{figure.2.27}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces The input and output of the BERT token classification layer (source\nobreakspace {}\autocite {devlinBERTPretrainingDeep2019}).}}{38}{figure.2.19}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Training and Inference Labels created for the system}}{33}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Training and Inference Labels created for the system.}}{45}{figure.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Annotating the dataset using UBIAI Annotation Tool}}{33}{figure.3.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Annotating the dataset using UBIAI Annotation Tool.}}{46}{figure.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces UBIAI Export Options}}{34}{figure.3.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Annotated example of a document.}}{47}{figure.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Training Dataframe}}{35}{figure.3.4}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces UBIAI Export Options.}}{48}{figure.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Training Dataframe.}}{49}{figure.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sanity Check of the Length of the Training Input, can also see the words as input.}}{51}{figure.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Calling Training Function, output of training depicting training loss, validation loss, epoch number and \ensuremath {F_1}\ score.}}{53}{figure.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Formulas for scoring}}{54}{figure.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Output of Textract API call, the boxes are the bounding boxes of the words in the invoice.}}{55}{figure.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Example 1 of the inference, bounding boxes around the words with the corresponding labels inferred by the model.}}{57}{figure.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Example 2 output of the inference, the boxes are the bounding boxes of the words in the invoice, with the corresponding labels inferred by the model.}}{57}{figure.3.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Timing of the pipeline run time.}}{59}{figure.3.12}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Self Attention Mechanism for Decoder (source\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}), depicting the resulting attention score.}}{63}{figure.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Attention Mechanism for Encoder-Decoder in the decoder (source\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}).}}{64}{figure.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Attention Mechanism for Encoder-Decoder (source\nobreakspace {}\autocite {doshiTransformersExplainedVisually2021b}). Same input and target as \Cref {fig:atn_decoder}.}}{64}{figure.A.3}%

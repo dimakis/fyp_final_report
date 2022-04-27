@@ -155,7 +155,7 @@ style=numeric
 		\Large{Work submitted\\ within the \qst@program}\\
 		\bigskip
 		{\Large Supervisor:  \qst@supervisor}\\
-		{\Large Second Reader:  \qst@examiner}\\%		
+		% {\Large Second Reader:  \qst@examiner}\\%		
         % {\Large Lecturer:  \qst@lecturer}\\
 		\vfill{\Large \today}
 	\end{center}
@@ -185,20 +185,20 @@ style=numeric
 \newcommand{\abstractpage}{
 	\pdfbookmark{Abstract}{Abstract}
 	\newpage
-	\setcounter{page}{1}
-	\noindent\begin{minipage}[b]{.6\linewidth}%
+	% \setcounter{page}{1}
+	% \noindent\begin{minipage}[b]{.6\linewidth}%
 		%\normalfont {\textit{Thesis advisor: \qst@supervisor}}
-	\end{minipage}
-	\begin{minipage}[b]{.3\linewidth}
-		\raggedleft \normalfont \textit{\qst@thesisauthor}
-	\end{minipage}%
+	% \end{minipage}
+	% \begin{minipage}[b]{.3\linewidth}
+	% 	\raggedleft \normalfont \textit{\qst@thesisauthor}
+	% \end{minipage}%
 
 	\vspace*{9pt}
-	\begin{center}
-		{\LARGE{\textbf{\qst@thesistitle}}}
-	\end{center}
+	% \begin{center}
+		% {\LARGE{\textbf{\qst@thesistitle}}}
+	% \end{center}
 	\bigskip
-	\centerline{\Large {{ABSTRACT}}}
+	\centerline{\Large {{\textbf{Abstract}}}}
 	\bigskip
 	\par
 }
@@ -369,3 +369,14 @@ style=numeric
 
 % for quotes
 \usepackage[font=itshape]{quoting}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+% for spy zoom in thing
+\usetikzlibrary{spy}
+
+% to use the f1 score function use: \FO\ score
+\def\FO{\ensuremath{F_1}}
+
+\usepackage{amsmath}
+\usepackage{relsize}

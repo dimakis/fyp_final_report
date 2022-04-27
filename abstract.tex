@@ -2,4 +2,18 @@
 %\chapter*{Abstract}
 %\addcontentsline{toc}{chapter}{\protect Abstract}
 
-In this thesis, we 
+\noindent
+Extraction of key information from financial documents is a tedious and error-prone process.
+This process is critical for compliance reasons, so it must be performed in a competent manner, often at great expense.
+\bigbreak
+This project automates the parsing of expenditure documents (invoices etc.) using a machine learning pipeline. 
+The pipeline contains advanced open-source models that have been fine-tuned specifically for this task. 
+Extracted data is then fed into a novel system to allow for the viewing of both expenditure and revenue in near real-time.
+\bigbreak
+The system is an event-driven, microservice architecture utilizing both industry standard and bleeding-edge technologies. 
+This allows for a highly scalable and fault-tolerant system, thanks to the use of Kubernetes, Apache Kafka and Debezium.
+Debezium is an open-source CDC technology that tracks changes in a database. 
+These changes are propagated to the next steps in the data flow, Kafka topics.
+Other microservices can consume these changes and action upon the changed data. 
+This allows for the further decoupling of the system as consumers/subscribers to the change stream can be
+added or removed entirely without any downtime of the system.

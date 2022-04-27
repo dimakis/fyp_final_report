@@ -3,8 +3,6 @@
 \usepackage{epigraph}
 \usepackage[section]{placeins}
 
-\usepackage{tikz}
-\usetikzlibrary{calc}
 
 \thesistitle
 {Automation of Public House Back-end Business Processes}
@@ -22,35 +20,36 @@
 \maketitle
 % \copyrightpage
 
-%\abstractpage
-% \input{abstract}
+\abstractpage
+\input{abstract}
 
 \tableofcontents
 
-\addcontentsline{toc}{chapter}{\protect List of Figures}
+
 \listoffigures
+\addcontentsline{toc}{chapter}{\protect List of Figures}
 
 \lstlistoflistings
 \addcontentsline{toc}{chapter}{\protect Listings}
 
 
-\mainmatter\setcounter{page}{1}
-% \acknowledgments
-% \input{acknowledgements}
+\acknowledgments
+\input{acknowledgements}
 
-% \videolink 
-% \Large
+\videolink 
+\Large
 \raggedright%
 
+\mainmatter\setcounter{page}{1}
 \include{chap1}
 \include{chap2}
 \include{chap3}
-% \include{chap4}
+\include{chap4}
 % \include{chap5}
 
-% \appendix
-% \include{app1}
-% \clearpage
+\appendix
+\include{appendix}
+\clearpage
 
 % \begin{flushleft}	
 \raggedright

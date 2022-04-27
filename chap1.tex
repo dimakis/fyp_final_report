@@ -4,28 +4,25 @@
 \section{Introduction}
 This report's structure will follow this style:
 \begin{itemize}
-	\item The report will outline the motivation behind the project.
+	\item Outline the motivation behind the project.
 	\item The project's initial goals and goals achieved.
 	\item The system's initial proposed architecture. Along with the necessary pivots
 	      that occurred during development and the justification for those pivots.
 	\item The technologies considered, the technologies chosen and the plan which was followed.
-	\item It will detail the implementation of the various system components from the start to the working prototype.
+	\item Implementation of the various system components from the start to the working prototype.
 	      % \item may not need this next point. am I repeating myself?
-	\item The report will outline the challenges faced in the implementation of the system design.
-	\item A conclusion will be given including both technical and personal reflection.
-	\item Detailed analysis on the system in its current implementation along with
-	      documenting some proposed work to in order to bring the system to its full potential for
-	      real world, production-ready, use cases.
+	\item Outline the challenges faced in the implementation of the system design.
+	\item A conclusion is given including both technical and personal reflection.
 \end{itemize}
 \section{Motivation}
-The motivation for this project comes from a number of major pain points of mine, from my previous / side career as a bar owner and manager. \\ This project focuses on building a system for use by
+The motivation for this project comes from a number of major pain points of mine, from my side / previous career as a bar owner and manager. \\ This project focuses on building a system for use by
 bars / public houses (pubs) and as such a single bar entity will be referred to as a \emph{user} of the system.\\
 There is also scope for this system to be altered slightly and to be used with any business which operates with a similar back-end structure.
 In fact, as the system is currently implemented, it is possible to use components of the system, for any business
 which receives invoices (more on this later).
 % link to the being able to use the system for any business.
 \bigbreak
-Some of the most time-consuming and least valuable, from a time - reward perspective, are the back-end processes of running the business. Reward is defined here as the actions which result
+Some of the most time-consuming and least valuable, from a time vs reward perspective, are the back-end processes of running the business. Reward is defined here as the actions which result
 in potential business growth. Time spent scanning invoices from suppliers, filling out income and expenditure spreadsheets and calculating gross and net figures (which will be referred to
 as `\emph{group A}' activities). Whilst these processes are critical to a business' operation and regulatory compliance they do not do much for business growth.\\
 On the other hand, time spent on sourcing new products / inventory, finding novel forms of entertainment, business promotion and customer engagement (which will be referred to as
@@ -40,12 +37,12 @@ Furthermore, the implementation of this system should increase the quality of li
 repetitive data manipulation.
 \bigbreak
 For this to be accomplished there is a list of
-core and essential processes that need to be tackled. \\
+core and essential processes that need to be automated. \\
 These core processes fall into two broad categories, defined as:
 \begin{enumerate}
 	\item \textbf{Category One}: comes from the data collected from a sale of a user's product, i.e., a pub selling a beverage (Income).
 	\item \textbf{Category Two}: stems from the data collected from a user's purchases in relation to inventory and other purchases needed for the running of the
-	      business, i.e., a pub buying a crate of beer to be resold to a consumer or rent for premises etc. (Expenditure).
+	      business, i.e., a pub buying a crate of beer to be resold to a consumer or rent for premises, etc., (Expenditure).
 \end{enumerate}
 \textbf{Category One} core processes include:
 \begin{itemize}
@@ -67,20 +64,20 @@ This is quite a lengthy and complex list of processes to automate.
 There exists further motivation for this project. It is a purely personal reason, which is a massive interest in developing knowledge
 about the entire process of developing a deep learning system. From the dataset creation phase to the training, evaluation and inference phases.
 In essence the entire ML stack. Furthermore, this area of Data Science is the major point of focus for work completed in semester two, the second half of this project.\\
-I will use this project as a vehicle to explore and test both industry standard and brand-new technologies with an emphasis on open-source tech.
+This project will be used as a vehicle to explore and test both industry standard and brand-new technologies with an emphasis on open-source tech.
 This will stress test my knowledge of the
 technologies and both allow me to see what I can implement along with being a showcase of my skills in the field to potential employers.
 This system will be built with the primary target of having each component implemented in such a way as to ensure maximum efficiency is the
 front and center focus.
 \section{Scope}
 The scope of this project was highly ambitious. The project focuses on tackling both the Category One and Two processes, with
-an eye on weeding out every potential pitfall as if this project is the prototype of a real world product.
+an eye on weeding out potential pitfalls as if this project is the prototype of a real world product.
 \bigbreak
-\textbf{Note:} The Category One processes have been implemented, are functional and are reported on in the first report.
+\textbf{Note:} The Category One processes have been implemented, are functional and are reported on in the semester one report.
 These processes are mentioned briefly here, for the reader to get an understanding of the
 system's goals end-to-end. This report will focus on the development carried out in the second phase of development (semester two)
 namely the Category Two processes, which have a heavy Data Science focus.\footnote{For a more in depth look at how the Category One
-	processes have been implemented please refer to section 2.1.2 \emph{Current Architecture} of the first report.}
+	processes have been implemented please refer to section 2.1.2 \emph{Current Architecture} of the semester one report.}
 \bigbreak
 Given the time constraints and the complexity of the system in development
 there are some non-core components that	have been omitted or mocked. There are also some
@@ -115,17 +112,17 @@ before the decision was made to continue as detailed. \\ These include:
 	\item The initial design was to include and automate all the Category Two processes in the
 	      system. The final implementation of the system does include the inventory, but due to the time-consuming nature of the post-processing of the
 	      inventory data returned by the model, the decision was made to concentrate on saving the financial aspects
-	      of the invoices (totals, tax, metadata etc.). This decision was made to allow the system to be used for the processing of invoice totals for
-	      real world usage. The system has now been used to ready documents for a VAT return, with surprisingly accurate results.
-	      (this is reported on in greater detail later)
+	      of the invoices (totals, tax, metadata, etc.). This decision was made to allow the system to be used for the processing of invoice totals for
+	      real world usage. The system has now been used to ready documents for a VAT return, with surprisingly accurate results
+	      (\Cref{sec:personal}).
 	      % link to detail.
 	\item Whilst trying to balance the goal of using open-source components with creating a system that performs as effectively as possible, some
-	      design decisions were made to prioritize the accuracy of the system's performance at the expense of using only open source components.\\
-	      Upon that being said, the system can be operated using only open source components.\\
+	      design decisions were made to prioritize the accuracy of the system's performance at the expense of using only open source components.
+	      Upon that being said, the system can be operated using only open source components.
 	      The proprietary components and the open-source alternatives used in the deliverable are:
 	      \begin{itemize}
 		      \item \textbf{AWS Textract}: This is a combined Text Localisation and OCR engine that delivers very accurate results. This project
-		            utilizes the AWS Textract API to for both the Text Localisation and OCR
+		            utilizes the AWS Textract API to for both the Text Localisation and OCR.
 		            \bigbreak
 		            \emph{The system is capable of using other OCR engines and is already configured to use PyTesseract. This is an open-source Text
 			            Localisation and OCR engine, but the output results are not as accurate as AWS Textract. To allow for the best overall results,
@@ -136,6 +133,7 @@ before the decision was made to continue as detailed. \\ These include:
 		            \emph{This can easily be replaced with local storage or any other storage service.}
 	      \end{itemize}
 \end{enumerate}
+\newpage
 \section{Side Benefits}
 \label{subsec:side_benefits}
 There are many useful features which become available as a result of having all of this information available in one system. These insights come in the form of individual data per
@@ -152,12 +150,12 @@ business but also trends and such from the data aggregated from all users of the
 	      data to brewers, of sales which could be utilized to precisely schedule production times and production quantities which in turn would reduce waste 
 		  and cut costs.
 \end{itemize}
-
+\newpage
 \section{Planning and Strategy}
 % change to 
-ClickUp \autocite{ClickUpOneApp} is used as the project management solution (more details in \Cref{chap:conclusion}: Conclusion).\\
+ClickUp \autocite{ClickUpOneApp} is used as the project management solution. 
 As the project is split in two development cycles, the following is an architectural diagram
-of the system in its entirety, Category One and Category Two processes inclusive.\\
+of the system in its entirety, Category One and Category Two processes inclusive.
 The components implemented for each phase are clearly distinguished from each other by the vertical, double-red lines:
 \begin{figure}[H]
 	\centering
@@ -167,13 +165,13 @@ The components implemented for each phase are clearly distinguished from each ot
 		\node [title] at ($(P.north)+(-3,0.1)$) {(Semester One)};
 		\node [title] at ($(P.north)+(5,0.1)$) {(Semester Two)};
 	\end{tikzpicture}
-	\caption[System Architecture]{System Architecture}
+	\caption[System Architecture]{System Architecture.}
 	\label{fig:sys_archi}
 \end{figure}
 \textbf{Note:} The actual delivered architecture varies slightly from the one depicted in \Cref{fig:sys_archi}, only with regard to the Category Two section.
 Details to follow in the Architecture chapter (\Cref{chap:architecture}).
 The reason this diagram is included is that this is the architecture that would be used in the final product, and the optimal architecture. Owing to some
-difficulties with the development tools (\Cref{sec:pivots}) the delivered architecture had to be slightly altered, as will be explained.
+difficulties with the development tools (\Cref{sec:pivot}) the delivered architecture had to be slightly altered, as will be explained.
 
 % TODO
 % mention the upgrade of the tapi server and just how quickly the migrations occurred and how successfully 

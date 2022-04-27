@@ -1,0 +1,61 @@
+
+\chapter{Conclusion}
+\label{chap:conclusion}
+This section sees some reflection both technical and personal through a personal perspective.
+\section{Technical}
+
+\begin{quoting}
+How does the system match expectations?
+\end{quoting}
+The system performs to a very decent standard. Approximately 85\% of invoices are correctly labeled. Considering the amount of labels 
+that are in use and that this is the very first version of the model, I am happy with the result.\\
+Another factor to keep in mind is the low amount of data in the training set. With a better dataset --- both more samples 
+and more solid annotation\footnote{The annotating is something that I had never really thought about previous to this project.
+It is not the most straightforward of tasks when one is unfamiliar with how the model learns. I have other ideas on how to change 
+the annotation standard and compare performance metrics.}, the model's performance should increase. \\
+Furthermore, an interesting observation that will cut down the time to retrain a model is the fact that I can now use 
+the model to predict all labels on a given invoice. These labels are exactly the same as used in annotation,
+therefore, I can now use the model to predict the labels on all new and non-annotated invoices. I can 
+alter the annotation slightly (if needed) and build up a larger dataset much quicker by automating the annotation process.\\
+The more data (up to a point) should lead to more accurate results, resulting in an even easier task of correcting annotations 
+for the next rounds of training.
+\bigbreak
+It is important to note that we have not completely automated these processes. But we have replaced a very slow process 
+with a good level of automation and a decrease in complexity (checking and correcting rather than full extraction).
+\begin{quoting}
+How well did the chosen technologies fit together to realise the desired architecture?
+\end{quoting}
+The technologies fit together very well. Following a microservice architecture throughout the project, it becomes 
+quite easy to upgrade components and even change the architecture whilst effecting minimal components directly.\\
+A slight negative was the workaround which had to be used due to the Minikube issue, but with the 
+troubleshooting, invariably, comes a greater understanding of the components which constitute the issue. 
+Kubernetes handled this upgrade very smoothly. 
+\\
+A case in point that has not been mentioned, a new version of the Transactions API\footnote{Entry point into the 
+global system for transactional data from PoS systems.} was rolled out. This was actually quite a substantial change to 
+the data types and the structure of the data in the system. The new API was upgraded in seconds, migrating 
+and introducing changes to the database schema with no errors or issues.
+
+
+\section{Personal}
+On a personal note, this project has hit the objectives that I have set for it, and then some. Having a keen interest in the area 
+of machine learning, gaining more knowledge about the area was one of the main goals of this project. From having 
+no experience in the field a year ago, I have managed to implement an entire pipeline that may actually serve as a 
+prototype to a real-world product.\\ 
+I have also familiarised myself with the technologies used in industry. I have also gained a massive amount of 
+understanding in the area of data manipulation and improved my Python skills considerably. 
+\bigbreak
+Elements of the project (the ML pipeline) have already been used in real life scenarios in getting documents ready for VAT returns. Working 
+almost flawlessly\footnote{It may be noted that the 85\% \FO was calculated against the models ability to predict every label.
+For the VAT returns, only 5 labels were needed, and the model actually did a very good job for these labels ---anecdotally.}, going forward I look 
+forward to building on the implementation of the current solution. This will make my life easier and gives me back time 
+that I otherwise would have had to spend on these manually completing these processes.
+\label{sec:personal}
+\bigbreak
+I remember fearing that I wouldn't be able to grasp the concepts that underpin machine learning, model architecture and 
+how models work. With the transformers architecture family being regarded as the current state-of-the-art, 
+not only have I gained a great deal of knowledge in the field of machine learning, but I now have a very good understanding 
+of the architectures of models that are at the cutting edge of machine learning.\\
+Being able to have conversations with Walid, about scoring, training and evaluation methods was a big confidence 
+boost. There is, obviously, 
+a massive amount still to learn, but I look forward to doing so with a newly obtained confidence in my abilities. 
